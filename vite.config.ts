@@ -15,6 +15,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import markdown from 'vite-plugin-vue-markdown';
 import svgLoader from 'vite-svg-loader';
 import { configDefaults } from 'vitest/config';
+import sitemapPlugin from 'vite-plugin-sitemap';
 
 const baseUrl = process.env.BASE_URL ?? '/';
 

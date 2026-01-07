@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && NODE_OPTIONS=--max_old_space_size=4096 vite build",
+    "build": "vue-tsc --noEmit && vite build && node scripts/postbuild-sitemap.cjs",
     "preview": "vite preview --port 5050",
     "test": "npm run test:unit",
     "test:unit": "vitest --environment jsdom",
@@ -144,6 +144,7 @@
     "unplugin-vue-components": "^0.25.0",
     "vite": "^4.4.9",
     "vite-plugin-pwa": "^0.16.0",
+    "vite-plugin-sitemap": "^0.8.2",
     "vite-plugin-vue-markdown": "^0.23.5",
     "vite-svg-loader": "^4.0.0",
     "vitest": "^0.34.0",
