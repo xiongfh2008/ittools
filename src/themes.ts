@@ -16,10 +16,10 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
 
 export const darkThemeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#1ea54cFF',
-    primaryColorHover: '#36AD6AFF',
-    primaryColorPressed: '#0C7A43FF',
-    primaryColorSuppl: '#36AD6AFF',
+    primaryColor: '#2563ebFF',      // 科技蓝
+    primaryColorHover: '#3b82f6FF', // 浅科技蓝
+    primaryColorPressed: '#1d4ed8FF', // 深科技蓝
+    primaryColorSuppl: '#3b82f6FF',
   },
 
   Notification: {

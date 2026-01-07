@@ -4,7 +4,7 @@ home:
     favoriteTools: 'Dine favoritt verktøy'
     allTools: 'Alle verktøyene'
     favoritesDndToolTip: 'Dra og slipp for å omordne favoritter'
-  subtitle: 'Nyttige verktøy for utviklere'
+  subtitle: 'Verktøy for utviklere'
   toggleMenu: 'Vekslemenmy'
   home: Hjem
   uiLib: 'UI Bib'
