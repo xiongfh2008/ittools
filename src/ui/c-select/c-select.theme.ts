@@ -34,7 +34,7 @@ export const { useTheme } = defineThemes({
     },
 
     focus: {
-      backgroundColor: '#3b82f61a',
+      backgroundColor: '#9d00ff1a',
     },
   },
   light: {

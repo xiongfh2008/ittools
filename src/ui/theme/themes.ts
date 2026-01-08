@@ -13,10 +13,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(46, 51, 56, 0.22)',
     },
     primary: {
-      color: '#2563eb',      // 科技蓝
-      colorHover: '#3b82f6', // 浅科技蓝
-      colorPressed: '#1d4ed8', // 深科技蓝
-      colorFaded: '#2563eb2f',
+      color: '#7f00ff',      // 紫色
+      colorHover: '#9d00ff', // 浅紫色
+      colorPressed: '#6a00cc', // 深紫色
+      colorFaded: '#7f00ff2f',
     },
     warning: {
       color: '#f59e0b',
@@ -49,10 +49,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(255, 255, 255, 0.24)',
     },
     primary: {
-      color: '#3b82f6',
-      colorHover: '#60a5fa',
-      colorPressed: '#1d4ed8',
-      colorFaded: '#3b82f62f',
+      color: '#7f00ff', // 紫色
+      colorHover: '#9d00ff', // 浅紫色
+      colorPressed: '#6a00cc', // 深紫色
+      colorFaded: '#7f00ff2f',
     },
     warning: {
       color: '#f59e0b',

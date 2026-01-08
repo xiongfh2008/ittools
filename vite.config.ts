@@ -64,7 +64,7 @@ export default defineConfig({
         lang: 'fr-FR',
         start_url: `${baseUrl}?utm_source=pwa&utm_medium=pwa`,
         orientation: 'any',
-        theme_color: '#2563eb',
+        theme_color: '#7f00ff',
         background_color: '#f1f5f9',
         icons: [
           {
