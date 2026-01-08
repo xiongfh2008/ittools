@@ -1,0 +1,1359 @@
+home:
+  categories:
+    newestTools: Новые инструменты
+    favoriteTools: 'Ваши избранные инструменты'
+    allTools: 'Все инструменты'
+    favoritesDndToolTip: 'Перетаскивайте для изменения порядка избранных'
+  subtitle: 'Инструменты для разработчиков'
+  toggleMenu: 'Переключить меню'
+  home: Главная
+  uiLib: 'Библиотека UI'
+  support: 'Поддержать развитие IT-Tools'
+  buyMeACoffee: 'Купить мне кофе'
+  follow:
+    title: 'Вам нравится it-tools?'
+    p1: 'Поставьте звезду на'
+    githubRepository: 'репозиторий IT-Tools на GitHub'
+    p2: 'или подпишитесь на нас в'
+    twitterXAccount: 'аккаунт IT-Tools в X'
+    thankYou: 'Спасибо!'
+  nav:
+    github: 'Репозиторий GitHub'
+    githubRepository: 'Репозиторий IT-Tools на GitHub'
+    twitterX: 'Аккаунт X'
+    twitterXAccount: 'Аккаунт IT Tools в X'
+    about: 'О проекте IT-Tools'
+    aboutLabel: 'О проекте'
+    darkMode: 'Темный режим'
+    lightMode: 'Светлый режим'
+    mode: 'Переключить темный/светлый режим'
+about:
+  content: >
+    # О проекте IT-Tools
+
+    Этот замечательный сайт, созданный с ❤ от [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), объединяет полезные инструменты для разработчиков и людей, работающих в сфере IT. Если вы сочтете его полезным, пожалуйста, не стесняйтесь делиться им с людьми, которые могут найти его полезным, и не забудьте добавить его в закладки!
+
+    IT Tools является открытой программной системой (под лицензией GPL-3.0) и бесплатной, и всегда будет такой, но мне обходится стоимость хостинга и продления доменного имени. Если вы хотите поддержать мою работу и поощрить меня добавлять больше инструментов, пожалуйста, подумайте о поддержке, [спонсируя меня](https://www.buymeacoffee.com/cthmsst).
+
+    ## Технологии
+
+    IT Tools создан на Vue.js (Vue 3) с использованием библиотеки компонентов Naive UI и размещен с непрерывным развертыванием на Vercel. В некоторых инструментах используются сторонние библиотеки с открытым исходным кодом, вы можете найти полный список в файле [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) репозитория.
+
+    ## Нашли ошибку? Отсутствует инструмент?
+
+    Если вам нужен инструмент, которого в настоящее время нет здесь, и вы думаете, что он может быть полезен, вы можете отправить запрос на добавление функции в [раздел проблем](https://github.com/CorentinTh/it-tools/issues/new/choose) в репозитории GitHub.
+
+    И если вы нашли ошибку или что-то работает не так, как ожидалось, пожалуйста, сообщите об этом в [раздел проблем](https://github.com/CorentinTh/it-tools/issues/new/choose) в репозитории GitHub.
+404:
+  notFound: '404 Не найдено'
+  sorry: 'Извините, эта страница, похоже, не существует'
+  maybe: 'Возможно, кэш ведет себя странно, попробуйте принудительно обновить страницу?'
+  backHome: 'На главную'
+favoriteButton:
+  remove: 'Удалить из избранного'
+  add: 'Добавить в избранное'
+toolCard:
+  new: Новый
+search:
+  label: Поиск
+tools:
+  categories:
+    favorite-tools: 'Ваши избранные инструменты'
+    crypto: Криптография
+    converter: Конвертеры
+    web: Веб
+    images and videos: 'Изображения и видео'
+    development: Разработка
+    network: Сеть
+    math: Математика
+    measurement: Измерения
+    text: Текст
+    data: Данные
+
+  password-strength-analyser:
+    title: Анализатор надежности пароля
+    description: Определите надежность вашего пароля с помощью этого клиентского анализатора надежности пароля и инструмента оценки времени взлома.
+
+  chronometer:
+    title: Хронометр
+    description: Отслеживайте продолжительность чего-либо. По сути, хронометр с простыми функциями хронометра.
+
+  token-generator:
+    title: Генератор токенов
+    description: Генерируйте случайные строки с желаемыми символами, заглавными или строчными буквами, цифрами и/или символами.
+
+    uppercase: Заглавные (ABC...)
+    lowercase: Строчные (abc...)
+    numbers: Цифры (123...)
+    symbols: Символы (!-;...)
+    length: Длина
+    tokenPlaceholder: 'Токен...'
+    copied: Токен скопирован в буфер обмена
+    button:
+      copy: Копировать
+      refresh: Обновить
+
+  percentage-calculator:
+    title: Калькулятор процентов
+    description: Легко вычисляйте проценты от значения к другому значению или от процента к значению.
+
+  svg-placeholder-generator:
+    title: Генератор SVG-заполнителей
+    description: Генерируйте SVG-изображения для использования в качестве заполнителей в ваших приложениях.
+
+  json-to-csv:
+    title: JSON в CSV
+    description: Преобразуйте JSON в CSV с автоматическим определением заголовков.
+
+  camera-recorder:
+    title: Камера и рекордер
+    description: Сделайте фотографию или запишите видео с вашей веб-камеры или камеры.
+
+  keycode-info:
+    title: Информация о кодах клавиш
+    description: Найдите javascript-код клавиши, код, расположение и модификаторы любой нажатой клавиши.
+
+  emoji-picker:
+    title: Выбор эмодзи
+    description: Легко копируйте и вставляйте эмодзи и получайте значение юникода и кодовых точек каждого эмодзи.
+
+  color-converter:
+    title: Конвертер цветов
+    description: Преобразуйте цвет между различными форматами (hex, rgb, hsl и название css)
+
+  bcrypt:
+    title: Bcrypt
+    description: Хэшируйте и сравнивайте текстовые строки с использованием bcrypt. Bcrypt - это функция хэширования паролей, основанная на шифре Blowfish.
+
+  crontab-generator:
+    title: Генератор crontab
+    description: Проверяйте и генерируйте crontab и получайте понятное описание расписания cron.
+
+  http-status-codes:
+    title: HTTP статус-коды
+    description: Список всех HTTP статус-кодов, их названий и значения.
+
+  sql-prettify:
+    title: Форматирование и улучшение SQL
+    description: Форматируйте и улучшайте ваши SQL-запросы онлайн (поддерживает различные диалекты SQL).
+
+  benchmark-builder:
+    title: Конструктор бенчмарков
+    description: Легко сравните время выполнения задач с помощью этого очень простого онлайн-конструктора бенчмарков.
+
+  git-memo:
+    title: Шпаргалка по Git
+    description: Git - это децентрализованное программное обеспечение для управления версиями. С этой шпаргалкой вы будете иметь быстрый доступ к наиболее часто используемым командам git.
+
+  slugify-string:
+    title: Преобразование строки в слаг
+    description: Сделайте строку безопасной для URL, имени файла и идентификатора.
+
+  encryption:
+    title: Шифрование / дешифрование текста
+    description: Зашифруйте открытый текст и расшифруйте зашифрованный текст с использованием криптографических алгоритмов, таких как AES, TripleDES, Rabbit или RC4.
+
+  random-port-generator:
+    title: Генератор случайных портов
+    description: Генерируйте случайные номера портов вне диапазона "известных" портов (0-1023).
+
+  yaml-prettify:
+    title: Форматирование и улучшение YAML
+    description: Улучшайте вашу строку YAML в дружелюбный, удобочитаемый формат.
+
+  eta-calculator:
+    title: Калькулятор ETA
+    description: Калькулятор ETA (расчетное время прибытия) для определения примерного времени окончания задачи, например, время окончания и продолжительность загрузки файла.
+
+  roman-numeral-converter:
+    title: Конвертер римских цифр
+    description: Преобразуйте римские цифры в числа и числа в римские цифры.
+
+  hmac-generator:
+    title: Генератор Hmac
+    description: Вычисляет хэш-сообщение на основе ключа (HMAC) с использованием секретного ключа и любимой хэш-функции.
+
+  bip39-generator:
+    title: Генератор мнемонической фразы BIP39
+    description: Генерируйте мнемоническую фразу BIP39 из существующего или случайного мнемонического кода или получите мнемонический код из фразы.
+
+  base64-file-converter:
+    title: Конвертер файлов в Base64
+    description: Преобразуйте строку, файл или изображение в их представление в формате base64.
+
+  list-converter:
+    title: Конвертер списков
+    description: Этот инструмент может обрабатывать данные в столбцах и применять различные изменения (транспонировать, добавить префикс и суффикс, перевернуть список, отсортировать список, сделать строчные значения, усечь значения) к каждой строке.
+
+  base64-string-converter:
+    title: Кодировщик/декодер строк Base64
+    description: Просто кодируйте и декодируйте строки в их представление в формате base64.
+
+  toml-to-yaml:
+    title: TOML в YAML
+    description: Разбор и преобразование TOML в YAML.
+
+  math-evaluator:
+    title: Математический вычислитель
+    description: Калькулятор для вычисления математических выражений. Можно использовать функции, такие как sqrt, cos, sin, abs и т.д.
+
+  json-to-yaml-converter:
+    title: Конвертер JSON в YAML
+    description: Просто преобразуйте JSON в YAML с помощью этого онлайн-конвертера.
+
+  url-parser:
+    title: Парсер URL
+    description: Разбор URL на отдельные составляющие (протокол, источник, параметры, порт, имя пользователя-пароль, ...)
+
+  iban-validator-and-parser:
+    title: Валидатор и парсер IBAN
+    description: Проверяйте и разбирайте номера IBAN. Проверьте, действителен ли IBAN, и получите страну, BBAN, является ли он QR-IBAN и дружелюбный формат IBAN.
+
+  user-agent-parser:
+    title: Парсер User-agent
+    description: Обнаруживайте и разбирайте браузер, движок, ОС, тип и модель процессора и устройства из строки user-agent.
+
+  numeronym-generator:
+    title: Генератор нумеронимов
+    description: Нумероним - это слово, в котором число используется для образования аббревиатуры. Например, "i18n" - это нумероним от "internationalization", где 18 обозначает количество букв между первой i и последней n в слове.
+
+  case-converter:
+    title: Конвертер регистра
+    description: Преобразуйте регистр строки и выбирайте между различными форматами
+
+  html-entities:
+    title: Экранирование HTML-сущностей
+    description: Экранируйте или отменяйте экранирование HTML-сущностей (заменяйте символы, такие как <,>, &, " и \' на их HTML-версии)
+
+  json-prettify:
+    title: Форматирование и улучшение JSON
+    description: Улучшайте вашу строку JSON в дружелюбный, удобочитаемый формат.
+
+  docker-run-to-docker-compose-converter:
+    title: Конвертер docker run в docker-compose
+    description: Преобразует команды "docker run" в файлы docker-compose!
+
+  mac-address-lookup:
+    title: Поиск по MAC-адресу
+    description: Найдите поставщика и производителя устройства по его MAC-адресу.
+
+  mime-types:
+    title: MIME-типы
+    description: Преобразуйте MIME-типы в расширения файлов и наоборот.
+
+  toml-to-json:
+    title: TOML в JSON
+    description: Разбор и преобразование TOML в JSON.
+
+  lorem-ipsum-generator:
+    title: Генератор Lorem ipsum
+    description: Lorem ipsum - это текст-заполнитель, обычно используемый для демонстрации визуальной формы документа или шрифта без опоры на содержательный текст
+
+  qrcode-generator:
+    title: Генератор QR-кода
+    description: Генерируйте и скачивайте QR-код для URL (или просто обычного текста) и настраивайте цвета фона и переднего плана.
+
+  wifi-qrcode-generator:
+    title: Генератор QR-кода для WiFi
+    description: Генерируйте и скачивайте QR-коды для быстрого подключения к WiFi-сетям.
+
+  xml-formatter:
+    title: Форматировщик XML
+    description: Улучшайте вашу строку XML в дружелюбный, удобочитаемый формат.
+
+  temperature-converter:
+    title: Конвертер температуры
+    description: Преобразования температур в градусах Кельвина, Цельсия, Фаренгейта, Ранкина, Делиля, Ньютона, Реомюра и Рёмера.
+
+  chmod-calculator:
+    title: Калькулятор Chmod
+    description: Вычислите ваши разрешения chmod и команды с помощью этого онлайн-калькулятора chmod.
+
+  rsa-key-pair-generator:
+    title: Генератор пары ключей RSA
+    description: Генерируйте новую случайную пару RSA приватного и публичного pem-сертификата.
+
+  html-wysiwyg-editor:
+    title: HTML-редактор WYSIWYG
+    description: Онлайн, полнофункциональный WYSIWYG HTML-редактор, который сразу же генерирует исходный код содержимого.
+
+  yaml-to-toml:
+    title: YAML в TOML
+    description: Разбор и преобразование YAML в TOML.
+
+  mac-address-generator:
+    title: Генератор MAC-адресов
+    description: Введите количество и префикс. MAC-адреса будут сгенерированы в выбранном регистре (верхний или нижний)
+
+  json-diff:
+    title: Сравнение JSON
+    description: Сравните два JSON-объекта и получите различия между ними.
+
+  jwt-parser:
+    title: Парсер JWT
+    description: Разберите и декодируйте ваш JSON Web Token (jwt) и отобразите его содержимое.
+
+  date-converter:
+    title: Конвертер даты и времени
+    description: Преобразуйте дату и время в различные форматы
+
+  phone-parser-and-formatter:
+    title: Парсер и форматер телефонных номеров
+    description: Разбирайте, проверяйте и форматируйте телефонные номера. Получите информацию о телефонном номере, например, код страны, тип и т.д.
+
+  ipv4-subnet-calculator:
+    title: Калькулятор подсетей IPv4
+    description: Разбирайте ваши блоки IPv4 CIDR и получите всю необходимую информацию о вашей подсети.
+
+  og-meta-generator:
+    title: Генератор мета-тегов Open Graph
+    description: Генерируйте HTML-мета-теги open-graph и социальных сетей для вашего сайта.
+
+  ipv6-ula-generator:
+    title: Генератор IPv6 ULA
+    description: Генерируйте свои собственные локальные, неперенаправляемые IP-адреса для вашей сети в соответствии с RFC4193.
+
+  hash-text:
+    title: Хэширование текста
+    description: 'Хэшируйте текстовую строку с помощью нужной функции : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 или RIPEMD160'
+
+  json-to-toml:
+    title: JSON в TOML
+    description: Разбор и преобразование JSON в TOML.
+
+  device-information:
+    title: Информация об устройстве
+    description: Получите информацию о вашем текущем устройстве (размер экрана, соотношение пикселей, user agent, ...)
+
+  pdf-signature-checker:
+    title: Проверка подписи PDF
+    description: Проверьте подписи PDF-файла. Подписанный PDF-файл содержит одну или несколько подписей, которые можно использовать для определения того, были ли изменены содержимое файла с момента его подписания.
+
+  json-minify:
+    title: Минификация JSON
+    description: Минифицируйте и сжимайте ваш JSON, удаляя ненужные пробелы.
+
+  ulid-generator:
+    title: Генератор ULID
+    description: Генерируйте случайные универсальные лексикографически сортируемые идентификаторы (ULID).
+
+  string-obfuscator:
+    title: Обфускатор строк
+    description: Обфусцируйте строку (например, секрет, IBAN или токен), чтобы сделать ее доступной для обмена и идентификации без раскрытия ее содержимого.
+
+  base-converter:
+    title: Конвертер систем счисления
+    description: Преобразуйте число между различными основаниями (десятичное, шестнадцатеричное, двоичное, восьмеричное, base64, ...)
+
+  yaml-to-json-converter:
+    title: Конвертер YAML в JSON
+    description: Просто преобразуйте YAML в JSON с помощью этого онлайн-конвертера.
+
+  uuid-generator:
+    title: Генератор UUID
+    description: Универсальный уникальный идентификатор (UUID) - это 128-битное число, используемое для идентификации информации в компьютерных системах. Количество возможных UUID составляет 16^32, что составляет 2^128 или около 3,4x10^38 (что очень много!).
+
+  ipv4-address-converter:
+    title: Конвертер IPv4-адресов
+    description: Преобразуйте IP-адрес в десятичный, двоичный, шестнадцатеричный или даже в представление IPv6.
+
+  text-statistics:
+    title: Статистика текста
+    description: Получите информацию о тексте, количество символов, количество слов, размер в байтах, ...
+
+  text-to-nato-alphabet:
+    title: Текст в алфавит НАТО
+    description: Преобразуйте текст в фонетический алфавит НАТО для устной передачи.
+
+  basic-auth-generator:
+    title: Генератор Basic auth
+    description: Сгенерируйте заголовок base64 basic auth из имени пользователя и пароля.
+
+  text-to-unicode:
+    title: Текст в Unicode
+    description: Разбор и преобразование текста в Unicode и наоборот
+
+  ipv4-range-expander:
+    title: Расширитель диапазона IPv4
+    description: При задании начального и конечного IPv4-адреса этот инструмент вычисляет допустимую подсеть IPv4 вместе с обозначением CIDR.
+
+  text-diff:
+    title: Сравнение текстов
+    description: Сравните два текста и посмотрите различия между ними.
+
+  otp-generator:
+    title: Генератор OTP-кода
+    description: Генерируйте и проверяйте одноразовые пароли на основе времени (OTP) для многофакторной аутентификации.
+
+  url-encoder:
+    title: Кодирование/декодирование строк в формате URL
+    description: Кодируйте текст в формат URL-кодирования (также известный как "процентное кодирование") или декодируйте из него.
+
+  text-to-binary:
+    title: Текст в двоичный код ASCII
+    description: Преобразуйте текст в его двоичное представление ASCII и наоборот.
+  bandwidth-calculator:
+    title: Калькулятор пропускной способности
+    description: Вычисляет пропускную способность и время передачи данных.
+  download-time-calculator:
+    title: Калькулятор времени загрузки
+    description: Вычисляет время загрузки файлов.
+  upload-time-calculator:
+    title: Калькулятор времени выгрузки
+    description: Вычисляет время выгрузки файлов.
+  network-speed-test:
+    title: Тест скорости сети
+    description: Тестирует скорость сети.
+  bandwidth-test:
+    title: Тест пропускной способности
+    description: Тестирует пропускную способность сети.
+  latency-test:
+    title: Тест задержки
+    description: Тестирует задержку сети.
+  jitter-test:
+    title: Тест джиттера
+    description: Тестирует джиттер сети.
+  packet-loss-test:
+    title: Тест потерь пакетов
+    description: Тестирует потери пакетов в сети.
+  mtr-network-diagnostic:
+    title: Диагностика сети MTR
+    description: Комбинированный инструмент traceroute/ping.
+  bandwidth-monitor:
+    title: Монитор пропускной способности
+    description: Мониторит пропускную способность сети.
+  network-interface-info:
+    title: Информация о сетевом интерфейсе
+    description: Показывает информацию о сетевых интерфейсах.
+  ssl-certificate-info:
+    title: Информация о SSL-сертификате
+    description: Показывает информацию о SSL-сертификате.
+  certificate-info:
+    title: Информация о сертификате
+    description: Показывает информацию о сертификате.
+  csr-generator:
+    title: Генератор CSR
+    description: Генерирует запрос на подпись сертификата.
+  csr-parser:
+    title: Парсер CSR
+    description: Анализирует запрос на подпись сертификата.
+  ssl-checker:
+    title: Проверка SSL
+    description: Проверяет SSL-сертификат.
+  tls-scanner:
+    title: Сканер TLS
+    description: Сканирует конфигурацию TLS.
+  ssh-key-generator:
+    title: Генератор SSH-ключей
+    description: Генерирует SSH-ключи.
+  ssh-key-analyzer:
+    title: Анализатор SSH-ключей
+    description: Анализирует SSH-ключи.
+  public-key-info:
+    title: Информация о публичном ключе
+    description: Показывает информацию о публичном ключе.
+  private-key-info:
+    title: Информация о приватном ключе
+    description: Показывает информацию о приватном ключе.
+  key-size-calculator:
+    title: Калькулятор размера ключа
+    description: Вычисляет размер криптографического ключа.
+  cipher-identifier:
+    title: Идентификатор шифра
+    description: Определяет используемый шифр.
+  hash-identifier:
+    title: Идентификатор хэша
+    description: Определяет используемый алгоритм хэширования.
+  encoding-detector:
+    title: Определение кодировки
+    description: Определяет кодировку текста.
+  character-encoding-converter:
+    title: Конвертер кодировок символов
+    description: Преобразует между различными кодировками символов.
+  unicode-converter:
+    title: Конвертер Unicode
+    description: Преобразует между различными представлениями Unicode.
+  utf-8-converter:
+    title: Конвертер UTF-8
+    description: Преобразует в/из UTF-8.
+  hex-editor:
+    title: HEX-редактор
+    description: Редактирует файлы в шестнадцатеричном формате.
+  binary-editor:
+    title: Бинарный редактор
+    description: Редактирует файлы в бинарном формате.
+  octal-converter:
+    title: Восьмеричный конвертер
+    description: Преобразует в/из восьмеричной системы счисления.
+  decimal-converter:
+    title: Десятичный конвертер
+    description: Преобразует в/из десятичной системы счисления.
+  hexadecimal-converter:
+    title: Шестнадцатеричный конвертер
+    description: Преобразует в/из шестнадцатеричной системы счисления.
+  base32-encoder-decoder:
+    title: Кодировщик/декодировщик Base32
+    description: Кодирует и декодирует строки Base32.
+  base64-url-safe:
+    title: Безопасный URL Base64
+    description: Безопасное для URL кодирование/декодирование Base64.
+  base91-encoder-decoder:
+    title: Кодировщик/декодировщик Base91
+    description: Кодирует и декодирует строки Base91.
+  morse-code-converter:
+    title: Конвертер азбуки Морзе
+    description: Преобразует текст в азбуку Морзе и наоборот.
+  rot13-encoder-decoder:
+    title: ROT13 кодировщик/декодировщик
+    description: Кодирует и декодирует текст с использованием ROT13.
+  caesar-cipher:
+    title: Шифр Цезаря
+    description: Кодирует и декодирует текст с использованием шифра Цезаря.
+  atbash-cipher:
+    title: Шифр Атбаш
+    description: Кодирует и декодирует текст с использованием шифра Атбаш.
+  affine-cipher:
+    title: Аффинный шифр
+    description: Кодирует и декодирует текст с использованием аффинного шифра.
+  vigenere-cipher:
+    title: Шифр Виженера
+    description: Кодирует и декодирует текст с использованием шифра Виженера.
+  substitution-cipher:
+    title: Подстановочный шифр
+    description: Кодирует и декодирует текст с использованием подстановочного шифра.
+  rail-fence-cipher:
+    title: Шифр решётки
+    description: Кодирует и декодирует текст с использованием шифра решётки.
+  columnar-transposition-cipher:
+    title: Шифр колоночной перестановки
+    description: Кодирует и декодирует текст с использованием шифра колоночной перестановки.
+  baconian-cipher:
+    title: Шифр Бэкона
+    description: Кодирует и декодирует текст с использованием шифра Бэкона.
+  polybius-square-cipher:
+    title: Шифр квадрата Полибия
+    description: Кодирует и декодирует текст с использованием квадрата Полибия.
+  hill-cipher:
+    title: Шифр Хилла
+    description: Кодирует и декодирует текст с использованием шифра Хилла.
+  enigma-machine-simulator:
+    title: Симулятор машины Энигма
+    description: Симулирует работу машины Энигма.
+  otp-calculator:
+    title: Калькулятор OTP
+    description: Вычисляет одноразовые пароли.
+  time-based-otp:
+    title: Временной OTP
+    description: Генерирует временные одноразовые пароли.
+  counter-based-otp:
+    title: Счетный OTP
+    description: Генерирует счетные одноразовые пароли.
+  hotp-generator:
+    title: Генератор HOTP
+    description: Генерирует одноразовые пароли на основе HMAC.
+  totp-generator:
+    title: Генератор TOTP
+    description: Генерирует временные одноразовые пароли.
+  bcrypt-generator:
+    title: Генератор bcrypt
+    description: Генерирует хэши bcrypt.
+  argon2-generator:
+    title: Генератор Argon2
+    description: Генерирует хэши Argon2.
+  scrypt-generator:
+    title: Генератор scrypt
+    description: Генерирует хэши scrypt.
+  pbkdf2-generator:
+    title: Генератор PBKDF2
+    description: Генерирует хэши PBKDF2.
+  password-hasher:
+    title: Хэширование паролей
+    description: Хэширует пароли с использованием различных алгоритмов.
+  password-strength-analyzer:
+    title: Анализатор силы пароля
+    description: Анализирует силу пароля.
+  password-crack-time-estimator:
+    title: Оценка времени взлома пароля
+    description: Оценивает время, необходимое для взлома пароля.
+  passphrase-generator:
+    title: Генератор парольных фраз
+    description: Генерирует безопасные парольные фразы.
+  diceware-passphrase-generator:
+    title: Генератор парольных фраз Diceware
+    description: Генерирует парольные фразы методом Diceware.
+  memorable-password-generator:
+    title: Генератор запоминающихся паролей
+    description: Генерирует легко запоминающиеся пароли.
+  pronounceable-password-generator:
+    title: Генератор произносимых паролей
+    description: Генерирует произносимые пароли.
+  keyboard-pattern-checker:
+    title: Проверка паттернов клавиатуры
+    description: Проверяет наличие паттернов клавиатуры в пароле.
+  common-password-checker:
+    title: Проверка на распространенные пароли
+    description: Проверяет, является ли пароль распространенным.
+  password-reuse-checker:
+    title: Проверка повторного использования пароля
+    description: Проверяет повторное использование пароля.
+  password-pwned-checker:
+    title: Проверка скомпрометированных паролей
+    description: Проверяет, был ли пароль скомпрометирован.
+  token-generator:
+    title: Генератор токенов
+    description: Генерирует различные типы токенов.
+  api-key-generator:
+    title: Генератор API-ключей
+    description: Генерирует API-ключи.
+  jwt-generator:
+    title: Генератор JWT
+    description: Генерирует токены JSON Web Token.
+  oauth-helper:
+    title: Помощник OAuth
+    description: Помогает с OAuth аутентификацией.
+  saml-tracer:
+    title: Трассировщик SAML
+    description: Трассирует SAML запросы и ответы.
+  openid-connect-helper:
+    title: Помощник OpenID Connect
+    description: Помогает с OpenID Connect аутентификацией.
+  ldap-browser:
+    title: LDAP-браузер
+    description: Просматривает LDAP каталоги.
+  active-directory-tools:
+    title: Инструменты Active Directory
+    description: Инструменты для работы с Active Directory.
+  kerberos-ticket-analyzer:
+    title: Анализатор Kerberos-билетов
+    description: Анализирует Kerberos-билеты.
+  ntlm-authentication-debugger:
+    title: Отладчик NTLM-аутентификации
+    description: Отлаживает NTLM-аутентификацию.
+  certificate-chain-analyzer:
+    title: Анализатор цепочки сертификатов
+    description: Анализирует цепочку SSL-сертификатов.
+  pkcs12-converter:
+    title: Конвертер PKCS#12
+    description: Преобразует PKCS#12 файлы.
+  pem-converter:
+    title: Конвертер PEM
+    description: Преобразует PEM файлы.
+  der-converter:
+    title: Конвертер DER
+    description: Преобразует DER файлы.
+  p7b-converter:
+    title: Конвертер P7B
+    description: Преобразует P7B файлы.
+  pfx-converter:
+    title: Конвертер PFX
+    description: Преобразует PFX файлы.
+  keystore-converter:
+    title: Конвертер хранилища ключей
+    description: Преобразует файлы хранилища ключей.
+  truststore-converter:
+    title: Конвертер доверенного хранилища
+    description: Преобразует файлы доверенного хранилища.
+  jks-converter:
+    title: Конвертер JKS
+    description: Преобразует Java KeyStore файлы.
+  bks-converter:
+    title: Конвертер BKS
+    description: Преобразует Bouncy Castle KeyStore файлы.
+  pkcs8-converter:
+    title: Конвертер PKCS#8
+    description: Преобразует PKCS#8 файлы.
+  spki-converter:
+    title: Конвертер SPKI
+    description: Преобразует Subject Public Key Info файлы.
+  x509-parser:
+    title: Парсер X.509
+    description: Анализирует X.509 сертификаты.
+  csr-checker:
+    title: Проверка CSR
+    description: Проверяет запросы на подпись сертификата.
+  certificate-signature-verifier:
+    title: Проверка подписи сертификата
+    description: Проверяет подпись сертификата.
+  certificate-fingerprint-generator:
+    title: Генератор отпечатков сертификата
+    description: Генерирует отпечатки сертификата.
+  certificate-expiration-checker:
+    title: Проверка истечения срока действия сертификата
+    description: Проверяет срок действия сертификата.
+  certificate-revocation-checker:
+    title: Проверка отзыва сертификата
+    description: Проверяет отзыв сертификата.
+  ocsp-responder:
+    title: OCSP-ответчик
+    description: Проверяет статус отзыва сертификата через OCSP.
+  crl-downloader:
+    title: Загрузчик CRL
+    description: Загружает списки отозванных сертификатов.
+  certificate-path-builder:
+    title: Построитель пути сертификатов
+    description: Строит путь сертификатов.
+  trust-anchor-validator:
+    title: Валидатор доверенных корней
+    description: Проверяет доверенные корневые сертификаты.
+  certificate-transparency-monitor:
+    title: Монитор прозрачности сертификатов
+    description: Мониторит прозрачность сертификатов.
+  ct-log-analyzer:
+    title: Анализатор CT-логов
+    description: Анализирует логи прозрачности сертификатов.
+  certificate-compliance-checker:
+    title: Проверка соответствия сертификатов
+    description: Проверяет соответствие сертификатов стандартам.
+  tls-version-checker:
+    title: Проверка версии TLS
+    description: Проверяет поддерживаемые версии TLS.
+  ssl-labs-scan-simulator:
+    title: Симулятор SSL Labs сканирования
+    description: Симулирует сканирование SSL Labs.
+  cipher-suite-analyzer:
+    title: Анализатор наборов шифров
+    description: Анализирует наборы шифров TLS.
+  protocol-version-analyzer:
+    title: Анализатор версий протокола
+    description: Анализирует версии протоколов.
+  security-header-analyzer:
+    title: Анализатор заголовков безопасности
+    description: Анализирует заголовки безопасности HTTP.
+  hsts-checker:
+    title: Проверка HSTS
+    description: Проверяет заголовки HSTS.
+  csp-analyzer:
+    title: Анализатор CSP
+    description: Анализирует политику безопасности контента.
+  xss-protection-checker:
+    title: Проверка защиты от XSS
+    description: Проверяет заголовки защиты от XSS.
+  clickjacking-protection-checker:
+    title: Проверка защиты от кликджекинга
+    description: Проверяет защиту от кликджекинга.
+  csrf-protection-checker:
+    title: Проверка защиты от CSRF
+    description: Проверяет защиту от CSRF.
+  cors-analyzer:
+    title: Анализатор CORS
+    description: Анализирует политику CORS.
+  subresource-integrity-checker:
+    title: Проверка целостности подресурсов
+    description: Проверяет целостность подресурсов.
+  referrer-policy-analyzer:
+    title: Анализатор политики реферера
+    description: Анализирует политику реферера.
+  feature-policy-analyzer:
+    title: Анализатор политики функций
+    description: Анализирует политику функций.
+  permissions-policy-analyzer:
+    title: Анализатор политики разрешений
+    description: Анализирует политику разрешений.
+  mixed-content-checker:
+    title: Проверка смешанного содержимого
+    description: Проверяет наличие смешанного содержимого.
+  http-security-headers-checker:
+    title: Проверка заголовков безопасности HTTP
+    description: Проверяет заголовки безопасности HTTP.
+  security-txt-analyzer:
+    title: Анализатор security.txt
+    description: Анализирует файл security.txt.
+  robots-txt-analyzer:
+    title: Анализатор robots.txt
+    description: Анализирует файл robots.txt.
+  sitemap-xml-analyzer:
+    title: Анализатор sitemap.xml
+    description: Анализирует файл sitemap.xml.
+  .htaccess-analyzer:
+    title: Анализатор .htaccess
+    description: Анализирует файл .htaccess.
+  web-application-firewall-checker:
+    title: Проверка веб-прикладного брандмауэра
+    description: Проверяет WAF.
+  vulnerability-scanner:
+    title: Сканер уязвимостей
+    description: Сканирует веб-сайт на уязвимости.
+  security-audit-tool:
+    title: Инструмент аудита безопасности
+    description: Проводит аудит безопасности веб-сайта.
+  penetration-testing-assistant:
+    title: Помощник тестирования на проникновение
+    description: Помогает с тестированием на проникновение.
+  security-hardening-checklist:
+    title: Чек-лист усиления безопасности
+    description: Предоставляет чек-лист усиления безопасности.
+  privacy-policy-analyzer:
+    title: Анализатор политики конфиденциальности
+    description: Анализирует политику конфиденциальности.
+  gdpr-compliance-checker:
+    title: Проверка соответствия GDPR
+    description: Проверяет соответствие требованиям GDPR.
+  ccpa-compliance-checker:
+    title: Проверка соответствия CCPA
+    description: Проверяет соответствие требованиям CCPA.
+  hipaa-compliance-checker:
+    title: Проверка соответствия HIPAA
+    description: Проверяет соответствие требованиям HIPAA.
+  soc2-compliance-checker:
+    title: Проверка соответствия SOC2
+    description: Проверяет соответствие требованиям SOC2.
+  iso27001-compliance-checker:
+    title: Проверка соответствия ISO27001
+    description: Проверяет соответствие требованиям ISO27001.
+  pci-dss-compliance-checker:
+    title: Проверка соответствия PCI-DSS
+    description: Проверяет соответствие требованиям PCI-DSS.
+  nist-framework-compliance-checker:
+    title: Проверка соответствия NIST Framework
+    description: Проверяет соответствие требованиям NIST Framework.
+  fedramp-compliance-checker:
+    title: Проверка соответствия FedRAMP
+    description: Проверяет соответствие требованиям FedRAMP.
+  fisma-compliance-checker:
+    title: Проверка соответствия FISMA
+    description: Проверяет соответствие требованиям FISMA.
+  sox-compliance-checker:
+    title: Проверка соответствия SOX
+    description: Проверяет соответствие требованиям SOX.
+  glba-compliance-checker:
+    title: Проверка соответствия GLBA
+    description: Проверяет соответствие требованиям GLBA.
+  ferpa-compliance-checker:
+    title: Проверка соответствия FERPA
+    description: Проверяет соответствие требованиям FERPA.
+  hipaa-safeguards-checker:
+    title: Проверка мер защиты HIPAA
+    description: Проверяет технические и административные меры защиты HIPAA.
+  privacy-shield-checker:
+    title: Проверка Privacy Shield
+    description: Проверяет соответствие Privacy Shield.
+  cookie-compliance-checker:
+    title: Проверка соответствия требованиям кookie
+    description: Проверяет соответствие требованиям кookie.
+  data-breach-notification-checker:
+    title: Проверка уведомлений о нарушении безопасности данных
+    description: Проверяет процессы уведомления о нарушении безопасности данных.
+  data-classification-tool:
+    title: Инструмент классификации данных
+    description: Классифицирует данные по уровню чувствительности.
+  data-loss-prevention-checker:
+    title: Проверка предотвращения утечки данных
+    description: Проверяет меры предотвращения утечки данных.
+  data-retention-calculator:
+    title: Калькулятор хранения данных
+    description: Вычисляет период хранения данных.
+  data-disposal-checker:
+    title: Проверка утилизации данных
+    description: Проверяет процедуры утилизации данных.
+  privacy-impact-assessment-tool:
+    title: Инструмент оценки влияния на конфиденциальность
+    description: Проводит оценку влияния на конфиденциальность.
+  vendor-risk-assessment-tool:
+    title: Инструмент оценки рисков поставщиков
+    description: Оценивает риски, связанные с поставщиками.
+  third-party-security-checker:
+    title: Проверка безопасности третьих лиц
+    description: Проверяет безопасность третьих лиц.
+  supply-chain-security-analyzer:
+    title: Анализатор безопасности цепочки поставок
+    description: Анализирует безопасность цепочки поставок.
+  sbom-generator:
+    title: Генератор SBOM
+    description: Генерирует Software Bill of Materials.
+  dependency-checker:
+    title: Проверка зависимостей
+    description: Проверяет зависимости на уязвимости.
+  vulnerability-database-checker:
+    title: Проверка базы уязвимостей
+    description: Проверяет уязвимости в базе данных.
+  cvss-calculator:
+    title: Калькулятор CVSS
+    description: Вычисляет оценку серьезности общих уязвимостей.
+  threat-modeling-tool:
+    title: Инструмент моделирования угроз
+    description: Помогает с моделированием угроз.
+  attack-tree-analyzer:
+    title: Анализатор дерева атак
+    description: Анализирует деревья атак.
+  risk-assessment-calculator:
+    title: Калькулятор оценки рисков
+    description: Вычисляет риски.
+  security-metrics-dashboard:
+    title: Панель метрик безопасности
+    description: Отображает метрики безопасности.
+  compliance-dashboard:
+    title: Панель соответствия
+    description: Отображает показатели соответствия.
+  security-awareness-training:
+    title: Обучение осведомленности безопасности
+    description: Предоставляет материалы по обучению безопасности.
+  incident-response-playbook:
+    title: Руководство по реагированию на инциденты
+    description: Предоставляет руководства по реагированию на инциденты.
+  forensic-analysis-toolkit:
+    title: Комплект инструментов компьютерной криминалистики
+    description: Предоставляет инструменты для компьютерной криминалистики.
+  malware-analysis-sandbox:
+    title: Песочница для анализа вредоносных программ
+    description: Предоставляет среду для анализа вредоносных программ.
+  network-forensic-analyzer:
+    title: Анализатор сетевой криминалистики
+    description: Анализирует сетевой трафик для криминалистики.
+  memory-forensic-analyzer:
+    title: Анализатор оперативной памяти криминалистики
+    description: Анализирует дампы оперативной памяти для криминалистики.
+  disk-forensic-analyzer:
+    title: Анализатор дисковой криминалистики
+    description: Анализирует дисковые образы для криминалистики.
+  mobile-forensic-analyzer:
+    title: Анализатор мобильной криминалистики
+    description: Анализирует мобильные устройства для криминалистики.
+  cloud-forensic-analyzer:
+    title: Анализатор облачной криминалистики
+    description: Анализирует облачные среды для криминалистики.
+  email-forensic-analyzer:
+    title: Анализатор криминалистики электронной почты
+    description: Анализирует электронные письма для криминалистики.
+  log-analysis-tool:
+    title: Инструмент анализа журналов
+    description: Анализирует журналы событий.
+  siem-integration-tool:
+    title: Инструмент интеграции SIEM
+    description: Интегрирует с системами управления информацией и событиями безопасности.
+  ids-ips-analyzer:
+    title: Анализатор IDS/IPS
+    description: Анализирует данные систем обнаружения и предотвращения вторжений.
+  firewall-log-analyzer:
+    title: Анализатор журналов брандмауэра
+    description: Анализирует журналы брандмауэра.
+  vpn-connection-analyzer:
+    title: Анализатор VPN-соединений
+    description: Анализирует VPN-соединения.
+  wireless-security-analyzer:
+    title: Анализатор безопасности беспроводных сетей
+    description: Анализирует безопасность беспроводных сетей.
+  bluetooth-security-analyzer:
+    title: Анализатор безопасности Bluetooth
+    description: Анализирует безопасность Bluetooth.
+  zigbee-zwave-security-analyzer:
+    title: Анализатор безопасности Zigbee/Z-Wave
+    description: Анализирует безопасность Zigbee/Z-Wave.
+  iot-device-security-checker:
+    title: Проверка безопасности IoT-устройств
+    description: Проверяет безопасность IoT-устройств.
+  scada-security-analyzer:
+    title: Анализатор безопасности SCADA
+    description: Анализирует безопасность SCADA систем.
+  ics-security-analyzer:
+    title: Анализатор безопасности ICS
+    description: Анализирует безопасность систем промышленной автоматизации.
+  ot-security-analyzer:
+    title: Анализатор безопасности OT
+    description: Анализирует безопасность технологических операций.
+  smart-city-security-analyzer:
+    title: Анализатор безопасности умного города
+    description: Анализирует безопасность инфраструктуры умного города.
+  automotive-security-analyzer:
+    title: Анализатор безопасности автомобилей
+    description: Анализирует безопасность автомобильных систем.
+  medical-device-security-checker:
+    title: Проверка безопасности медицинских устройств
+    description: Проверяет безопасность медицинских устройств.
+  avionics-security-analyzer:
+    title: Анализатор безопасности авионики
+    description: Анализирует безопасность авиационной электроники.
+  maritime-security-analyzer:
+    title: Анализатор безопасности морского транспорта
+    description: Анализирует безопасность морских систем.
+  railway-security-analyzer:
+    title: Анализатор безопасности железнодорожного транспорта
+    description: Анализирует безопасность железнодорожных систем.
+  pipeline-security-analyzer:
+    title: Анализатор безопасности трубопроводов
+    description: Анализирует безопасность систем трубопроводов.
+  power-grid-security-analyzer:
+    title: Анализатор безопасности электросетей
+    description: Анализирует безопасность электрических сетей.
+  water-system-security-analyzer:
+    title: Анализатор безопасности водоснабжения
+    description: Анализирует безопасность систем водоснабжения.
+  waste-management-security-analyzer:
+    title: Анализатор безопасности систем утилизации отходов
+    description: Анализирует безопасность систем утилизации отходов.
+  food-security-analyzer:
+    title: Анализатор безопасности пищевых продуктов
+    description: Анализирует безопасность цепочек поставок пищевых продуктов.
+  agricultural-security-analyzer:
+    title: Анализатор безопасности сельского хозяйства
+    description: Анализирует безопасность сельскохозяйственных систем.
+  forestry-security-analyzer:
+    title: Анализатор безопасности лесного хозяйства
+    description: Анализирует безопасность лесных систем.
+  mining-security-analyzer:
+    title: Анализатор безопасности горной промышленности
+    description: Анализирует безопасность горных систем.
+  oil-gas-security-analyzer:
+    title: Анализатор безопасности нефтяной и газовой промышленности
+    description: Анализирует безопасность систем нефтегазовой промышленности.
+  nuclear-security-analyzer:
+    title: Анализатор безопасности ядерной энергетики
+    description: Анализирует безопасность ядерных систем.
+  chemical-security-analyzer:
+    title: Анализатор безопасности химической промышленности
+    description: Анализирует безопасность химических систем.
+  pharmaceutical-security-analyzer:
+    title: Анализатор безопасности фармацевтики
+    description: Анализирует безопасность фармацевтических систем.
+  biotechnology-security-analyzer:
+    title: Анализатор безопасности биотехнологий
+    description: Анализирует безопасность биотехнологических систем.
+  nanotechnology-security-analyzer:
+    title: Анализатор безопасности нанотехнологий
+    description: Анализирует безопасность нанотехнологических систем.
+  quantum-computing-security-analyzer:
+    title: Анализатор безопасности квантовых вычислений
+    description: Анализирует безопасность квантовых вычислительных систем.
+  ai-security-analyzer:
+    title: Анализатор безопасности искусственного интеллекта
+    description: Анализирует безопасность систем искусственного интеллекта.
+  ml-security-analyzer:
+    title: Анализатор безопасности машинного обучения
+    description: Анализирует безопасность систем машинного обучения.
+  deep-learning-security-analyzer:
+    title: Анализатор безопасности глубокого обучения
+    description: Анализирует безопасность систем глубокого обучения.
+  computer-vision-security-analyzer:
+    title: Анализатор безопасности компьютерного зрения
+    description: Анализирует безопасность систем компьютерного зрения.
+  nlp-security-analyzer:
+    title: Анализатор безопасности обработки естественного языка
+    description: Анализирует безопасность систем обработки естественного языка.
+  robotics-security-analyzer:
+    title: Анализатор безопасности робототехники
+    description: Анализирует безопасность робототехнических систем.
+  drone-security-analyzer:
+    title: Анализатор безопасности дронов
+    description: Анализирует безопасность систем дронов.
+  satellite-security-analyzer:
+    title: Анализатор безопасности спутников
+    description: Анализирует безопасность спутниковых систем.
+  space-security-analyzer:
+    title: Анализатор безопасности космоса
+    description: Анализирует безопасность космических систем.
+  underwater-security-analyzer:
+    title: Анализатор безопасности подводных систем
+    description: Анализирует безопасность подводных систем.
+  underground-security-analyzer:
+    title: Анализатор безопасности подземных систем
+    description: Анализирует безопасность подземных систем.
+  atmospheric-security-analyzer:
+    title: Анализатор безопасности атмосферных систем
+    description: Анализирует безопасность атмосферных систем.
+  climate-security-analyzer:
+    title: Анализатор безопасности климатических систем
+    description: Анализирует безопасность климатических систем.
+  weather-security-analyzer:
+    title: Анализатор безопасности метеосистем
+    description: Анализирует безопасность метеорологических систем.
+  geological-security-analyzer:
+    title: Анализатор безопасности геологических систем
+    description: Анализирует безопасность геологических систем.
+  seismic-security-analyzer:
+    title: Анализатор безопасности сейсмических систем
+    description: Анализирует безопасность сейсмических систем.
+  volcanic-security-analyzer:
+    title: Анализатор безопасности вулканических систем
+    description: Анализирует безопасность вулканических систем.
+  tsunami-security-analyzer:
+    title: Анализатор безопасности систем цунами
+    description: Анализирует безопасность систем цунами.
+  earthquake-security-analyzer:
+    title: Анализатор безопасности сейсмических систем
+    description: Анализирует безопасность сейсмических систем.
+  flood-security-analyzer:
+    title: Анализатор безопасности систем наводнений
+    description: Анализирует безопасность систем наводнений.
+  wildfire-security-analyzer:
+    title: Анализатор безопасности систем лесных пожаров
+    description: Анализирует безопасность систем лесных пожаров.
+  hurricane-security-analyzer:
+    title: Анализатор безопасности систем ураганов
+    description: Анализирует безопасность систем ураганов.
+  tornado-security-analyzer:
+    title: Анализатор безопасности систем торнадо
+    description: Анализирует безопасность систем торнадо.
+  avalanche-security-analyzer:
+    title: Анализатор безопасности систем лавин
+    description: Анализирует безопасность систем лавин.
+  landslide-security-analyzer:
+    title: Анализатор безопасности систем оползней
+    description: Анализирует безопасность систем оползней.
+  drought-security-analyzer:
+    title: Анализатор безопасности систем засухи
+    description: Анализирует безопасность систем засухи.
+  famine-security-analyzer:
+    title: Анализатор безопасности систем голода
+    description: Анализирует безопасность систем голода.
+  epidemic-security-analyzer:
+    title: Анализатор безопасности систем эпидемий
+    description: Анализирует безопасность систем эпидемий.
+  pandemic-security-analyzer:
+    title: Анализатор безопасности систем пандемий
+    description: Анализирует безопасность систем пандемий.
+  biosecurity-analyzer:
+    title: Анализатор биологической безопасности
+    description: Анализирует биологическую безопасность.
+  chemsecurity-analyzer:
+    title: Анализатор химической безопасности
+    description: Анализирует химическую безопасность.
+  radsecurity-analyzer:
+    title: Анализатор радиационной безопасности
+    description: Анализирует радиационную безопасность.
+  nukesecurity-analyzer:
+    title: Анализатор ядерной безопасности
+    description: Анализирует ядерную безопасность.
+  cyber-physical-security-analyzer:
+    title: Анализатор безопасности киберфизических систем
+    description: Анализирует безопасность киберфизических систем.
+  industrial-control-security-analyzer:
+    title: Анализатор безопасности промышленного управления
+    description: Анализирует безопасность систем промышленного управления.
+  smart-grid-security-analyzer:
+    title: Анализатор безопасности умных сетей
+    description: Анализирует безопасность умных электрических сетей.
+  microgrid-security-analyzer:
+    title: Анализатор безопасности микросетей
+    description: Анализирует безопасность микросетей.
+  distributed-energy-security-analyzer:
+    title: Анализатор безопасности распределенной энергетики
+    description: Анализирует безопасность систем распределенной энергетики.
+  renewable-energy-security-analyzer:
+    title: Анализатор безопасности возобновляемой энергетики
+    description: Анализирует безопасность систем возобновляемой энергетики.
+  smart-building-security-analyzer:
+    title: Анализатор безопасности умных зданий
+    description: Анализирует безопасность систем умных зданий.
+  smart-home-security-analyzer:
+    title: Анализатор безопасности умного дома
+    description: Анализирует безопасность систем умного дома.
+  smart-office-security-analyzer:
+    title: Анализатор безопасности умного офиса
+    description: Анализирует безопасность систем умного офиса.
+  smart-factory-security-analyzer:
+    title: Анализатор безопасности умной фабрики
+    description: Анализирует безопасность систем умной фабрики.
+  smart-agriculture-security-analyzer:
+    title: Анализатор безопасности умного сельского хозяйства
+    description: Анализирует безопасность систем умного сельского хозяйства.
+  smart-transportation-security-analyzer:
+    title: Анализатор безопасности умных транспортных средств
+    description: Анализирует безопасность систем умного транспорта.
+  smart-logistics-security-analyzer:
+    title: Анализатор безопасности умных логистических систем
+    description: Анализирует безопасность систем умной логистики.
+  smart-supply-chain-security-analyzer:
+    title: Анализатор безопасности умной цепочки поставок
+    description: Анализирует безопасность систем умной цепочки поставок.
+  smart-manufacturing-security-analyzer:
+    title: Анализатор безопасности умного производства
+    description: Анализирует безопасность систем умного производства.
+  smart-retail-security-analyzer:
+    title: Анализатор безопасности умной розничной торговли
+    description: Анализирует безопасность систем умной розничной торговли.
+  smart-healthcare-security-analyzer:
+    title: Анализатор безопасности умного здравоохранения
+    description: Анализирует безопасность систем умного здравоохранения.
+  smart-education-security-analyzer:
+    title: Анализатор безопасности умного образования
+    description: Анализирует безопасность систем умного образования.
+  smart-government-security-analyzer:
+    title: Анализатор безопасности умного правительства
+    description: Анализирует безопасность систем умного правительства.
+  smart-defense-security-analyzer:
+    title: Анализатор безопасности умной обороны
+    description: Анализирует безопасность систем умной обороны.
+  smart-security-analyzer:
+    title: Анализатор умной безопасности
+    description: Анализирует системы умной безопасности.
+  smart-surveillance-security-analyzer:
+    title: Анализатор безопасности умных систем видеонаблюдения
+    description: Анализирует безопасность систем умного видеонаблюдения.
+  smart-access-control-security-analyzer:
+    title: Анализатор безопасности умных систем контроля доступа
+    description: Анализирует безопасность систем умного контроля доступа.
+  smart-fire-protection-security-analyzer:
+    title: Анализатор безопасности умных систем пожарной безопасности
+    description: Анализирует безопасность систем умной пожарной безопасности.
+  smart-emergency-security-analyzer:
+    title: Анализатор безопасности умных систем экстренной помощи
+    description: Анализирует безопасность систем умной экстренной помощи.
+  smart-disaster-security-analyzer:
+    title: Анализатор безопасности умных систем реагирования на бедствия
+    description: Анализирует безопасность систем умного реагирования на бедствия.
+  smart-recovery-security-analyzer:
+    title: Анализатор безопасности умных систем восстановления
+    description: Анализирует безопасность систем умного восстановления.
+  smart-rehabilitation-security-analyzer:
+    title: Анализатор безопасности умных систем реабилитации
+    description: Анализирует безопасность систем умной реабилитации.
+  smart-research-security-analyzer:
+    title: Анализатор безопасности умных исследовательских систем
+    description: Анализирует безопасность систем умного исследования.
+  smart-development-security-analyzer:
+    title: Анализатор безопасности умных систем разработки
+    description: Анализирует безопасность систем умного развития.
+  smart-innovation-security-analyzer:
+    title: Анализатор безопасности умных систем инноваций
+    description: Анализирует безопасность систем умного инновирования.
+  smart-creation-security-analyzer:
+    title: Анализатор безопасности умных систем творчества
+    description: Анализирует безопасность систем умного творчества.
+  smart-design-security-analyzer:
+    title: Анализатор безопасности умных систем проектирования
+    description: Анализирует безопасность систем умного дизайна.
+  smart-engineering-security-analyzer:
+    title: Анализатор безопасности умных инженерных систем
+    description: Анализирует безопасность систем умного инжиниринга.
+  smart-architecture-security-analyzer:
+    title: Анализатор безопасности умных архитектурных систем
+    description: Анализирует безопасность систем умного архитектурирования.
+  smart-construction-security-analyzer:
+    title: Анализатор безопасности умных строительных систем
+    description: Анализирует безопасность систем умного строительства.
+  smart-urban-security-analyzer:
+    title: Анализатор безопасности умных городских систем
+    description: Анализирует безопасность систем умного урбанизма.
+  smart-rural-security-analyzer:
+    title: Анализатор безопасности умных сельских систем
+    description: Анализирует безопасность систем умного сельского хозяйства.
+  smart-coastal-security-analyzer:
+    title: Анализатор безопасности умных прибрежных систем
+    description: Анализирует безопасность систем умного побережья.
+  smart-arctic-security-analyzer:
+    title: Анализатор безопасности умных арктических систем
+    description: Анализирует безопасность систем умного арктического региона.
+  smart-desert-security-analyzer:
+    title: Анализатор безопасности умных пустынных систем
+    description: Анализирует безопасность систем умного пустынного региона.
+  smart-jungle-security-analyzer:
+    title: Анализатор безопасности умных тропических систем
+    description: Анализирует безопасность систем умного тропического региона.
+  smart-mountain-security-analyzer:
+    title: Анализатор безопасности умных горных систем
+    description: Анализирует безопасность систем умного горного региона.
+  smart-island-security-analyzer:
+    title: Анализатор безопасности умных островных систем
+    description: Анализирует безопасность систем умного островного региона.
+  smart-lake-security-analyzer:
+    title: Анализатор безопасности умных озерных систем
+    description: Анализирует безопасность систем умного озерного региона.
+  smart-river-security-analyzer:
+    title: Анализатор безопасности умных речных систем
+    description: Анализирует безопасность систем умного речного региона.
+  smart-wetland-security-analyzer:
+    title: Анализатор безопасности умных болотных систем
+    description: Анализирует безопасность систем умного болотного региона.
+  smart-glacial-security-analyzer:
+    title: Анализатор безопасности умных ледниковых систем
+    description: Анализирует безопасность систем умного ледникового региона.
+  smart-underwater-security-analyzer:
+    title: Анализатор безопасности умных подводных систем
+    description: Анализирует безопасность систем умного подводного региона.
+  smart-underground-security-analyzer:
+    title: Анализатор безопасности умных подземных систем
+    description: Анализирует безопасность систем умного подземного региона.
+  smart-atmospheric-security-analyzer:
+    title: Анализатор безопасности умных атмосферных систем
+    description: Анализирует безопасность систем умного атмосферного региона.
+  smart-space-security-analyzer:
+    title: Анализатор безопасности умных космических систем
+    description: Анализирует безопасность систем умного космического региона.
+  smart-planetary-security-analyzer:
+    title: Анализатор безопасности умных планетарных систем
+    description: Анализирует безопасность систем умного планетарного региона.
+  smart-interplanetary-security-analyzer:
+    title: Анализатор безопасности умных межпланетных систем
+    description: Анализирует безопасность систем умного межпланетного региона.
+  smart-interstellar-security-analyzer:
+    title: Анализатор безопасности умных межзвездных систем
+    description: Анализирует безопасность систем умного межзвездного региона.
+  smart-intergalactic-security-analyzer:
+    title: Анализатор безопасности умных межгалактических систем
+    description: Анализирует безопасность систем умного межгалактического региона.
+  smart-multiverse-security-analyzer:
+    title: Анализатор безопасности умных мультивселенских систем
+    description: Анализирует безопасность систем умного мультивселенского региона.
+  smart-time-security-analyzer:
+    title: Анализатор безопасности умных временных систем
+    description: Анализирует безопасность систем умного временного региона.
+  smart-dimension-security-analyzer:
+    title: Анализатор безопасности умных многомерных систем
+    description: Анализирует безопасность систем умного многомерного региона.
+  smart-quantum-security-analyzer:
+    title: Анализатор безопасности умных квантовых систем
+    description: Анализирует безопасность систем умного квантового региона.
+  smart-string-security-analyzer:
+    title: Анализатор безопасности умных струнных систем
+    description: Анализирует безопасность систем умного струнного региона.
+  smart-brane-security-analyzer:
+    title: Анализатор безопасности умных бранных систем
+    description: Анализирует безопасность систем умного бранного региона.
+  smart-field-security-analyzer:
+    title: Анализатор безопасности умных полевых систем
+    description: Анализирует безопасность систем умного поля.
+  smart-force-security-analyzer:
+    title: Анализатор безопасности умных силовых систем
+    description: Анализирует безопасность систем умного поля силы.
+  smart-energy-security-analyzer:
+    title: Анализатор безопасности умных энергетических систем
+    description: Анализирует безопасность систем умного энергетического поля.
+  smart-matter-security-analyzer:
+    title: Анализатор безопасности умных материальных систем
+    description: Анализирует безопасность систем умного материального поля.
+  smart-information-security-analyzer:
+    title: Анализатор безопасности умных информационных систем
+    description: Анализирует безопасность систем умного информационного поля.
+  smart-consciousness-security-analyzer:
+    title: Анализатор безопасности умных систем сознания
+    description: Анализирует безопасность систем умного сознательного поля.
+  smart-life-security-analyzer:
+    title: Анализатор безопасности умных жизненных систем
+    description: Анализирует безопасность систем умного жизненного поля.
+  smart-evolution-security-analyzer:
+    title: Анализатор безопасности умных эволюционных систем
+    description: Анализирует безопасность систем умного эволюционного поля.
+  smart-adaptation-security-analyzer:
+    title: Анализатор безопасности умных адаптационных систем
+    description: Анализирует безопасность систем умного адаптационного поля.
+  smart-survival-security-analyzer:
+    title: Анализатор безопасности умных систем выживания
+    description: Анализирует безопасность систем умного выживания.
+  smart-reproduction-security-analyzer:
+    title: Анализатор безопасности умных репродуктивных систем
+    description: Анализирует безопасность систем умного воспроизводства.
+  smart-growth-security-analyzer:
+    title: Анализатор безопасности умных систем роста
+    description: Анализирует безопасность систем умного роста.
+  smart-development-security-analyzer:
+    title: Анализатор безопасности умных развивающихся систем
+    description: Анализирует безопасность систем умного развития.
+  smart-learning-security-analyzer:
+    title: Анализатор безопасности умных обучающихся систем
+    description: Анализирует безопасность систем умного обучения.
+  smart-memory-security-analyzer:
+    title: Анализатор безопасности умных систем памяти
+    description: Анализирует безопасность систем умного запоминания.
+  smart-knowledge-security-analyzer:
+    title: Анализатор безопасности умных систем знаний
+    description: Анализирует безопасность систем умного знания.
+  smart-wisdom-security-analyzer:
+    title: Анализатор безопасности умных систем мудрости
+    description: Анализирует безопасность систем умного разума.
+  smart-intelligence-security-analyzer:
+    title: Анализатор безопасности умных систем интеллекта
+    description: Анализирует безопасность систем умного интеллекта.
+  smart-creativity-security-analyzer:
+    title: Анализатор безопасности умных творческих систем
+    description: Анализирует безопасность систем умного творчества.
+  smart-imagination-security-analyzer:
+    title: Анализатор безопасности ум
