@@ -23,7 +23,7 @@ async function generateSitemap() {
   // Wait for router to be ready
   await tempRouter.isReady();
 
-  const baseUrl = 'https://it-tools.tech'; // Production URL
+  const baseUrl = 'https://tools.toolkitlife.com'; // Production URL
   const lastmod = new Date().toISOString().split('T')[0]; // Today's date in YYYY-MM-DD format
 
   let sitemap = `<?xml version="1.0" encoding="UTF-8"?>

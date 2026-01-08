@@ -115,7 +115,7 @@ const routes = [
   { path: '/git-lfs-troubleshooting', name: 'gitLfsTroubleshooting', changefreq: 'weekly', priority: '0.9' },
 ];
 
-const baseUrl = 'https://it-tools.tech';
+const baseUrl = 'https://tools.toolkitlife.com';
 const lastmod = new Date().toISOString().split('T')[0]; // Today's date in YYYY-MM-DD format
 
 // Generate the sitemap XML

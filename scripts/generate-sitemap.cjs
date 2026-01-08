@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the base URL and current date
-const baseUrl = 'https://it-tools.tech';
+const baseUrl = 'https://tools.toolkitlife.com';
 const lastmod = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
 
 // Define all the routes manually based on what we found in the code

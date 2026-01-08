@@ -114,7 +114,7 @@ const routes = [
   { path: '/git-lfs-commands', name: 'gitLfsCommands', changefreq: 'weekly', priority: '0.9' },
 ];
 
-const baseUrl = 'https://it-tools.tech';
+const baseUrl = 'https://tools.toolkitlife.com';
 
 // Function to generate sitemap
 function generateSitemap() {
