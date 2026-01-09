@@ -2,7 +2,7 @@
 import { NIcon, useThemeVars } from 'naive-ui';
 
 import { RouterLink } from 'vue-router';
-import { Heart, Home2, Menu2 } from '@vicons/tabler';
+import { Home2, Menu2 } from '@vicons/tabler';
 
 import { storeToRefs } from 'pinia';
 import HeroGradient from '../assets/hero-gradient.svg?component';
@@ -17,10 +17,6 @@ import CollapsibleToolMenu from '@/components/CollapsibleToolMenu.vue';
 
 const themeVars = useThemeVars();
 const styleStore = useStyleStore();
-const version = config.app.version;
-const commitSha = config.app.lastCommitSha.slice(0, 7);
-
-const { tracker } = useTracker();
 const { t } = useI18n();
 
 const toolStore = useToolStore();
@@ -58,8 +54,6 @@ const tools = computed<ToolCategory[]>(() => [
         </div>
 
         <CollapsibleToolMenu :tools-by-category="tools" />
-
-
       </div>
     </template>
 
@@ -93,8 +87,6 @@ const tools = computed<ToolCategory[]>(() => [
         <div>
           <NavbarButtons v-if="!styleStore.isSmallScreen" />
         </div>
-
-
       </div>
       <slot />
     </template>
@@ -161,6 +153,7 @@ const tools = computed<ToolCategory[]>(() => [
     .title {
       font-size: 25px;
       font-weight: 600;
+      color: #fff;
     }
 
     .divider {

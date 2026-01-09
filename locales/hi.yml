@@ -1,0 +1,394 @@
+home:
+  categories:
+    newestTools: नवीनतम उपकरण
+    favoriteTools: 'पसंदीदा उपकरण'
+    allTools: 'सभी उपकरण'
+    favoritesDndToolTip: 'पसंदीदा को पुनः क्रमित करने के लिए खींचें और छोड़ें'
+  subtitle: 'डेवलपर्स के लिए उपकरण'
+  toggleMenu: 'मेनू टॉगल करें'
+  home: होम
+  uiLib: 'UI लाइब्रेरी'
+  support: 'IT-Tools विकास का समर्थन करें'
+  buyMeACoffee: 'एक कॉफी खरीदें'
+  follow:
+    title: 'क्या आपको it-tools पसंद है?'
+    p1: 'GitHub पर एक स्टार दें:'
+    githubRepository: 'IT-Tools GitHub रिपॉजिटरी'
+    p2: 'या हमें X पर फॉलो करें:'
+    twitterXAccount: 'IT-Tools X खाता'
+    thankYou: 'धन्यवाद!'
+  nav:
+    github: 'GitHub रिपॉजिटरी'
+    githubRepository: 'IT-Tools GitHub रिपॉजिटरी'
+    twitterX: 'X खाता'
+    twitterXAccount: 'IT Tools X खाता'
+    about: 'IT-Tools के बारे में'
+    aboutLabel: 'जानकारी'
+    darkMode: 'डार्क मोड'
+    lightMode: 'लाइट मोड'
+    mode: 'डार्क/लाइट मोड टॉगल करें'
+about:
+  content: >
+    # IT-Tools के बारे में
+
+    यह शानदार वेबसाइट [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) द्वारा ❤ के साथ बनाई गई है जो डेवलपर्स और आईटी क्षेत्र में काम करने वाले लोगों के लिए उपयोगी उपकरणों का एक संग्रह है। यदि आपको यह उपयोगी लगता है, तो कृपया इसे उन लोगों के साथ साझा करें जिन्हें आपको लगता है कि उन्हें यह उपयोगी लगेगा और इसे बुकमार्क करना न भूलें!
+
+    IT Tools ओपन सोर्स (GPL-3.0 लाइसेंस) है और निःशुल्क है, और हमेशा के लिए निःशुल्क रहेगा, लेकिन होस्टिंग और डोमेन नवीनीकरण की लागत मेरे लिए एक खर्च है। कृपया अपने काम का समर्थन करने और अधिक उपकरण जोड़ने के लिए प्रोत्साहित करने के लिए [प्रायोजित करने](https://www.buymeacoffee.com/cthmsst) पर विचार करें।
+
+    ## प्रौद्योगिकी
+
+    IT Tools Vue.js (Vue 3) और Naive UI घटक पुस्तकालय का उपयोग करके बनाया गया है और Vercel द्वारा होस्ट किया गया है और लगातार डिप्लॉय किया गया है। कुछ उपकरणों में तृतीय पक्ष ओपन सोर्स पुस्तकालयों का उपयोग किया जाता है, पूरी सूची रिपॉजिटरी की [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) फ़ाइल में पाई जा सकती है।
+
+    ## क्या आपने एक बग पाया है? क्या कोई उपकरण गायब है?
+
+    यदि आपको ऐसा उपकरण चाहिए जो वर्तमान में यहां मौजूद नहीं है और आपको लगता है कि यह उपयोगी होगा, तो आप GitHub रिपॉजिटरी के [Issues खंड](https://github.com/CorentinTh/it-tools/issues/new/choose) में एक सुविधा अनुरोध सबमिट कर सकते हैं।
+
+    इसके अलावा, यदि आपको कोई बग मिला है या कुछ उम्मीद के मुताबिक काम नहीं कर रहा है, तो आप GitHub रिपॉजिटरी के [Issues खंड](https://github.com/CorentinTh/it-tools/issues/new/choose) में एक बग रिपोर्ट सबमिट कर सकते हैं।
+404:
+  notFound: '404 नहीं मिला'
+  sorry: 'क्षमा करें, ऐसा लगता है कि यह पृष्ठ मौजूद नहीं है'
+  maybe: 'यह कैश संबंधित हो सकता है, बलपूर्वक ताज़ा करने का प्रयास करें।'
+  backHome: 'होम पर वापस जाएं'
+favoriteButton:
+  remove: 'पसंदीदा से हटाएं'
+  add: 'पसंदीदा में जोड़ें'
+toolCard:
+  new: नया
+search:
+  label: खोजें
+tools:
+  categories:
+    favorite-tools: 'पसंदीदा उपकरण'
+    crypto: क्रिप्टोग्राफी
+    converter: कनवर्टर
+    web: वेब
+    images and videos: 'छवियाँ और वीडियो'
+    development: विकास
+    network: नेटवर्क
+    math: गणित
+    measurement: माप
+    text: पाठ
+    data: डेटा
+
+  password-strength-analyser:
+    title: पासवर्ड शक्ति विश्लेषण
+    description: एक क्लाइंट-साइड केवल पासवर्ड शक्ति विश्लेषण उपकरण और क्रैक समय अनुमान उपकरण जो आपके पासवर्ड की शक्ति की जांच करें।
+
+  chronometer:
+    title: क्रोनोमीटर
+    description: कुछ की अवधि की निगरानी करें। बुनियादी क्रोनोमीटर कार्यक्षमता के साथ एक क्रोनोमीटर।
+
+  token-generator:
+    title: टोकन जनरेटर
+    description: अपने पसंदीदा वर्णों, अपरकेस या लोअरकेस, संख्याओं और/या प्रतीकों के साथ यादृच्छिक स्ट्रिंग उत्पन्न करें।
+
+    uppercase: अपरकेस (ABC...)
+    lowercase: लोअरकेस (abc...)
+    numbers: संख्याएँ (123...)
+    symbols: प्रतीक (!-;...)
+    length: लंबाई
+    tokenPlaceholder: 'टोकन...'
+    copied: टोकन क्लिपबोर्ड पर कॉपी किया गया
+    button:
+      copy: कॉपी
+      refresh: ताज़ा करें
+
+  percentage-calculator:
+    title: प्रतिशत कैलकुलेटर
+    description: एक मान से दूसरे मान पर प्रतिशत या मान से प्रतिशत आसानी से गणना करें।
+
+  svg-placeholder-generator:
+    title: SVG प्लेसहोल्डर जनरेटर
+    description: अपने एप्लिकेशन में प्लेसहोल्डर के रूप में उपयोग करने के लिए SVG छवियाँ उत्पन्न करें।
+
+  json-to-csv:
+    title: JSON से CSV
+    description: स्वचालित शीर्षलेख का पता लगाकर JSON को CSV में परिवर्तित करें।
+
+  camera-recorder:
+    title: कैमरा रिकॉर्डर
+    description: अपने वेबकैम या कैमरा से फोटो लें या वीडियो रिकॉर्ड करें।
+
+  keycode-info:
+    title: कीकोड जानकारी
+    description: दबाए गए कुंजी के बारे में JavaScript कीकोड, कोड, स्थान और संशोधक कुंजी की जानकारी पाएं।
+
+  emoji-picker:
+    title: इमोजी पिकर
+    description: आसानी से इमोजी कॉपी और पेस्ट करें और प्रत्येक इमोजी का यूनिकोड और कोडपॉइंट मान प्राप्त करें।
+
+  color-converter:
+    title: रंग कनवर्टर
+    description: रंगों को विभिन्न प्रारूपों (हेक्स, आरजीबी, एचएसएल और CSS नाम) में परिवर्तित करें
+
+  bcrypt:
+    title: Bcrypt
+    description: bcrypt का उपयोग करके पाठ स्ट्रिंग को हैश और तुलना करें। Bcrypt ब्लोवफिश एल्गोरिथ्म पर आधारित एक पासवर्ड हैश फ़ंक्शन है।
+
+  crontab-generator:
+    title: Crontab जनरेटर
+    description: Crontab को मान्य करें और उत्पन्न करें और cron अनुसूची का मानव पठनीय विवरण प्राप्त करें।
+
+  http-status-codes:
+    title: HTTP स्थिति कोड
+    description: सभी HTTP स्थिति कोड, उनके नाम और अर्थ की एक सूची।
+
+  sql-prettify:
+    title: SQL प्रीटीफाई
+    description: अपने SQL क्वेरी को ऑनलाइन प्रीटीफाई करें और बनाएं (विभिन्न SQL डायलेक्ट का समर्थन करता है)।
+
+  benchmark-builder:
+    title: बेंचमार्क बिल्डर
+    description: बहुत सरल ऑनलाइन बेंचमार्क बिल्डर जो कार्यों के निष्पादन समय की तुलना करना आसान बनाता है।
+
+  git-memo:
+    title: Git चीट शीट
+    description: Git एक वितरित संस्करण नियंत्रण सॉफ्टवेयर है। सबसे सामान्य git कमांड तक त्वरित पहुंच के लिए इस चीट शीट का उपयोग करें।
+
+  slugify-string:
+    title: स्लगिफाई स्ट्रिंग
+    description: यूआरएल, फ़ाइल नाम और आईडी के लिए सुरक्षित स्ट्रिंग बनाएं।
+
+  encryption:
+    title: पाठ एन्क्रिप्शन/डिक्रिप्शन
+    description: AES, TripleDES, Rabbit या RC4 जैसे क्रिप्टोग्राफिक एल्गोरिदम का उपयोग करके सादा पाठ को एन्क्रिप्ट करें और एन्क्रिप्टेड पाठ को डिक्रिप्ट करें।
+
+  random-port-generator:
+    title: यादृच्छिक पोर्ट जनरेटर
+    description: '"ज्ञात" पोर्ट सीमा (0-1023) के बाहर एक यादृच्छिक पोर्ट संख्या उत्पन्न करें।'
+
+  yaml-prettify:
+    title: YAML प्रीटीफाई
+    description: YAML स्ट्रिंग को मानव पठनीय और मैत्रीपूर्ण प्रारूप में प्रीटीफाई करें।
+
+  eta-calculator:
+    title: एटीए कैलकुलेटर
+    description: एक एटीए (अनुमानित आगमन समय) कैलकुलेटर जो कार्य का अनुमानित समापन समय निर्धारित करता है जैसे कि एक फ़ाइल डाउनलोड का समापन और शेष समय।
+
+  roman-numeral-converter:
+    title: रोमन संख्या कनवर्टर
+    description: रोमन संख्याओं को संख्याओं में परिवर्तित करें और संख्याओं को रोमन संख्याओं में परिवर्तित करें।
+
+  hmac-generator:
+    title: HMAC जनरेटर
+    description: एक गुप्त कुंजी और एक पसंदीदा हैश फ़ंक्शन का उपयोग करके एक संदेश प्रमाणन कोड (HMAC) की गणना करें।
+
+  bip39-generator:
+    title: BIP39 पासफ्रेज जनरेटर
+    description: मौजूदा या यादृच्छिक निमॉनिक से एक BIP39 पासफ्रेज उत्पन्न करें या पासफ्रेज से निमॉनिक प्राप्त करें।
+
+  base64-file-converter:
+    title: Base64 फ़ाइल कनवर्टर
+    description: स्ट्रिंग, फ़ाइल या छवियों को उनके Base64 प्रतिनिधित्व में परिवर्तित करें।
+
+  list-converter:
+    title: सूचि कनवर्टर
+    description: कॉलम-आधारित डेटा को संसाधित करें और प्रत्येक पंक्ति पर विभिन्न परिवर्तन लागू करें (परिवर्तित करें, उपसर्ग और प्रत्यय जोड़ें, सूचि उलटें, सूचि क्रमबद्ध करें, छोटे मान, मान काटें)।
+
+  base64-string-converter:
+    title: Base64 स्ट्रिंग एन्कोडर/डिकोडर
+    description: स्ट्रिंग को उनके Base64 प्रतिनिधित्व में एन्कोड या डिकोड करें।
+
+  toml-to-yaml:
+    title: TOML से YAML
+    description: TOML को पार्स करें और YAML में परिवर्तित करें।
+
+  math-evaluator:
+    title: गणित मूल्यांकन
+    description: गणितीय अभिव्यक्तियों का मूल्यांकन करने के लिए एक कैलकुलेटर। आप sqrt, cos, sin, abs जैसे कार्यों का उपयोग कर सकते हैं।
+
+  json-to-yaml-converter:
+    title: JSON से YAML
+    description: इस ऑनलाइन लाइव कनवर्टर के साथ JSON को YAML में आसानी से परिवर्तित करें।
+
+  url-parser:
+    title: URL पार्सर
+    description: एक URL को उसके व्यक्तिगत घटकों (प्रोटोकॉल, मूल, पैरामीटर, पोर्ट, उपयोगकर्ता नाम-पासवर्ड आदि) में विभाजित करें।
+
+  iban-validator-and-parser:
+    title: IBAN सत्यापक और पार्सर
+    description: IBAN संख्या को सत्यापित और पार्स करें। जांचें कि क्या एक IBAN मान्य है और देश, BBAN, क्या यह एक QR-IBAN है और IBAN मैत्रीपूर्ण प्रारूप प्राप्त करें।
+
+  user-agent-parser:
+    title: उपयोगकर्ता एजेंट पार्सर
+    description: उपयोगकर्ता एजेंट स्ट्रिंग से ब्राउज़र, इंजन, ऑपरेटिंग सिस्टम, सीपीयू और डिवाइस प्रकार/मॉडल का पता लगाएं और पार्स करें।
+
+  numeronym-generator:
+    title: संख्यात्मक शब्द जनरेटर
+    description: एक संख्यात्मक शब्द एक शब्द है जो एक संक्षिप्त रूप बनाने के लिए संख्याओं का उपयोग करता है। उदाहरण के लिए, "i18n" "internationalization" का संख्यात्मक शब्द है जहां 18 पहले "i" और अंतिम "n" के बीच अक्षरों की संख्या को दर्शाता है।
+
+  case-converter:
+    title: केस कनवर्टर
+    description: स्ट्रिंग के मामले को परिवर्तित करें और विभिन्न प्रारूपों के बीच चुनें
+
+  html-entities:
+    title: HTML एंटिटी एस्केप
+    description: HTML एंटिटी को एस्केप या अनएस्केप करें (<, >, &, ", \' जैसे वर्णों को HTML संस्करण से बदलें)
+
+  json-prettify:
+    title: JSON प्रीटीफाई
+    description: JSON स्ट्रिंग को मानव पठनीय और मैत्रीपूर्ण प्रारूप में प्रीटीफाई करें।
+
+  docker-run-to-docker-compose-converter:
+    title: Docker run से Docker Compose कनवर्टर
+    description: '"docker run" कमांड को एक docker-compose फ़ाइल में परिवर्तित करें!'
+
+  mac-address-lookup:
+    title: MAC पता लुकअप
+    description: एक MAC पते से डिवाइस के निर्माता और निर्माता का पता लगाएं।
+
+  mime-types:
+    title: MIME प्रकार
+    description: MIME प्रकार को फ़ाइल एक्सटेंशन में परिवर्तित करें या इसके विपरीत।
+
+  toml-to-json:
+    title: TOML से JSON
+    description: TOML को पार्स करें और JSON में परिवर्तित करें।
+
+  lorem-ipsum-generator:
+    title: Lorem ipsum जनरेटर
+    description: Lorem ipsum एक प्लेसहोल्डर पाठ है जिसका उपयोग आमतौर पर दस्तावेज़ या फ़ॉन्ट के दृश्य आकार को दिखाने के लिए किया जाता है जो अर्थपूर्ण सामग्री पर निर्भर नहीं करता है
+
+  qrcode-generator:
+    title: QR कोड जनरेटर
+    description: एक URL (या सामान्य पाठ) के लिए एक QR कोड उत्पन्न करें और डाउनलोड करें और पृष्ठभूमि और अग्रभूमि रंग को कस्टमाइज़ करें।
+
+  wifi-qrcode-generator:
+    title: वाई-फाई QR कोड जनरेटर
+    description: वाई-फाई नेटवर्क से त्वरित कनेक्शन के लिए एक QR कोड उत्पन्न करें और डाउनलोड करें।
+
+  xml-formatter:
+    title: XML फॉर्मेटर
+    description: XML स्ट्रिंग को मानव पठनीय और मैत्रीपूर्ण प्रारूप में प्रीटीफाई करें।
+
+  temperature-converter:
+    title: तापमान कनवर्टर
+    description: केल्विन, सेल्सियस, फ़ारेनहाइट, रैंकिन, डेलिस्ले, न्यूटन, रियूमर और रोमर में तापमान परिवर्तन।
+
+  chmod-calculator:
+    title: Chmod कैलकुलेटर
+    description: इस ऑनलाइन chmod कैलकुलेटर के साथ chmod अनुमति और कमांड की गणना करें।
+
+  rsa-key-pair-generator:
+    title: RSA कुंजी जोड़ी जनरेटर
+    description: एक नई यादृच्छिक RSA निजी कुंजी और सार्वजनिक कुंजी pem प्रमाणपत्र कुंजी जोड़ी उत्पन्न करें।
+
+  html-wysiwyg-editor:
+    title: HTML WYSIWYG संपादक
+    description: एक ऑनलाइन, सुविधा समृद्ध WYSIWYG HTML संपादक जो सामग्री का स्रोत कोड तुरंत उत्पन्न करता है।
+
+  yaml-to-toml:
+    title: YAML से TOML
+    description: YAML को पार्स करें और TOML में परिवर्तित करें।
+
+  mac-address-generator:
+    title: MAC पता जनरेटर
+    description: मात्रा और उपसर्ग दर्ज करें। MAC पते चुने गए मामले (अपरकेस या लोअरकेस) में उत्पन्न किए जाएंगे।
+
+  json-diff:
+    title: JSON अंतर
+    description: दो JSON ऑब्जेक्ट की तुलना करें और उनके बीच अंतर प्राप्त करें।
+
+  jwt-parser:
+    title: JWT पार्सर
+    description: एक JSON वेब टोकन (JWT) को पार्स और डिकोड करें और इसकी सामग्री प्रदर्शित करें।
+
+  date-converter:
+    title: तिथि-समय कनवर्टर
+    description: तिथियों और समय को विभिन्न प्रारूपों में परिवर्तित करें
+
+  phone-parser-and-formatter:
+    title: फ़ोन पार्सर और फ़ॉर्मेटर
+    description: फ़ोन नंबर को पार्स, मान्य करें और स्वरूपित करें। फ़ोन नंबर के बारे में जानकारी प्राप्त करें (देश कोड, प्रकार आदि)।
+
+  ipv4-subnet-calculator:
+    title: IPv4 सबनेट कैलकुलेटर
+    description: IPv4 CIDR ब्लॉक को पार्स करें और सबनेट के बारे में सभी आवश्यक जानकारी प्राप्त करें।
+
+  og-meta-generator:
+    title: ओपन ग्राफ मेटा जनरेटर
+    description: आपकी वेबसाइट के लिए ओपन ग्राफ और सोशल HTML मेटा टैग उत्पन्न करें।
+
+  ipv6-ula-generator:
+    title: IPv6 ULA जनरेटर
+    description: अपने नेटवर्क के लिए RFC4193 के अनुरूप एक अपना स्थानीय, गैर-रूटेबल IP पता उत्पन्न करें।
+
+  hash-text:
+    title: हैश पाठ
+    description: 'MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 या RIPEMD160 जैसे कार्यों का उपयोग करके पाठ स्ट्रिंग को हैश करें'
+
+  json-to-toml:
+    title: JSON से TOML
+    description: JSON को पार्स करें और TOML में परिवर्तित करें।
+
+  device-information:
+    title: डिवाइस जानकारी
+    description: वर्तमान डिवाइस के बारे में जानकारी प्राप्त करें (स्क्रीन आकार, पिक्सल अनुपात, उपयोगकर्ता एजेंट आदि)
+
+  pdf-signature-checker:
+    title: PDF हस्ताक्षर जांचकर्ता
+    description: PDF फ़ाइल में हस्ताक्षरों की जांच करें। एक हस्ताक्षरित PDF फ़ाइल में एक या अधिक हस्ताक्षर हो सकते हैं जिनका उपयोग यह निर्धारित करने के लिए किया जा सकता है कि फ़ाइल के हस्ताक्षर के बाद फ़ाइल की सामग्री को संशोधित किया गया था या नहीं।
+
+  json-minify:
+    title: JSON छोटा करें
+    description: अनावश्यक स्थान को हटाकर JSON को छोटा और संपीड़ित करें।
+
+  ulid-generator:
+    title: ULID जनरेटर
+    description: एक यादृच्छिक रूप से विशिष्ट शब्दावली आदेशित आईडी (ULID) उत्पन्न करें।
+
+  string-obfuscator:
+    title: स्ट्रिंग ओब्फस्केटर
+    description: एक स्ट्रिंग (गोपनीयता, IBAN या टोकन) को ओब्फस्केट करें ताकि इसकी सामग्री को खोले बिना साझा किया जा सके और पहचाना जा सके।
+
+  base-converter:
+    title: पूर्णांक आधार कनवर्टर
+    description: संख्याओं को विभिन्न आधारों (दशमलव, हेक्साडेसिमल, बाइनरी, ऑक्टल, बेस64 आदि) में परिवर्तित करें।
+
+  yaml-to-json-converter:
+    title: YAML से JSON
+    description: इस ऑनलाइन लाइव कनवर्टर के साथ YAML को JSON में आसानी से परिवर्तित करें।
+
+  uuid-generator:
+    title: UUID जनरेटर
+    description: एक विशिष्ट यूनिवर्सल आईडेंटिफायर (UUID) 128-बिट संख्या है जिसका उपयोग कंप्यूटर सिस्टम में जानकारी की पहचान के लिए किया जाता है। संभावित UUID की संख्या 16^32 है जो 2^128 या लगभग 3.4x10^38 (बहुत अधिक!) है।
+
+  ipv4-address-converter:
+    title: IPv4 पता कनवर्टर
+    description: IP पते को दशमलव, बाइनरी, हेक्साडेसिमल या IPv6 प्रतिनिधित्व में परिवर्तित करें।
+
+  text-statistics:
+    title: पाठ आंकड़े
+    description: वर्ण गणना, शब्द गणना, बाइट्स में आकार आदि जैसी पाठ के बारे में जानकारी प्राप्त करें।
+
+  text-to-nato-alphabet:
+    title: पाठ से नाटो वर्णमाला
+    description: मौखिक संचार के लिए पाठ को नाटो ध्वन्यात्मक वर्णमाला में परिवर्तित करें।
+
+  basic-auth-generator:
+    title: बुनियादी प्रमाणन जनरेटर
+    description: उपयोगकर्ता नाम और पासवर्ड से base64 बुनियादी प्रमाणन हेडर उत्पन्न करें।
+
+  text-to-unicode:
+    title: पाठ से यूनिकोड
+    description: पाठ को यूनिकोड में पार्स और परिवर्तित करें या इसके विपरीत
+
+  ipv4-range-expander:
+    title: IPv4 श्रेणी विस्तारक
+    description: एक शुरू और समाप्त IPv4 पता दिए जाने पर, यह उपकरण CIDR नोटेशन के साथ वैध IPv4 सबनेट की गणना करता है।
+
+  text-diff:
+    title: पाठ अंतर
+    description: दो पाठ की तुलना करें और उनके बीच अंतर देखें।
+
+  otp-generator:
+    title: OTP कोड जनरेटर
+    description: दो-कारक प्रमाणन के लिए समय-आधारित OTP (वन-टाइम पासवर्ड) उत्पन्न और मान्य करें।
+
+  url-encoder:
+    title: URL प्रारूप स्ट्रिंग एन्कोडिंग/डिकोडिंग
+    description: पाठ को URL एन्कोडिंग प्रारूप (जिसे "प्रतिशत-एन्कोडिंग" के रूप में भी जाना जाता है) में एन्कोड करें या इसे डिकोड करें।
+
+  text-to-binary:
+    title: पाठ से ASCII बाइनरी
+    description: पाठ को ASCII बाइनरी प्रतिनिधित्व में परिवर्तित करें या इसके विपरीत।

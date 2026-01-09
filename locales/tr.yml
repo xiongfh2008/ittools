@@ -1,0 +1,42 @@
+# Tr (Turkish) - Türkçe
+
+home:
+  categories:
+    newestTools: 'En Yeni Araçlar'
+    favoriteTools: 'Favori Araçlar'
+    allTools: 'Tüm Araçlar'
+    favoritesDndToolTip: 'Favorileri yeniden sıralamak için sürükle ve bırak'
+  subtitle: 'Geliştiriciler için araçlar'
+  toggleMenu: 'Menüyü Aç/Kapat'
+  home: 'Ana Sayfa'
+  uiLib: 'UI Kütüphanesi'
+  support: 'IT-Tools''u Destekleyin'
+  buyMeACoffee: 'Bana bir kahve al'
+  follow:
+    title: 'it-tools hoşunuza gidiyor mu?'
+    p1: 'GitHub''da yıldız verin:'
+    githubRepository: 'GitHub''daki IT-Tools Deposu'
+    p2: 'Ya da bizi X''te takip edin:'
+    twitterXAccount: 'X''te IT Tools Hesabı'
+    thankYou: 'Teşekkürler!'
+  nav:
+    github: 'GitHub Deposu'
+    githubRepository: 'GitHub''daki IT-Tools Deposu'
+    twitterX: 'X Hesabı'
+    twitterXAccount: 'X''te IT Tools Hesabı'
+    about: 'IT-Tools Hakkında'
+    aboutLabel: 'Hakkında'
+    darkMode: 'Karanlık Mod'
+    lightMode: 'Aydınlık Mod'
+    mode: 'Karanlık/Aydınlık Modu Değiştir'
+
+about:
+  content: >
+    # IT-Tools Hakkında
+
+    Bu harika web sitesi, geliştiriciler ve BT profesyonelleri için kullanışlı araçların bir koleksiyonu olan [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) tarafından ❤ ile yapılmıştır. Bunu faydalı bulduysanız, faydalı bulacağını düşündüğünüz kişilerle paylaşın ve yer imlerine eklemeyi unutmayın!
+
+404:
+  notFound: '404 Bulunamadı'
+  sorry: 'Üzgünüz, bu sayfa görünüşe göre mevcut değil'
+  maybe: 'Önbellekleme sorunu olabilir, zorla yenilemeyi deneyin.'

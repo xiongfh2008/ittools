@@ -1,0 +1,42 @@
+# Pl (Polish) - Polski
+
+home:
+  categories:
+    newestTools: 'Najnowsze narzędzia'
+    favoriteTools: 'Ulubione narzędzia'
+    allTools: 'Wszystkie narzędzia'
+    favoritesDndToolTip: 'Przeciągnij i upuść, aby zmienić kolejność ulubionych'
+  subtitle: 'Narzędzia dla programistów'
+  toggleMenu: 'Przełącz menu'
+  home: 'Strona główna'
+  uiLib: 'Biblioteka UI'
+  support: 'Wesprzyj IT-Tools'
+  buyMeACoffee: 'Kup mi kawę'
+  follow:
+    title: 'Podoba Ci się it-tools?'
+    p1: 'Daj gwiazdkę na GitHubie:'
+    githubRepository: 'Repozytorium IT-Tools na GitHubie'
+    p2: 'Lub śledź nas na X:'
+    twitterXAccount: 'Konto IT Tools na X'
+    thankYou: 'Dziękuję!'
+  nav:
+    github: 'Repozytorium GitHub'
+    githubRepository: 'Repozytorium IT-Tools na GitHubie'
+    twitterX: 'Konto X'
+    twitterXAccount: 'Konto IT Tools na X'
+    about: 'O IT-Tools'
+    aboutLabel: 'O aplikacji'
+    darkMode: 'Tryb ciemny'
+    lightMode: 'Tryb jasny'
+    mode: 'Przełącz tryb ciemny/jasny'
+
+about:
+  content: >
+    # O IT-Tools
+
+    Ta wspaniała strona internetowa została stworzona z ❤ przez [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), która jest kolekcją przydatnych narzędzi dla programistów i specjalistów IT. Jeśli uważasz to za przydatne, udostępnij to osobom, które Twoim zdaniem będą z tego korzystać i pamiętaj, aby dodać to do zakładek!
+
+404:
+  notFound: '404 Nie znaleziono'
+  sorry: 'Przepraszamy, ta strona nie istnieje'
+  maybe: 'Może to być problem z pamięcią podręczną, spróbuj wymusić odświeżenie.'

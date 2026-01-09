@@ -1,0 +1,43 @@
+# Te (Telugu) - తెలుగు
+
+home:
+  categories:
+    newestTools: 'కొత్త సాధనాలు'
+    favoriteTools: 'ఇష్టమైన సాధనాలు'
+    allTools: 'అన్ని సాధనాలు'
+    favoritesDndToolTip: 'ఇష్టాలను తిరిగి క్రమీకరించడానికి డ్రాగ్ చేసి డ్రాప్ చేయండి'
+  subtitle: 'డెవలపర్ల కోసం సాధనాలు'
+  toggleMenu: 'మెనూని టాగ్ల్ చేయండి'
+  home: 'హోమ్'
+  uiLib: 'UI లైబ్రరీ'
+  support: 'IT-Tools కి మద్దతు ఇవ్వండి'
+  buyMeACoffee: 'నాకు ఒక కాఫీ కొనండి'
+  follow:
+    title: 'it-tools ఇష్టమా?'
+    p1: 'గిట్‌హబ్ లో స్టార్ ఇవ్వండి:'
+    githubRepository: 'గిట్‌హబ్ లో IT-Tools రిపోజిటరీ'
+    p2: 'లేదా మమ్లను X లో ఫాలో అవ్వండి:'
+    twitterXAccount: 'X లో IT Tools ఖాతా'
+    thankYou: 'ధన్యవాదాలు!'
+  nav:
+    github: 'గిట్‌హబ్ రిపోజిటరీ'
+    githubRepository: 'గిట్‌హబ్ లో IT-Tools రిపోజిటరీ'
+    twitterX: 'X ఖాతా'
+    twitterXAccount: 'X లో IT Tools ఖాతా'
+    about: 'IT-Tools గురించి'
+    aboutLabel: 'గురించి'
+    darkMode: 'డార్క్ మోడ్'
+    lightMode: 'లైట్ మోడ్'
+    mode: 'డార్క్/లైట్ మోడ్ టాగ్ల్ చేయండి'
+
+about:
+  content: >
+    # IT-Tools గురించి
+
+    ఈ అద్భుతమైన వెబ్ సైట్ [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) చేత ❤ తో నిర్మాణం చేయబడింది, ఇది డెవలపర్లు మరియు ఐటి నిపుణుల కోసం ఉపయోగకరమైన సాధనాల సేకరణ. మీకు ఇది ఉపయోగకరంగా అనిపిస్తే, దయచేసి దీన్ని ఉపయోగిస్తారని మీరు భావించే వారితో పంచుకోండి మరియు దీన్ని బుక్‌మార్క్ చేయడం మర్చిపోవద్దు!
+
+404:
+  notFound: '404 కనుగొనబడలేదు'
+  sorry: 'క్షమించండి, ఈ పేజీ ఉనికిలో లేదు'
+  maybe: 'ఇది క్యాషింగ్ సమస్య కావచ్చు, ఫోర్స్ రిఫ్రెష్ ప్రయత్నించండి.'
+

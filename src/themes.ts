@@ -2,7 +2,7 @@ import type { GlobalThemeOverrides } from 'naive-ui';
 
 export const lightThemeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#7f00ff',      // 紫色
+    primaryColor: '#7f00ff', // 紫色
     primaryColorHover: '#9d00ff', // 浅紫色
     primaryColorPressed: '#6a00cc', // 深紫色
     primaryColorSuppl: '#9d00ff',
@@ -23,7 +23,7 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
 
 export const darkThemeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#7f00ff',      // 紫色
+    primaryColor: '#7f00ff', // 紫色
     primaryColorHover: '#9d00ff', // 浅紫色
     primaryColorPressed: '#6a00cc', // 深紫色
     primaryColorSuppl: '#9d00ff',

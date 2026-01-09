@@ -1,0 +1,42 @@
+# Ur (Urdu) - اردو
+
+home:
+  categories:
+    newestTools: 'نئے ٹولز'
+    favoriteTools: 'پسندیدہ ٹولز'
+    allTools: 'تمام ٹولز'
+    favoritesDndToolTip: 'پسندیدہ کو دوبارہ ترتیب دینے کے لیے ڈریگ اور ڈراپ کریں'
+  subtitle: 'ڈیولپرز کے لیے ٹولز'
+  toggleMenu: 'مینو ٹوگل کریں'
+  home: 'ہوم'
+  uiLib: 'یو آئی لائبریری'
+  support: 'IT-Tools کی حمایت کریں'
+  buyMeACoffee: 'مجھے ایک کافی خریدیں'
+  follow:
+    title: 'کیا آپ کو it-tools پسند ہے؟'
+    p1: 'GitHub پر اسٹار دیں:'
+    githubRepository: 'GitHub پر IT-Tools ریپازٹری'
+    p2: 'یا ہمیں X پر فالو کریں:'
+    twitterXAccount: 'X پر IT Tools اکاؤنٹ'
+    thankYou: 'شکریہ!'
+  nav:
+    github: 'GitHub ریپازٹری'
+    githubRepository: 'GitHub پر IT-Tools ریپازٹری'
+    twitterX: 'X اکاؤنٹ'
+    twitterXAccount: 'X پر IT Tools اکاؤنٹ'
+    about: 'IT-Tools کے بارے میں'
+    aboutLabel: 'کے بارے میں'
+    darkMode: 'ڈارک موڈ'
+    lightMode: 'لائٹ موڈ'
+    mode: 'ڈارک/لائٹ موڈ ٹوگل کریں'
+
+about:
+  content: >
+    # IT-Tools کے بارے میں
+
+    یہ شاندار ویب سائٹ [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) کی محنت سے بنائی گئی ہے، جو ڈیولپرز اور آئی ٹی پیشہ ور افراد کے لیے ایک مجموعہ ہے۔ اگر آپ اسے مفید پاتے ہیں تو، براہ کرم ان لوگوں کے ساتھ اشتراک کریں جنہیں آپ سمجھتے ہیں کہ وہ اسے مفید پائیں گے اور اسے بُک مارک کرنا نہ بھولیں!
+
+404:
+  notFound: '404 نہیں ملا'
+  sorry: 'معذرت، اس صفحہ کا وجود نہیں لگتا'
+  maybe: 'یہ کیشے کا مسئلہ ہوسکتا ہے، فورس ریفریش کرنے کی کوشش کریں۔'

@@ -1,0 +1,400 @@
+home:
+  categories:
+    newestTools: הכלים החדשים ביותר
+    favoriteTools: 'הכלים האהובים עליכם'
+    allTools: 'כל הכלים'
+    favoritesDndToolTip: 'גרור ושחרר כדי לסדר מחדש את המועדפים'
+  subtitle: 'כלים למפתחים'
+  toggleMenu: 'החלף תפריט'
+  home: דף הבית
+  uiLib: 'ספריית ממשק משתמש'
+  support: 'תמוך בפיתוח IT-Tools'
+  buyMeACoffee: 'קנה לי קפה'
+  follow:
+    title: 'אתם אוהבים it-tools?'
+    p1: 'תנו כוכב ב'
+    githubRepository: 'מאגר GitHub של IT-Tools'
+    p2: 'או עקבו אחרינו ב'
+    twitterXAccount: 'חשבון X של IT-Tools'
+    thankYou: 'תודה רבה!'
+  nav:
+    github: 'מאגר GitHub'
+    githubRepository: 'מאגר GitHub של IT-Tools'
+    twitterX: 'חשבון X'
+    twitterXAccount: 'חשבון X של IT Tools'
+    about: 'אודות IT-Tools'
+    aboutLabel: 'אודות'
+    darkMode: 'מצב לילה'
+    lightMode: 'מצב 찐'
+    mode: 'החלף מצב לילה/יום'
+
+about:
+  content: >
+    # אודות IT-Tools
+
+    אתר מדהים זה, נוצר ב❤ על ידי [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) , אוגר כלים שימושיים למפתחים ולאנשים העובדים בתחום ה-IT. אם מצאת אותו שימושי, אנא שיתף עם אנשים ש לדעתך יכולים למצוא בו שימוש גם כן ואל תשכח להוסיפו לסימניות!
+
+    IT Tools הוא תוכנה בקוד פתוח (תחת רישיון GPL-3.0) וחינמי, ויהיה כזה תמיד, אך יש לי עלות לאחסון ולחדוש שם הדומיין. אם ברצונכם לתמוך בעבודתי, ולחזק אותי להוסיף עוד כלים, אנא שקולו לתמוך ע"י [해주יתי](https://www.buymeacoffee.com/cthmsst).
+
+    ## טכנולוגיות
+
+    IT Tools נבנה ב-Vue.js (Vue 3) עם ספריית רכיבים Naive UI ו 마련 ומשודרג באופן מתמשך על ידי Vercel. ספריות קוד פתוח של צד שלישי משומשות בכמה כלים, תוכלו למצוא את הרשימה המלאה בקובץ [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) שבמאגר.
+
+    ## מצאת באג? חסר כלי?
+
+    אם אתם צריכים כלי שאינו נמצא כאן כעת, ו אתם חושבים שהוא יכול להיות שימושי, אתם מוזמנים להגיש בקשת תכונה ב[סקציית הנושאים](https://github.com/CorentinTh/it-tools/issues/new/choose) במאגר GitHub.
+
+    ואם מצאתם באג, או משהו אינו עובד כפי שמצופים, אנא שלחו דוח באג ב[סקציית הנושאים](https://github.com/CorentinTh/it-tools/issues/new/choose) במאגר GitHub.
+
+404:
+  notFound: '404 לא נמצא'
+  sorry: 'מצטערים, דף זה לא נראה קיים'
+  maybe: 'אולי המטמון עושה דברים מוזרים, נסה לרענן בכוח?'
+  backHome: 'חזרה לדף הבית'
+
+favoriteButton:
+  remove: 'הסר מהמועדפים'
+  add: 'הוסף למועדפים'
+
+toolCard:
+  new: חדש
+
+search:
+  label: חיפוש
+
+tools:
+  categories:
+    favorite-tools: 'הכלים האהובים עליכם'
+    crypto: קריפטו
+    converter: מומר
+    web: רשת
+    images and videos: 'תמונות ווידאו'
+    development: פיתוח
+    network: רשת
+    math: מתמטיקה
+    measurement: מדידה
+    text: טקסט
+    data: מידע
+
+  password-strength-analyser:
+    title: מבחן חוזק סיסמה
+    description: גלה את עוצמת הסיסמה שלך עם כלי ניתוח עוצמת סיסמה זה בלבד בצד לקוח ו כלי הערכה של זמן פיצוץ.
+
+  chronometer:
+    title: כרונומטר
+    description: עקוב אחרי משך של דבר מה. כרונומטר בסיסי עם תכונות כרונומטר פשוטות.
+
+  token-generator:
+    title: מחולל טוקן
+    description: ייצר מחרוזת אקראית עם התווים הרצויים, אותיות רישיות או קטנות, מספרים ו/או סמלים.
+
+    uppercase: אותיות רישיות (ABC...)
+    lowercase: אותיות קטנות (abc...)
+    numbers: מספרים (123...)
+    symbols: סמלים (!-;...)
+    length: אורך
+    tokenPlaceholder: 'הטוקן...'
+    copied: טוקן הועתק ללוח
+    button:
+      copy: העתק
+      refresh: רענן
+
+  percentage-calculator:
+    title: מחשבון אחוזים
+    description: חשב בקלות אחוזים מערכים שונים, או מאחוז לערך.
+
+  svg-placeholder-generator:
+    title: מחולל מציין SVG
+    description: ייצר תמונות svg לשימוש כמציין מקום באפליקציות שלך.
+
+  json-to-csv:
+    title: JSON ל-CSV
+    description: המר JSON ל-CSV עם זיהוי כותרות אוטומטי.
+
+  camera-recorder:
+    title: מצלמה ומקליט
+    description: צלם תמונה או הקלט וידאו מהמצלמה או המצלמה שלך.
+
+  keycode-info:
+    title: מידע על מקש
+    description: מצא את הקוד של JavaScript, המיקום והמודיפיקציה של כל מקש שנלחץ.
+
+  emoji-picker:
+    title: בוחר אימוג'י
+    description: העתק והדבק אימוג'ים בקלות וקבל את הקוד היוניקוד של כל אימוג'י.
+
+  color-converter:
+    title: מומר צבע
+    description: המר צבע בין פורמטים שונים (hex, rgb, hsl ושם css)
+
+  bcrypt:
+    title: Bcrypt
+    description: גבה והשווה מחרוזות טקסט באמצעות bcrypt. Bcrypt היא פונקציית גיבוב סיסמאות המבוססת על צופן Blowfish.
+
+  crontab-generator:
+    title: מחולל Crontab
+    description: אמת וייצר crontab וקבל תיאור קריא לאנוש של לוחות זמנים של cron.
+
+  http-status-codes:
+    title: קודי סטטוס HTTP
+    description: הרשימה של כל קודי סטטוס HTTP, שמותיהם ופירושם.
+
+  sql-prettify:
+    title: עיצוב ועיצוב SQL
+    description: ערוך ועצב את שאילתות ה-SQL שלך מקוון (תומך בדיאלקטים שונים של SQL).
+
+  benchmark-builder:
+    title: בונה בדיקות ביצועים
+    description: השווה בקלות את זמני הביצוע של משימות עם בונה בדיקות הביצועים הפשוט הזה מקוון.
+
+  git-memo:
+    title: Git cheatsheet
+    description: Git הוא תוכנת ניהול גרסה מבוזרת. עם cheatsheet הזה, תקבלו גישה מהירה לפקודות git הנפוצות ביותר.
+
+  slugify-string:
+    title: הפיכת מחרוזת ל-URL ידידותי
+    description: הפיכת מחרוזת ל-URL, שם קובץ ו-Id בטוחים.
+
+  encryption:
+    title: הצפנה / פענוח טקסט
+    description: הצפן טקסט גלוי ופענח טקסט מוצפן באמצעות אלגוריתמי הצפנה כמו AES, TripleDES, Rabbit או RC4.
+
+  random-port-generator:
+    title: מחולל פורטים אקראיים
+    description: ייצר מספרי פורט אקראיים מחוץ לטווח של פורטים "ידועים" (0-1023).
+
+  yaml-prettify:
+    title: עיצוב ועיצוב YAML
+    description: ערוך את מחרוזת ה-YAML שלך לפורמט ידידותי וקריא לאנוש.
+
+  eta-calculator:
+    title: מחשבון ETA
+    description: מחשבון ETA (זמן הגעה משוער) כדי לקבוע את זמן הסיום המשוער של משימה, לדוגמה, זמן הסיום ומשך של הורדת קובץ.
+
+  roman-numeral-converter:
+    title: מומר ספרות רומיות
+    description: המר ספרות רומיות למספרים והמר מספרים לספרות רומיות.
+
+  hmac-generator:
+    title: מחולל HMAC
+    description: מחשב קוד אימות הודעה מבוסס גיבוב (HMAC) באמצעות מפתח סודי ופונקציית גיבוב מועדפת.
+
+  bip39-generator:
+    title: מחולל מילת צופן BIP39
+    description: ייצר מילת צופן BIP39 מ mnemonic קיימת או אקראית, או קבל את ה-mnemonic מהמילת הצופן.
+
+  base64-file-converter:
+    title: מומר קובץ Base64
+    description: המר מחרוזת, קובץ או תמונה לייצוג base64 שלה.
+
+  list-converter:
+    title: מומר רשימה
+    description: כלי זה יכול לעבד מידע מבוסס עמודות ולהחיל שינויים שונים (היפוך, הוספת קידומת וסיומת, הפיכת רשימה, מיון רשימה, ערכים ב אותיות קטנות, קיצוץ ערכים) לכל שורה.
+
+  base64-string-converter:
+    title: מקודד/מפענח מחרוזת Base64
+    description: קידוד ופענוח פשוט של מחרוזות לייצוג base64.
+
+  toml-to-yaml:
+    title: TOML ל-YAML
+    description: תרגם והמר TOML ל-YAML.
+
+  math-evaluator:
+    title: מעריך מתמטי
+    description: מחשבון להערכת ביטויים מתמטיים. ניתן להשתמש בפונקציות כמו sqrt, cos, sin, abs וכו'.
+
+  json-to-yaml-converter:
+    title: ממיר JSON ל-YAML
+    description: המר פשוט JSON ל-YAML עם המרה חיה מקוונת זו.
+
+  url-parser:
+    title: מפענח URL
+    description: תרגם URL למרכיביו הנפרדים (פרוטוקול, מקור, פרמטרים, פורט, שם משתמש-סיסמה וכו')
+
+  iban-validator-and-parser:
+    title: מאשר ומפענח IBAN
+    description: אשר ותרגם מספרי IBAN. בדוק אם IBAN תקף וקבל את המדינה, BBAN, אם זה QR-IBAN ופורמט ידידותי של IBAN.
+
+  user-agent-parser:
+    title: מפענח User-agent
+    description: זיהוי ותרגום דפדפן, מנוע, מערכת הפעלה, מעבד וסוג/דגם של מכשיר ממחרוזת user-agent.
+
+  numeronym-generator:
+    title: מחולל Numeronym
+    description: Numeronym הוא מילה שבה נעשה שימוש במספר כדי ליצור קיצור. לדוגמה, "i18n" הוא numeronym של "internationalization" שבו 18 מייצג את מספר האותיות בין ה-i הראשונה וה-n האחרונה במילה.
+
+  case-converter:
+    title: ממיר רישיות
+    description: המר את רישיות המחרוזת ובחר בין פורמטים שונים
+
+  html-entities:
+    title: HTML entities escaping
+    description: Escape או unescape entities HTML (החלפת תווים כמו <,>, &, " ו-' לגרסה ה-HTML שלהם)
+
+  json-prettify:
+    title: עיצוב ועיצוב JSON
+    description: ערוך את מחרוזת ה-JSON שלך לפורמט ידידותי וקריא לאנוש.
+
+  docker-run-to-docker-compose-converter:
+    title: ממיר Docker run ל-Docker Compose
+    description: המר פקודות "docker run" לקובצי Docker Compose!
+
+  mac-address-lookup:
+    title: חיפוש כתובת MAC
+    description: מצא את הספק והיצרן של מכשיר לפי כתובת MAC שלו.
+
+  mime-types:
+    title: סוגי MIME
+    description: המר סוגי MIME להרחבות קבצים ולהפך.
+
+  toml-to-json:
+    title: TOML ל-JSON
+    description: תרגם והמר TOML ל-JSON.
+
+  lorem-ipsum-generator:
+    title: מחולל Lorem ipsum
+    description: Lorem ipsum הוא טקסט דמה שנעשה בו שימוש לרוב כדי להדגים את הצורה הוויזואלית של מסמך או פונט טיפוגרפי ללא תלות בתוכן מועבר
+
+  qrcode-generator:
+    title: מחולל QR Code
+    description: ייצר והורד QR code עבור URL (או טקסט פשוט), והתאם את צבעי הרקע והחזית.
+
+  wifi-qrcode-generator:
+    title: מחולל QR Code ל-WiFi
+    description: ייצר והורד QR codes לחיבורים מהירים לרשתות WiFi.
+
+  xml-formatter:
+    title: עורך XML
+    description: ערוך את מחרוזת ה-XML שלך לפורמט ידידותי וקריא לאנוש.
+
+  temperature-converter:
+    title: ממיר טמפרטורה
+    description: המרות טמפרטורת מעלות ל-Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, ו-Rømer.
+
+  chmod-calculator:
+    title: מחשבון Chmod
+    description: חשב את הרשאות chmod ופקודות עם מחשבון chmod מקוון זה.
+
+  rsa-key-pair-generator:
+    title: מחולל זוג מפתחות RSA
+    description: ייצר זוג מפתחות אקראיים פרטיים וציבוריים בפורמט pem של RSA.
+
+  html-wysiwyg-editor:
+    title: עורך HTML WYSIWYG
+    description: עורך HTML WYSIWYG מקוון, עשיר במאפיינים שמייצר את קוד המקור של התוכן מיידית.
+
+  yaml-to-toml:
+    title: YAML ל-TOML
+    description: תרגם והמר YAML ל-TOML.
+
+  mac-address-generator:
+    title: מחולל כתובת MAC
+    description: הזן כמות וקידומת. כתובות MAC ייווצרו בפורמט שבחרת (רישיות או קטנות)
+
+  json-diff:
+    title: השוואת JSON
+    description: השווה שני עצים של JSON וקבל את ההבדלים ביניהם.
+
+  jwt-parser:
+    title: מפענח JWT
+    description: תרגם ופענח את טוקן האינטרנט של JSON שלך (jwt) והצג את תוכנו.
+
+  date-converter:
+    title: ממיר תאריך-זמן
+    description: המר תאריך ושעה לפורמטים השונים
+
+  phone-parser-and-formatter:
+    title: מפענח ומ ערוך טלפון
+    description: תרגם, אשר וערוך מספרי טלפון. קבל מידע על מספר הטלפון, כמו קוד המדינה, סוג וכו'.
+
+  ipv4-subnet-calculator:
+    title: מחשבון תת-רשת IPv4
+    description: תרגם את בלוקי CIDR של IPv4 שלך וקבל את כל המידע שצרכת על תת-הרשת שלך.
+
+  og-meta-generator:
+    title: מחולל Meta Open graph
+    description: ייצר תגיות Meta של HTML ל-RSS ורשתות חברתיות לאתר שלך.
+
+  ipv6-ula-generator:
+    title: מחולל ULA IPv6
+    description: ייצר כתובות IP מקומיות, שאינן ניתנות לניתוב עבור הרשת שלך בהתאם ל-RFC4193.
+
+  hash-text:
+    title: טקסט גיבוב
+    description: 'גבה מחרוזת טקסט באמצעות הפונקציה הרצויה: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 או RIPEMD160'
+
+  json-to-toml:
+    title: JSON ל-TOML
+    description: תרגם והמר JSON ל-TOML.
+
+  device-information:
+    title: מידע על המכשיר
+    description: קבל מידע על המכשיר הנוכחי שלך (גודל מסך, יחס פיקסלים, סוכן משתמש וכו')
+
+  pdf-signature-checker:
+    title: בודק חתימה של PDF
+    description: אמת את החתימות של קובץ PDF. קובץ PDF חתום מכיל חתימה אחת או יותר שניתן להשתמש בה כדי לקבוע האם תוכן הקובץ השתנה מאז שהקובץ נחתם.
+
+  json-minify:
+    title: JSON minify
+    description: מصغر ומצפין את ה-JSON שלך על ידי הסרת רווחים בלתי נחוצים.
+
+  ulid-generator:
+    title: מחולל ULID
+    description: ייצר מזהה ייחודי לקסיקוגרפי אוניברסלי אקראי (ULID).
+
+  string-obfuscator:
+    title: מסתיר מחרוזת
+    description: מסתיר מחרוזת (כמו סוד, IBAN, או טוקן) כדי להפוך אותה לשיתופית וניתנת לזיהוי ללא חשיפת תוכנה.
+
+  base-converter:
+    title: ממיר בסיס שלם
+    description: המר מספר לבסיסים שונים (עשרוני, הקסדצימלי, בינארי, אוקטלי, base64 וכו')
+
+  yaml-to-json-converter:
+    title: ממיר YAML ל-JSON
+    description: המר פשוט YAML ל-JSON עם המרה חיה מקוונת זו.
+
+  uuid-generator:
+    title: מחולל UUIDs
+    description: מזהה ייחודי אוניברסלי (UUID) הוא מספר בן 128 סיביות המשמש לזיהוי מידע במערכות מחשב. מספר ה-UUIDs האפשרי הוא 16^32, שהוא 2^128 או בערך 3.4x10^38 (שהוא הרבה!).
+
+  ipv4-address-converter:
+    title: ממיר כתובות IPv4
+    description: המר כתובת IP ל-10, בינארי, הקסדצימלי, או אפילו ייצוג IPv6 שלה.
+
+  text-statistics:
+    title: סטטיסטיקות טקסט
+    description: קבל מידע על טקסט, מספר התווים, מספר המילים, גודלו בבייטים וכו'
+
+  text-to-nato-alphabet:
+    title: טקסט לאלפבית NATO
+    description: המר טקסט לאלפבית foneti של NATO לשליחה פומבית.
+
+  basic-auth-generator:
+    title: מחולל אימות בסיסי
+    description: ייצר כותרת אימות בסיסית של base64 משם משתמש וסיסמה.
+
+  text-to-unicode:
+    title: טקסט ל-Unicode
+    description: תרגם והמר טקסט ל-Unicode ולהפך
+
+  ipv4-range-expander:
+    title: מרחיב טווח IPv4
+    description: בהינתן כתובת IPv4 התחלתית וסופית, כלי זה מחשב תת-רשת IPv4 תקפה יחד עם סימון ה-CIDR שלה.
+
+  text-diff:
+    title: השוואת טקסט
+    description: השווה שני טקסטים וראה את ההבדלים ביניהם.
+
+  otp-generator:
+    title: מחולל קוד OTP
+    description: ייצר ואמת OTP מבוסס זמן (סיסמה חד-פעמית) לאימות דו-שלבי.
+
+  url-encoder:
+    title: קידוד/פענוח מחרוזות בפורמט URL
+    description: קידוד טקסט לפורמט URL-encooded (ידוע גם כ-"percent-encoded"), או פענוח ממנו.
+
+  text-to-binary:
+    title: טקסט לבינארי ASCII
+    description: המר טקסט לייצוג הבינארי של ASCII והפוך.

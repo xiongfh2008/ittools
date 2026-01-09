@@ -1,0 +1,394 @@
+home:
+  categories:
+    newestTools: เครื่องมือใหม่ล่าสุด
+    favoriteTools: 'เครื่องมือที่ชื่นชอบ'
+    allTools: 'เครื่องมือทั้งหมด'
+    favoritesDndToolTip: 'ลากและวางเพื่อจัดลำดับรายการโปรดใหม่'
+  subtitle: 'เครื่องมือสำหรับนักพัฒนา'
+  toggleMenu: 'เปิด/ปิด เมนู'
+  home: หน้าหลัก
+  uiLib: 'คลัง UI'
+  support: 'สนับสนุนการพัฒนา IT-Tools'
+  buyMeACoffee: 'ซื้อกาแฟให้ฉัน'
+  follow:
+    title: 'ชอบ it-tools ไหม?'
+    p1: 'ให้ดาวบน GitHub:'
+    githubRepository: 'ที่เก็บ IT-Tools GitHub'
+    p2: 'หรือติดตามเราบน X:'
+    twitterXAccount: 'บัญชี IT-Tools X'
+    thankYou: 'ขอบคุณ!'
+  nav:
+    github: 'ที่เก็บ GitHub'
+    githubRepository: 'ที่เก็บ IT-Tools GitHub'
+    twitterX: 'บัญชี X'
+    twitterXAccount: 'บัญชี IT Tools X'
+    about: 'เกี่ยวกับ IT-Tools'
+    aboutLabel: 'เกี่ยวกับ'
+    darkMode: 'โหมดมืด'
+    lightMode: 'โหมดสว่าง'
+    mode: 'สลับโหมดมืด/สว่าง'
+about:
+  content: >
+    # เกี่ยวกับ IT-Tools
+
+    เว็บไซต์ที่ยอดเยี่ยมนี้ถูกสร้างขึ้นด้วย ❤ โดย [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) เป็นคอลเล็กชันของเครื่องมือที่มีประโยชน์สำหรับนักพัฒนาและบุคคลที่ทำงานในด้านไอที หากคุณพบว่าสิ่งนี้มีประโยชน์ โปรดแบ่งปันกับผู้ที่คุณคิดว่าจะพบว่ามันมีประโยชน์ และอย่าลืมบุ๊กมาร์กไว้!
+
+    IT Tools เป็นโอเพนซอร์ส (ใบอนุญาต GPL-3.0) และฟรี และจะฟรีตลอดไป แต่ค่าใช้จ่ายในการโฮสต์และการต่ออายุโดเมนเป็นค่าใช้จ่ายที่ฉันต้องรับผิดชอบ โปรดพิจารณา [สปอนเซอร์](https://www.buymeacoffee.com/cthmsst) งานของฉันและส่งเสริมให้ฉันเพิ่มเครื่องมือเพิ่มเติม
+
+    ## เทคโนโลยี
+
+    IT Tools ถูกสร้างขึ้นโดยใช้ Vue.js (Vue 3) และไลบรารีคอมโพเนนต์ Naive UI และถูกโฮสต์และปรับใช้อย่างต่อเนื่องโดย Vercel เครื่องมือบางอย่างใช้ไลบรารีโอเพนซอร์สของบุคคลที่สาม รายชื่อเต็มสามารถพบได้ในไฟล์ [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) ของที่เก็บ
+
+    ## พบเจอข้อบกพร่อง? เครื่องมือที่หายไป?
+
+    หากคุณต้องการเครื่องมือที่ไม่มีอยู่ในขณะนี้และคุณคิดว่าจะเป็นประโยชน์ คุณสามารถส่งคำขอคุณลักษณะในส่วน [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) ของที่เก็บ GitHub
+
+    นอกจากนี้ หากคุณพบข้อบกพร่องหรือบางสิ่งไม่ทำงานตามที่คาดไว้ คุณสามารถส่งรายงานข้อบกพร่องในส่วน [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) ของที่เก็บ GitHub
+404:
+  notFound: '404 ไม่พบหน้า'
+  sorry: 'ขออภัย ดูเหมือนหน้านี้จะไม่มีอยู่'
+  maybe: 'อาจเป็นปัญหาเกี่ยวกับแคช ลองรีเฟรชด้วยแรง'
+  backHome: 'กลับไปหน้าหลัก'
+favoriteButton:
+  remove: 'ลบออกจากรายการโปรด'
+  add: 'เพิ่มไปยังรายการโปรด'
+toolCard:
+  new: ใหม่
+search:
+  label: ค้นหา
+tools:
+  categories:
+    favorite-tools: 'เครื่องมือที่ชื่นชอบ'
+    crypto: ระบบเข้ารหัส
+    converter: ตัวแปลง
+    web: เว็บ
+    images and videos: 'ภาพและวิดีโอ'
+    development: การพัฒนา
+    network: เครือข่าย
+    math: คณิตศาสตร์
+    measurement: การวัด
+    text: ข้อความ
+    data: ข้อมูล
+
+  password-strength-analyser:
+    title: ตัววิเคราะห์ความแข็งแรงของรหัสผ่าน
+    description: เครื่องมือวิเคราะห์ความแข็งแรงของรหัสผ่านแบบฝั่งไคลเอนต์เท่านั้นและเครื่องมือประมาณการเวลาในการแฮ็กเพื่อตรวจสอบความแข็งแรงของรหัสผ่านของคุณ
+
+  chronometer:
+    title: โครโนมิเตอร์
+    description: ติดตามช่วงเวลาของบางสิ่ง เครื่องวัดเวลาพื้นฐาน
+
+  token-generator:
+    title: ตัวสร้างโทเค็น
+    description: สร้างสตริงแบบสุ่มด้วยอักขระที่คุณเลือก ตัวพิมพ์ใหญ่หรือเล็ก ตัวเลข และ/หรือสัญลักษณ์
+
+    uppercase: ตัวพิมพ์ใหญ่ (ABC...)
+    lowercase: ตัวพิมพ์เล็ก (abc...)
+    numbers: ตัวเลข (123...)
+    symbols: สัญลักษณ์ (!-;...)
+    length: ความยาว
+    tokenPlaceholder: 'โทเค็น...'
+    copied: คัดลอกโทเค็นไปยังคลิปบอร์ดแล้ว
+    button:
+      copy: คัดลอก
+      refresh: รีเฟรช
+
+  percentage-calculator:
+    title: เครื่องคิดเลขเปอร์เซ็นต์
+    description: คำนวณเปอร์เซ็นต์จากค่าหนึ่งไปยังอีกค่าหนึ่ง หรือเปอร์เซ็นต์จากค่าหนึ่งได้อย่างง่ายดาย
+
+  svg-placeholder-generator:
+    title: ตัวสร้างตัวยึดตำแหน่ง SVG
+    description: สร้างภาพ SVG เพื่อใช้เป็นตัวยึดตำแหน่งในแอปพลิเคชันของคุณ
+
+  json-to-csv:
+    title: JSON เป็น CSV
+    description: แปลง JSON เป็น CSV ด้วยการตรวจจับส่วนหัวอัตโนมัติ
+
+  camera-recorder:
+    title: เครื่องบันทึกกล้อง
+    description: ถ่ายภาพหรือบันทึกวิดีโอจากเว็บแคมหรือกล้องของคุณ
+
+  keycode-info:
+    title: ข้อมูลคีย์โค้ด
+    description: ค้นหาข้อมูล JavaScript keycode, code, location และ modifier keys สำหรับคีย์ที่กด
+
+  emoji-picker:
+    title: ตัวเลือกอีโมจิ
+    description: คัดลอกและวางอีโมจิได้อย่างง่ายดายและรับค่า Unicode และรหัสจุดของแต่ละอีโมจิ
+
+  color-converter:
+    title: ตัวแปลงสี
+    description: แปลงสีระหว่างรูปแบบต่างๆ (hex, rgb, hsl และชื่อ CSS)
+
+  bcrypt:
+    title: Bcrypt
+    description: แฮชและเปรียบเทียบสตริงข้อความโดยใช้ bcrypt Bcrypt เป็นฟังก์ชันแฮชรหัสผ่านที่อิงจากอัลกอริทึม Blowfish
+
+  crontab-generator:
+    title: ตัวสร้าง Crontab
+    description: ตรวจสอบความถูกต้องและสร้าง crontab และรับคำอธิบายที่มนุษย์สามารถเข้าใจได้สำหรับกำหนดการ cron
+
+  http-status-codes:
+    title: รหัสสถานะ HTTP
+    description: รายชื่อของรหัสสถานะ HTTP ทั้งหมด ชื่อ และความหมายของพวกเขา
+
+  sql-prettify:
+    title: จัดรูปแบบ SQL
+    description: จัดรูปแบบและทำให้คำสั่ง SQL ของคุณงดงามออนไลน์ (รองรับไดอะเล็กต์ SQL ต่างๆ)
+
+  benchmark-builder:
+    title: ตัวสร้างการBenchmark
+    description: ตัวสร้างการbenchmark ออนไลน์ที่เรียบง่ายมากที่ทำให้การเปรียบเทียบเวลาในการดำเนินการของงานเป็นเรื่องง่าย
+
+  git-memo:
+    title: ชีต Git
+    description: Git เป็นซอฟต์แวร์ควบคุมเวอร์ชันแบบกระจาย ใช้ชีตช่วยจำใบนี้เพื่อเข้าถึงคำสั่ง git ที่พบบ่อยที่สุดอย่างรวดเร็ว
+
+  slugify-string:
+    title: ทำให้สตริงเป็น slug
+    description: ทำให้สตริงปลอดภัยสำหรับการใช้งานใน URL ชื่อไฟล์ และ ID
+
+  encryption:
+    title: การเข้ารหัส/ถอดรหัสข้อความ
+    description: เข้ารหัสข้อความธรรมดาและถอดรหัสข้อความที่เข้ารหัสโดยใช้อัลกอริทึมการเข้ารหัสลับเช่น AES, TripleDES, Rabbit หรือ RC4
+
+  random-port-generator:
+    title: ตัวสร้างพอร์ตสุ่ม
+    description: สร้างหมายเลขพอร์ตสุ่มนอกช่วงพอร์ต "ที่รู้จัก" (0-1023)
+
+  yaml-prettify:
+    title: จัดรูปแบบ YAML
+    description: จัดรูปแบบสตริง YAML ให้อยู่ในรูปแบบที่มนุษย์สามารถอ่านและเข้าใจได้ง่าย
+
+  eta-calculator:
+    title: เครื่องคิดเลข ETA
+    description: เครื่องคิดเลข ETA (Estimated Time of Arrival) เพื่อกำหนดเวลาที่คาดว่าจะเสร็จสิ้นของงาน เช่น เวลาที่ไฟล์จะดาวน์โหลดเสร็จและเวลาที่เหลืออยู่
+
+  roman-numeral-converter:
+    title: ตัวแปลงตัวเลขโรมัน
+    description: แปลงตัวเลขโรมันเป็นตัวเลขและตัวเลขเป็นตัวเลขโรมัน
+
+  hmac-generator:
+    title: ตัวสร้าง HMAC
+    description: คำนวณรหัสการตรวจสอบข้อความ HMAC โดยใช้คีย์ลับและฟังก์ชันแฮชที่เลือก
+
+  bip39-generator:
+    title: ตัวสร้างวลีรหัสผ่าน BIP39
+    description: สร้างวลีรหัสผ่าน BIP39 จาก мнีโมนิกส์ที่มีอยู่หรือแบบสุ่ม หรือรับ мнีโมนิกส์จากวลีรหัสผ่าน
+
+  base64-file-converter:
+    title: ตัวแปลงไฟล์ Base64
+    description: แปลงสตริง ไฟล์ หรือภาพเป็นตัวแทน Base64 ของพวกเขา
+
+  list-converter:
+    title: ตัวแปลงรายการ
+    description: ประมวลผลข้อมูลตามคอลัมน์และใช้การเปลี่ยนแปลงต่างๆ กับแต่ละแถว (transpose, เพิ่มคำนำหน้าและคำต่อท้าย, กลับลำดับรายการ, เรียงลำดับรายการ, แปลงเป็นตัวพิมพ์เล็ก, ตัดค่า)
+
+  base64-string-converter:
+    title: ตัวเข้ารหัส/ถอดรหัสสตริง Base64
+    description: เข้ารหัสและถอดรหัสสตริงเป็นตัวแทน Base64 ของพวกเขา
+
+  toml-to-yaml:
+    title: TOML เป็น YAML
+    description: แยกวิเคราะห์ TOML และแปลงเป็น YAML
+
+  math-evaluator:
+    title: ตัวประเมินคณิตศาสตร์
+    description: เครื่องคิดเลขสำหรับประเมินนิพจน์ทางคณิตศาสตร์ คุณสามารถใช้ฟังก์ชันเช่น sqrt, cos, sin, abs ฯลฯ
+
+  json-to-yaml-converter:
+    title: JSON เป็น YAML
+    description: แปลง JSON เป็น YAML อย่างง่ายดายด้วยตัวแปลงสดออนไลน์นี้
+
+  url-parser:
+    title: ตัวแยกวิเคราะห์ URL
+    description: แยก URL ออกเป็นองค์ประกอบแต่ละส่วน (โปรโตคอล, ต้นทาง, พารามิเตอร์, พอร์ต, ชื่อผู้ใช้-รหัสผ่าน ฯลฯ)
+
+  iban-validator-and-parser:
+    title: ตัวตรวจสอบและแยกวิเคราะห์ IBAN
+    description: ตรวจสอบและแยกวิเคราะห์หมายเลข IBAN ตรวจสอบว่า IBAN ถูกต้องและรับประเทศ, BBAN, ว่าเป็น QR-IBAN หรือไม่ และรูปแบบ IBAN ที่เป็นมิตร
+
+  user-agent-parser:
+    title: ตัวแยกวิเคราะห์ User Agent
+    description: ตรวจจับและแยกวิเคราะห์เบราว์เซอร์ เอ็นจิน ระบบปฏิบัติการ CPU และประเภท/รุ่นของอุปกรณ์จากสตริง user agent
+
+  numeronym-generator:
+    title: ตัวสร้าง Numeronym
+    description: Numeronym คือคำที่สร้างคำย่อโดยใช้ตัวเลข ตัวอย่างเช่น "i18n" เป็น numeronym สำหรับ "internationalization" โดยที่ 18 แสดงจำนวนตัวอักษรระหว่าง "i" ตัวแรกและ "n" ตัวสุดท้าย
+
+  case-converter:
+    title: ตัวแปลงกรณี
+    description: แปลงกรณีของสตริงและเลือกจากหลายรูปแบบ
+
+  html-entities:
+    title: หลีกเลี่ยง Entity HTML
+    description: หลีกเลี่ยงหรือยกเลิกการหลีกเลี่ยง Entity HTML (แทนที่อักขระเช่น <, >, &, ", \' ด้วยเวอร์ชัน HTML ของพวกเขา)
+
+  json-prettify:
+    title: จัดรูปแบบ JSON
+    description: จัดรูปแบบสตริง JSON ให้อยู่ในรูปแบบที่มนุษย์สามารถอ่านและเข้าใจได้ง่าย
+
+  docker-run-to-docker-compose-converter:
+    title: ตัวแปลง Docker run เป็น Docker Compose
+    description: แปลงคำสั่ง "docker run" เป็นไฟล์ docker-compose!
+
+  mac-address-lookup:
+    title: การค้นหาที่อยู่ MAC
+    description: ค้นหาผู้ผลิตอุปกรณ์จากที่อยู่ MAC
+
+  mime-types:
+    title: ชนิด MIME
+    description: แปลงชนิด MIME เป็นนามสกุลไฟล์หรือในทางกลับกัน
+
+  toml-to-json:
+    title: TOML เป็น JSON
+    description: แยกวิเคราะห์ TOML และแปลงเป็น JSON
+
+  lorem-ipsum-generator:
+    title: ตัวสร้าง Lorem ipsum
+    description: Lorem ipsum เป็นข้อความตัวอย่างที่มักใช้เพื่อแสดงรูปแบบของเอกสารหรือแบบอักษรโดยไม่ต้องพึ่งเนื้อหาที่มีความหมาย
+
+  qrcode-generator:
+    title: ตัวสร้างคิวอาร์โค้ด
+    description: สร้างและดาวน์โหลดคิวอาร์โค้ดสำหรับ URL (หรือข้อความธรรมดา) และปรับแต่งสีพื้นหลังและสีพื้นหน้า
+
+  wifi-qrcode-generator:
+    title: ตัวสร้างคิวอาร์โค้ด Wi-Fi
+    description: สร้างและดาวน์โหลดคิวอาร์โค้ดสำหรับการเชื่อมต่ออย่างรวดเร็วกับเครือข่าย Wi-Fi
+
+  xml-formatter:
+    title: ตัวจัดรูปแบบ XML
+    description: จัดรูปแบบสตริง XML ให้อยู่ในรูปแบบที่มนุษย์สามารถอ่านและเข้าใจได้ง่าย
+
+  temperature-converter:
+    title: ตัวแปลงอุณหภูมิ
+    description: การแปลงอุณหภูมิในหน่วยเคลวิน เซลเซียส ฟาเรนไฮต์ แรนคิน เดลีล เนวตัน เรอูเมอร์ และโรเมอร์
+
+  chmod-calculator:
+    title: เครื่องคิดเลข Chmod
+    description: คำนวณสิทธิ์และคำสั่ง chmod ด้วยเครื่องคิดเลข chmod ออนไลน์นี้
+
+  rsa-key-pair-generator:
+    title: ตัวสร้างคู่คีย์ RSA
+    description: สร้างคู่คีย์ส่วนตัว RSA และคีย์สาธารณะ pem certificate แบบสุ่ม
+
+  html-wysiwyg-editor:
+    title: ตัวแก้ไข HTML WYSIWYG
+    description: ตัวแก้ไข HTML WYSIWYG ออนไลน์ที่มีคุณสมบัติครบครันซึ่งสร้างโค้ดต้นฉบับของเนื้อหาทันที
+
+  yaml-to-toml:
+    title: YAML เป็น TOML
+    description: แยกวิเคราะห์ YAML และแปลงเป็น TOML
+
+  mac-address-generator:
+    title: ตัวสร้างที่อยู่ MAC
+    description: ป้อนปริมาณและคำนำหน้า ที่อยู่ MAC จะถูกสร้างในกรณีที่เลือก (ตัวพิมพ์ใหญ่หรือเล็ก)
+
+  json-diff:
+    title: ความแตกต่างของ JSON
+    description: เปรียบเทียบวัตถุ JSON สองชิ้นและดูความแตกต่างระหว่างพวกเขา
+
+  jwt-parser:
+    title: ตัวแยกวิเคราะห์ JWT
+    description: แยกวิเคราะห์และถอดรหัสโทเค็นเว็บ JSON (JWT) และแสดงเนื้อหาของมัน
+
+  date-converter:
+    title: ตัวแปลงวันที่-เวลา
+    description: แปลงวันที่และเวลาเป็นรูปแบบต่างๆ
+
+  phone-parser-and-formatter:
+    title: ตัวแยกวิเคราะห์และจัดรูปแบบโทรศัพท์
+    description: แยกวิเคราะห์ ตรวจสอบความถูกต้อง และจัดรูปแบบหมายเลขโทรศัพท์ รับข้อมูลเกี่ยวกับหมายเลขโทรศัพท์ (รหัสประเทศ ประเภท ฯลฯ)
+
+  ipv4-subnet-calculator:
+    title: เครื่องคิดเลขย่อย IPv4
+    description: แยกวิเคราะห์บล็อก CIDR IPv4 และรับข้อมูลที่จำเป็นทั้งหมดเกี่ยวกับย่อยเครือข่าย
+
+  og-meta-generator:
+    title: ตัวสร้างเมตา Open Graph
+    description: สร้างแท็กเมตา HTML Open Graph และโซเชียลสำหรับเว็บไซต์ของคุณ
+
+  ipv6-ula-generator:
+    title: ตัวสร้าง IPv6 ULA
+    description: สร้างที่อยู่ IP ภายในและไม่สามารถกำหนดเส้นทางได้ที่สอดคล้องกับ RFC4193 สำหรับเครือข่ายของคุณ
+
+  hash-text:
+    title: แฮชข้อความ
+    description: 'แฮชสตริงข้อความโดยใช้ฟังก์ชันเช่น MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 หรือ RIPEMD160'
+
+  json-to-toml:
+    title: JSON เป็น TOML
+    description: แยกวิเคราะห์ JSON และแปลงเป็น TOML
+
+  device-information:
+    title: ข้อมูลอุปกรณ์
+    description: รับข้อมูลเกี่ยวกับอุปกรณ์ปัจจุบัน (ขนาดหน้าจอ อัตราส่วนพิกเซล user agent ฯลฯ)
+
+  pdf-signature-checker:
+    title: ตัวตรวจสอบลายเซ็น PDF
+    description: ตรวจสอบลายเซ็นของไฟล์ PDF ไฟล์ PDF ที่ลงชื่ออาจมีลายเซ็นหนึ่งลายเซ็นหรือมากกว่านั้นที่สามารถใช้เพื่อกำหนดว่าเนื้อหาของไฟล์ได้เปลี่ยนแปลงหลังจากลงชื่อหรือไม่
+
+  json-minify:
+    title: ย่อ JSON
+    description: ย่อและบีบอัด JSON โดยการลบช่องว่างที่ไม่จำเป็น
+
+  ulid-generator:
+    title: ตัวสร้าง ULID
+    description: สร้างตัวระบุที่ไม่ซ้ำกันแบบสุ่มที่จัดเรียงตามพจนานุกรม (ULID)
+
+  string-obfuscator:
+    title: ตัวปกปิดสตริง
+    description: ปกปิดสตริง (ความลับ, IBAN หรือโทเค็น) เพื่อทำให้สามารถแชร์และระบุได้โดยไม่เปิดเผยเนื้อหา
+
+  base-converter:
+    title: ตัวแปลงฐานจำนวนเต็ม
+    description: แปลงตัวเลขระหว่างฐานต่างๆ (ฐานสิบ ฐานสิบหก ฐานสอง ฐานแปด base64 ฯลฯ)
+
+  yaml-to-json-converter:
+    title: YAML เป็น JSON
+    description: แปลง YAML เป็น JSON อย่างง่ายดายด้วยตัวแปลงสดออนไลน์นี้
+
+  uuid-generator:
+    title: ตัวสร้าง UUID
+    description: ตัวระบุที่ไม่ซ้ำกันสากล (UUID) คือตัวเลข 128 บิตที่ใช้ระบุข้อมูลในระบบคอมพิวเตอร์ จำนวน UUID ที่เป็นไปได้คือ 16^32 ซึ่งคือ 2^128 หรือประมาณ 3.4x10^38 (เยอะมาก!)
+
+  ipv4-address-converter:
+    title: ตัวแปลงที่อยู่ IPv4
+    description: แปลงที่อยู่ IP เป็นรูปแบบฐานสิบ ฐานสอง ฐานสิบหก หรือตัวแทน IPv6
+
+  text-statistics:
+    title: สถิติข้อความ
+    description: รับข้อมูลเกี่ยวกับข้อความเช่น จำนวนอักขระ จำนวนคำ ขนาดในหน่วยไบต์ ฯลฯ
+
+  text-to-nato-alphabet:
+    title: ข้อความเป็นอักษร NATO
+    description: แปลงข้อความเป็นอักษรกำกับเสียง NATO สำหรับการสื่อสารด้วยวาจา
+
+  basic-auth-generator:
+    title: ตัวสร้างการตรวจสอบสิทธิ์พื้นฐาน
+    description: สร้างส่วนหัวของการตรวจสอบสิทธิ์พื้นฐาน base64 จากชื่อผู้ใช้และรหัสผ่าน
+
+  text-to-unicode:
+    title: ข้อความเป็นยูนิโค้ด
+    description: แยกวิเคราะห์และแปลงข้อความเป็นยูนิโค้ดหรือในทางกลับกัน
+
+  ipv4-range-expander:
+    title: ตัวขยายช่วง IPv4
+    description: โดยการให้ที่อยู่ IPv4 เริ่มต้นและสิ้นสุด เครื่องมือนี้จะคำนวณย่อยเครือข่าย IPv4 ที่ถูกต้องด้วยสัญกรณ์ CIDR
+
+  text-diff:
+    title: ความแตกต่างของข้อความ
+    description: เปรียบเทียบข้อความสองข้อความและดูความแตกต่างระหว่างพวกเขา
+
+  otp-generator:
+    title: ตัวสร้างรหัส OTP
+    description: สร้างและตรวจสอบ OTP (One-Time Password) ที่อิงตามเวลาสำหรับการตรวจสอบสิทธิ์แบบสองขั้นตอน
+
+  url-encoder:
+    title: การเข้ารหัส/ถอดรหัสสตริงรูปแบบ URL
+    description: เข้ารหัสข้อความเป็นรูปแบบการเข้ารหัส URL (ที่รู้จักกันในชื่อ "percent-encoding") หรือถอดรหัส
+
+  text-to-binary:
+    title: ข้อความเป็นเลขฐานสอง ASCII
+    description: แปลงข้อความเป็นตัวแทนเลขฐานสอง ASCII ของมันหรือในทางกลับกัน

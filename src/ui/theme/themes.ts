@@ -13,7 +13,7 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(46, 51, 56, 0.22)',
     },
     primary: {
-      color: '#7f00ff',      // 紫色
+      color: '#7f00ff', // 紫色
       colorHover: '#9d00ff', // 浅紫色
       colorPressed: '#6a00cc', // 深紫色
       colorFaded: '#7f00ff2f',

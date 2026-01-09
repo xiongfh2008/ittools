@@ -1,0 +1,394 @@
+home:
+  categories:
+    newestTools: Alat Terbaru
+    favoriteTools: 'Alat Kegemaran'
+    allTools: 'Semua Alat'
+    favoritesDndToolTip: 'Seret dan lepas untuk menyusun semula kegemaran'
+  subtitle: 'Alat untuk Pembangun'
+  toggleMenu: 'Togol Menu'
+  home: Laman Utama
+  uiLib: 'Pustaka UI'
+  support: 'Sokong Pembangunan IT-Tools'
+  buyMeACoffee: 'Belikan Saya Kopi'
+  follow:
+    title: 'Suka it-tools?'
+    p1: 'Berikan bintang di GitHub:'
+    githubRepository: 'Repositori IT-Tools GitHub'
+    p2: 'Atau ikuti kami di X:'
+    twitterXAccount: 'Akaun IT-Tools X'
+    thankYou: 'Terima kasih!'
+  nav:
+    github: 'Repositori GitHub'
+    githubRepository: 'Repositori IT-Tools GitHub'
+    twitterX: 'Akaun X'
+    twitterXAccount: 'Akaun IT Tools X'
+    about: 'Perihal IT-Tools'
+    aboutLabel: 'Perihal'
+    darkMode: 'Mod Gelap'
+    lightMode: 'Mod Terang'
+    mode: 'Togol Mod Gelap/Terang'
+about:
+  content: >
+    # Perihal IT-Tools
+
+    Laman web menakjubkan ini dicipta dengan ❤ oleh [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) sebagai koleksi alat yang berguna untuk pembangun dan individu yang bekerja dalam bidang IT. Jika anda mendapati ini berguna, sila kongsikan dengan mereka yang anda fikir akan mendapatinya berguna dan jangan lupa bookmark!
+
+    IT Tools adalah sumber terbuka (lesen GPL-3.0) dan percuma, dan akan kekal percuma selamanya, tetapi kos hosting dan pembaharuan domain adalah kos yang saya terima. Sila pertimbangkan untuk [menaja](https://www.buymeacoffee.com/cthmsst) kerja saya dan galakkan saya untuk menambah lebih banyak alat.
+
+    ## Teknologi
+
+    IT Tools dibina menggunakan Vue.js (Vue 3) dan pustaka komponen Naive UI dan dihoskan serta diedarkan secara berterusan oleh Vercel. Beberapa alat menggunakan pustaka sumber terbuka pihak ketiga, senarai lengkap boleh ditemui dalam fail [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) repositori.
+
+    ## Jumpa pepijat? Alat yang hilang?
+
+    Jika anda memerlukan alat yang tiada di sini buat masa ini dan anda fikir ia akan berguna, anda boleh menghantar permintaan ciri dalam bahagian [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) repositori GitHub.
+
+    Tambahan pula, jika anda menjumpai pepijat atau sesuatu tidak berfungsi seperti yang dijangka, anda boleh menghantar laporan pepijat dalam bahagian [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) repositori GitHub.
+404:
+  notFound: '404 Tidak Dijumpai'
+  sorry: 'Maaf, nampaknya halaman ini tidak wujud'
+  maybe: 'Ini mungkin berkaitan cache, cuba muat semula dengan kuat.'
+  backHome: 'Kembali ke Laman Utama'
+favoriteButton:
+  remove: 'Alih keluar dari Kegemaran'
+  add: 'Tambah ke Kegemaran'
+toolCard:
+  new: Baru
+search:
+  label: Carian
+tools:
+  categories:
+    favorite-tools: 'Alat Kegemaran'
+    crypto: Kriptografi
+    converter: Penukar
+    web: Web
+    images and videos: 'Imej dan Video'
+    development: Pembangunan
+    network: Rangkaian
+    math: Matematik
+    measurement: Pengukuran
+    text: Teks
+    data: Data
+
+  password-strength-analyser:
+    title: Penganalisis Kekuatan Kata Laluan
+    description: Alat analisis kekuatan kata laluan sisi pelanggan sahaja dan alat anggaran masa retak untuk menyemak kekuatan kata laluan anda.
+
+  chronometer:
+    title: Krometer
+    description: Pantau tempoh sesuatu. Krometer dengan fungsi asas.
+
+  token-generator:
+    title: Penjana Token
+    description: Hasilkan rentetan rawak dengan aksara pilihan anda, huruf besar atau kecil, nombor dan/atau simbol.
+
+    uppercase: Huruf besar (ABC...)
+    lowercase: Huruf kecil (abc...)
+    numbers: Nombor (123...)
+    symbols: Simbol (!-;...)
+    length: Panjang
+    tokenPlaceholder: 'Token...'
+    copied: Token disalin ke papan keratan
+    button:
+      copy: Salin
+      refresh: Segar semula
+
+  percentage-calculator:
+    title: Kalkulator Peratusan
+    description: Kira peratusan dari satu nilai ke nilai lain atau peratusan dari nilai secara mudah.
+
+  svg-placeholder-generator:
+    title: Penjana Tempat Letak SVG
+    description: Hasilkan imej SVG untuk digunakan sebagai tempat letak dalam aplikasi anda.
+
+  json-to-csv:
+    title: JSON ke CSV
+    description: Tukar JSON ke CSV dengan pengesanan pengepala automatik.
+
+  camera-recorder:
+    title: Perekod Kamera
+    description: Ambil gambar atau rakam video dari kamera web atau kamera anda.
+
+  keycode-info:
+    title: Maklumat Kod Kekunci
+    description: Cari maklumat JavaScript keycode, code, lokasi, dan kekunci pengubah untuk kekunci yang ditekan.
+
+  emoji-picker:
+    title: Pemilih Emoji
+    description: Salin dan tampal emoji dengan mudah dan dapatkan nilai Unicode dan kod titik setiap emoji.
+
+  color-converter:
+    title: Penukar Warna
+    description: Tukar warna antara format berbeza (perduaan, rgb, hsl, dan nama CSS)
+
+  bcrypt:
+    title: Bcrypt
+    description: Hash dan bandingkan rentetan teks menggunakan bcrypt. Bcrypt adalah fungsi hash kata laluan berdasarkan algoritma Blowfish.
+
+  crontab-generator:
+    title: Penjana Crontab
+    description: Sah dan hasilkan crontab serta dapatkan penjelasan yang boleh difahami manusia untuk jadual cron.
+
+  http-status-codes:
+    title: Kod Status HTTP
+    description: Senarai semua kod status HTTP, nama dan maksudnya.
+
+  sql-prettify:
+    title: Prettify SQL
+    description: Format dan prettify kueri SQL anda dalam talian (menyokong pelbagai dialek SQL).
+
+  benchmark-builder:
+    title: Pembina Benchmark
+    description: Pembina benchmark dalam talian yang sangat ringkas yang membuat perbandingan masa pelaksanaan tugasan menjadi mudah.
+
+  git-memo:
+    title: Helaian Tipu Git
+    description: Git adalah perisian kawalan versi teragih. Gunakan helaian tipu ini untuk capaian pantas ke arahan git yang paling biasa.
+
+  slugify-string:
+    title: Slugify Rentetan
+    description: Jadikan rentetan selamat untuk digunakan dalam URL, nama fail dan ID.
+
+  encryption:
+    title: Penyulitan/Penyahsulitan Teks
+    description: SULIT teks biasa dan nyahsulit teks tersulit menggunakan algoritma kriptografi seperti AES, TripleDES, Rabbit atau RC4.
+
+  random-port-generator:
+    title: Penjana Port Rawak
+    description: Hasilkan nombor port rawak di luar julat port "dikenali" (0-1023).
+
+  yaml-prettify:
+    title: Prettify YAML
+    description: Format rentetan YAML ke format yang boleh difahami dan mesra manusia.
+
+  eta-calculator:
+    title: Kalkulator ETA
+    description: Kalkulator ETA (Anggaran Masa Ketibaan) untuk menentukan masa penyelesaian anggaran sesuatu tugasan seperti penyelesaian muat turun fail dan masa yang tinggal.
+
+  roman-numeral-converter:
+    title: Penukar Angka Roman
+    description: Tukar angka roman ke nombor dan nombor ke angka roman.
+
+  hmac-generator:
+    title: Penjana HMAC
+    description: Kira kod pengesahan mesej HMAC menggunakan kunci rahsia dan fungsi hash pilihan.
+
+  bip39-generator:
+    title: Penjana Frasa Laluan BIP39
+    description: Hasilkan frasa laluan BIP39 dari mnemonik sedia ada atau rawak, atau dapatkan mnemonik dari frasa laluan.
+
+  base64-file-converter:
+    title: Penukar Fail Base64
+    description: Tukar rentetan, fail atau imej ke representasi Base64 mereka.
+
+  list-converter:
+    title: Penukar Senarai
+    description: Proses data berasaskan lajur dan gunakan pelbagai perubahan pada setiap baris (transpose, tambah awalan dan akhiran, songsangkan senarai, isih senarai, jadikan huruf kecil, potong nilai).
+
+  base64-string-converter:
+    title: Pengekod/Penyahkod Rentetan Base64
+    description: Ekod dan nyahkod rentetan ke representasi Base64 mereka.
+
+  toml-to-yaml:
+    title: TOML ke YAML
+    description: Parse TOML dan tukar ke YAML.
+
+  math-evaluator:
+    title: Penilai Matematik
+    description: Kalkulator untuk menilai ungkapan matematik. Anda boleh gunakan fungsi seperti sqrt, cos, sin, abs, dsb.
+
+  json-to-yaml-converter:
+    title: JSON ke YAML
+    description: Tukar JSON ke YAML dengan mudah dengan penukar langsung dalam talian ini.
+
+  url-parser:
+    title: Pemproses URL
+    description: Pisahkan URL ke komponen individu mereka (protokol, asal, parameter, port, nama pengguna-kata laluan, dsb).
+
+  iban-validator-and-parser:
+    title: Pengesah dan Pemproses IBAN
+    description: Sah dan proses nombor IBAN. Semak jika IBAN sah dan dapatkan negara, BBAN, sama ada ini QR-IBAN dan format IBAN yang mesra.
+
+  user-agent-parser:
+    title: Pemproses Ejen Pengguna
+    description: Kenal pasti dan proses pelayar, enjin, sistem pengoperasian, CPU dan jenis/model peranti dari rentetan ejen pengguna.
+
+  numeronym-generator:
+    title: Penjana Numeronym
+    description: Numeronym adalah perkataan yang mencipta kependekan menggunakan nombor. Contohnya, "i18n" adalah numeronym untuk "internationalization" di mana 18 mewakili bilangan huruf antara "i" pertama dan "n" terakhir.
+
+  case-converter:
+    title: Penukar Kes
+    description: Tukar kes rentetan dan pilih dari pelbagai format
+
+  html-entities:
+    title: Escape Entiti HTML
+    description: Escape atau unescape entiti HTML (ganti aksara seperti <, >, &, ", \' dengan versi HTML mereka)
+
+  json-prettify:
+    title: Prettify JSON
+    description: Format rentetan JSON ke format yang boleh difahami dan mesra manusia.
+
+  docker-run-to-docker-compose-converter:
+    title: Penukar Docker run ke Docker Compose
+    description: Tukar arahan "docker run" ke fail docker-compose!
+
+  mac-address-lookup:
+    title: Carian Alamat MAC
+    description: Cari pembuat peranti dan pembuat dari alamat MAC.
+
+  mime-types:
+    title: Jenis MIME
+    description: Tukar jenis MIME ke sambungan fail atau sebaliknya.
+
+  toml-to-json:
+    title: TOML ke JSON
+    description: Parse TOML dan tukar ke JSON.
+
+  lorem-ipsum-generator:
+    title: Penjana Lorem ipsum
+    description: Lorem ipsum adalah teks tempat letak yang biasanya digunakan untuk menunjukkan bentuk dokumen atau jenis huruf tanpa bergantung pada kandungan bermakna
+
+  qrcode-generator:
+    title: Penjana Kod QR
+    description: Hasilkan dan muat turun kod QR untuk URL (atau teks biasa) dan sunting warna latar belakang dan warna latar hadapan.
+
+  wifi-qrcode-generator:
+    title: Penjana Kod QR Wi-Fi
+    description: Hasilkan dan muat turun kod QR untuk sambungan cepat ke rangkaian Wi-Fi.
+
+  xml-formatter:
+    title: Pemformat XML
+    description: Format rentetan XML ke format yang boleh difahami dan mesra manusia.
+
+  temperature-converter:
+    title: Penukar Suhu
+    description: Penukaran suhu dalam Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, dan Rømer.
+
+  chmod-calculator:
+    title: Kalkulator Chmod
+    description: Kira kebenaran dan arahan chmod dengan kalkulator chmod dalam talian ini.
+
+  rsa-key-pair-generator:
+    title: Penjana Pasangan Kunci RSA
+    description: Hasilkan pasangan kunci persendirian RSA dan kunci awam sijil pem secara rawak.
+
+  html-wysiwyg-editor:
+    title: Editor HTML WYSIWYG
+    description: Editor HTML WYSIWYG dalam talian yang kaya dengan ciri yang menghasilkan kod sumber kandungan serta-merta.
+
+  yaml-to-toml:
+    title: YAML ke TOML
+    description: Parse YAML dan tukar ke TOML.
+
+  mac-address-generator:
+    title: Penjana Alamat MAC
+    description: Masukkan kuantiti dan awalan. Alamat MAC akan dihasilkan dalam kes yang dipilih (huruf besar atau kecil).
+
+  json-diff:
+    title: Perbezaan JSON
+    description: Bandingkan dua objek JSON dan lihat perbezaan antara mereka.
+
+  jwt-parser:
+    title: Pemproses JWT
+    description: Parse dan nyahkod token web JSON (JWT) dan tunjukkan kandungannya.
+
+  date-converter:
+    title: Penukar Tarikh-Masa
+    description: Tukar tarikh dan masa ke pelbagai format
+
+  phone-parser-and-formatter:
+    title: Pemproses dan Pemformat Telefon
+    description: Parse, sahkan dan format nombor telefon. Dapatkan maklumat tentang nombor telefon (kod negara, jenis, dsb).
+
+  ipv4-subnet-calculator:
+    title: Kalkulator Subnet IPv4
+    description: Parse blok CIDR IPv4 dan dapatkan semua maklumat yang diperlukan tentang subnet.
+
+  og-meta-generator:
+    title: Penjana Meta Open Graph
+    description: Hasilkan tag meta HTML Open Graph dan sosial untuk laman web anda.
+
+  ipv6-ula-generator:
+    title: Penjana IPv6 ULA
+    description: Hasilkan alamat IP tempatan dan bukan routeable yang serasi dengan RFC4193 untuk rangkaian anda.
+
+  hash-text:
+    title: Hash Teks
+    description: 'Hash rentetan teks menggunakan fungsi seperti MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 atau RIPEMD160'
+
+  json-to-toml:
+    title: JSON ke TOML
+    description: Parse JSON dan tukar ke TOML.
+
+  device-information:
+    title: Maklumat Peranti
+    description: Dapatkan maklumat tentang peranti semasa (saiz skrin, nisbah piksel, ejen pengguna, dsb)
+
+  pdf-signature-checker:
+    title: Pemeriksa Tandatangan PDF
+    description: Semak tandatangan fail PDF. Fail PDF yang ditandatangani mungkin mempunyai satu atau lebih tandatangan yang boleh digunakan untuk menentukan jika kandungan fail telah berubah selepas ditandatangani.
+
+  json-minify:
+    title: Minify JSON
+    description: Minify dan mampatkan JSON dengan mengeluarkan ruang putih yang tidak perlu.
+
+  ulid-generator:
+    title: Penjana ULID
+    description: Hasilkan Pengenalpasti Unik Lexikografi Rawak (ULID).
+
+  string-obfuscator:
+    title: Obfuscator Rentetan
+    description: Obfuscate rentetan (rahsia, IBAN atau token) untuk menjadikannya boleh dikongsi dan dikenali tanpa mendedahkan kandungannya.
+
+  base-converter:
+    title: Penukar Asas Integer
+    description: Tukar nombor antara asas berbeza (perpuluhan, perduaan, binari, perlapanan, asas64, dsb).
+
+  yaml-to-json-converter:
+    title: YAML ke JSON
+    description: Tukar YAML ke JSON dengan mudah dengan penukar langsung dalam talian ini.
+
+  uuid-generator:
+    title: Penjana UUID
+    description: Pengenalpasti Unik Universal (UUID) adalah nombor 128-bit yang digunakan untuk mengenal pasti maklumat dalam sistem komputer. Bilangan UUID yang mungkin adalah 16^32 yang merupakan 2^128 atau kira-kira 3.4x10^38 (sangat banyak!).
+
+  ipv4-address-converter:
+    title: Penukar Alamat IPv4
+    description: Tukar alamat IP ke format perpuluhan, binari, perduaan atau representasi IPv6.
+
+  text-statistics:
+    title: Statistik Teks
+    description: Dapatkan maklumat tentang teks seperti kiraan aksara, kiraan perkataan, saiz dalam bait, dsb.
+
+  text-to-nato-alphabet:
+    title: Teks ke Abjad NATO
+    description: Tukar teks ke abjad fonetik NATO untuk komunikasi lisan.
+
+  basic-auth-generator:
+    title: Penjana Pengesahan Asas
+    description: Hasilkan pengepala pengesahan asas base64 dari nama pengguna dan kata laluan.
+
+  text-to-unicode:
+    title: Teks ke Unicode
+    description: Parse dan tukar teks ke Unicode atau sebaliknya
+
+  ipv4-range-expander:
+    title: Pengembang Julat IPv4
+    description: Dengan memberikan alamat IPv4 awal dan akhir, alat ini mengira subnet IPv4 yang sah dengan notasi CIDR.
+
+  text-diff:
+    title: Perbezaan Teks
+    description: Bandingkan dua teks dan lihat perbezaan antara mereka.
+
+  otp-generator:
+    title: Penjana Kod OTP
+    description: Hasilkan dan sahkan OTP (Kata Laluan Sekali Guna) berasaskan masa untuk pengesahan dua faktor.
+
+  url-encoder:
+    title: Pengekod/Penyahkod Rentetan Format URL
+    description: Ekod teks ke format pengekodan URL (juga dikenali sebagai "percent-encoding") atau nyahkodnya.
+
+  text-to-binary:
+    title: Teks ke Binari ASCII
+    description: Tukar teks ke representasi binari ASCII atau sebaliknya.

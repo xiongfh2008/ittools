@@ -1,0 +1,42 @@
+# Fa (Persian) - فارسی
+
+home:
+  categories:
+    newestTools: 'جدیدترین ابزارها'
+    favoriteTools: 'ابزارهای مورد علاقه'
+    allTools: 'همه ابزارها'
+    favoritesDndToolTip: 'برای مرتب‌سازی مجدد موارد دلخواه، آن‌ها را بکشید و رها کنید'
+  subtitle: 'ابزارهایی برای توسعه‌دهندگان'
+  toggleMenu: 'تغییر وضعیت منو'
+  home: 'خانه'
+  uiLib: 'کتابخانه رابط کاربری'
+  support: 'پشتیبانی IT-Tools'
+  buyMeACoffee: 'یه قهوه برام بخر'
+  follow:
+    title: 'آیا it-tools را دوست دارید؟'
+    p1: 'در گیت‌هاب ستاره بدهید:'
+    githubRepository: 'مخزن IT-Tools در گیت‌هاب'
+    p2: 'یا ما را در X دنبال کنید:'
+    twitterXAccount: 'حساب IT Tools در X'
+    thankYou: 'ممنون!'
+  nav:
+    github: 'مخزن گیت‌هاب'
+    githubRepository: 'مخزن IT-Tools در گیت‌هاب'
+    twitterX: 'حساب X'
+    twitterXAccount: 'حساب IT Tools در X'
+    about: 'درباره IT-Tools'
+    aboutLabel: 'درباره'
+    darkMode: 'حالت تاریک'
+    lightMode: 'حالت روشن'
+    mode: 'تغییر حالت تاریک/روشن'
+
+about:
+  content: >
+    # درباره IT-Tools
+
+    این وب‌سایت فوق‌العاده با ❤ توسط [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) ساخته شده است، که مجموعه‌ای از ابزارهای مفید برای توسعه‌دهندگان و متخصصان فناوری اطلاعات است. اگر این مفید است، لطفاً آن را با افرادی که فکر می‌کنید از آن استفاده می‌کنند به اشتراک بگذارید و فراموش نکنید که آن را نشان کنید!
+
+404:
+  notFound: '404 پیدا نشد'
+  sorry: 'متاسفانه، این صفحه وجود ندارد'
+  maybe: 'ممکن است یک مشکل در ذخیره‌سازی محلی باشد، سعی کنید با فشردن Ctrl+F5 تجدید کنید.'

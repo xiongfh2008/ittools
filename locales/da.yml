@@ -1,0 +1,43 @@
+# Da (Danish) - Dansk
+
+home:
+  categories:
+    newestTools: 'Nyeste værktøjer'
+    favoriteTools: 'Favorit værktøjer'
+    allTools: 'Alle værktøjer'
+    favoritesDndToolTip: 'Træk og slip for at omarrangere favoritter'
+  subtitle: 'Værktøjer til udviklere'
+  toggleMenu: 'Skift menu'
+  home: 'Hjem'
+  uiLib: 'UI-bibliotek'
+  support: 'Støt IT-Tools'
+  buyMeACoffee: 'Køb mig en kop kaffe'
+  follow:
+    title: 'Synes du godt om it-tools?'
+    p1: 'Giv stjerne på GitHub:'
+    githubRepository: 'IT-Tools GitHub-repository'
+    p2: 'Eller følg os på X:'
+    twitterXAccount: 'IT Tools-konto på X'
+    thankYou: 'Tak skal du have!'
+  nav:
+    github: 'GitHub-repository'
+    githubRepository: 'IT-Tools GitHub-repository'
+    twitterX: 'X-konto'
+    twitterXAccount: 'IT Tools-konto på X'
+    about: 'Om IT-Tools'
+    aboutLabel: 'Om'
+    darkMode: 'Mørk tilstand'
+    lightMode: 'Lys tilstand'
+    mode: 'Skift mørk/lys tilstand'
+
+about:
+  content: >
+    # Om IT-Tools
+
+    Dette fantastiske website er skabt med ❤ af [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), som er en samling af nyttige værktøjer til udviklere og IT-fagfolk. Hvis du finder det nyttigt, så del det venligst med folk, som du mener vil bruge det, og husk at bogmærke det!
+
+404:
+  notFound: '404 Ikke fundet'
+  sorry: 'Beklager, denne side eksisterer ikke'
+  maybe: 'Det kan være et caching problem, prøv at genindlæse.'
+

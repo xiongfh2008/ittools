@@ -1,0 +1,42 @@
+# Nl (Dutch) - Nederlands
+
+home:
+  categories:
+    newestTools: 'Nieuwste tools'
+    favoriteTools: 'Favoriete tools'
+    allTools: 'Alle tools'
+    favoritesDndToolTip: 'Sleep en plaats om favorieten te herschikken'
+  subtitle: 'Tools voor ontwikkelaars'
+  toggleMenu: 'Menu wisselen'
+  home: 'Home'
+  uiLib: 'UI bibliotheek'
+  support: 'Steun IT-Tools'
+  buyMeACoffee: 'Koop me een kop koffie'
+  follow:
+    title: 'Vind je het-tools leuk?'
+    p1: 'Geef een ster op GitHub:'
+    githubRepository: 'IT-Tools GitHub-repository'
+    p2: 'Of volg ons op X:'
+    twitterXAccount: 'IT Tools account op X'
+    thankYou: 'Bedankt!'
+  nav:
+    github: 'GitHub-repository'
+    githubRepository: 'IT-Tools GitHub-repository'
+    twitterX: 'X account'
+    twitterXAccount: 'IT Tools account op X'
+    about: 'Over IT-Tools'
+    aboutLabel: 'Over'
+    darkMode: 'Donkere modus'
+    lightMode: 'Lichte modus'
+    mode: 'Wissel donker/licht modus'
+
+about:
+  content: >
+    # Over IT-Tools
+
+    Deze geweldige website is gemaakt met ❤ door [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), een verzameling van nuttige tools voor ontwikkelaars en IT-professionals. Als je het nuttig vindt, deel het dan met mensen die je denkt dat het zullen gebruiken en vergeet niet om het te markeren!
+
+404:
+  notFound: '404 Niet gevonden'
+  sorry: 'Sorry, deze pagina bestaat niet'
+  maybe: 'Dit kan een caching probleem zijn, probeer te vernieuwen.'

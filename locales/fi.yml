@@ -1,0 +1,42 @@
+# Fi (Finnish) - Suomi
+
+home:
+  categories:
+    newestTools: 'Uusimmat työkalut'
+    favoriteTools: 'Suosikkityökalut'
+    allTools: 'Kaikki työkalut'
+    favoritesDndToolTip: 'Vedä ja pudota järjestääksesi suosikit uudelleen'
+  subtitle: 'Kehittäjien työkaluja'
+  toggleMenu: 'Vaihda valikkoa'
+  home: 'Etusivu'
+  uiLib: 'Käyttöliittymäkirjasto'
+  support: 'Tue IT-Toolsia'
+  buyMeACoffee: 'Osta minulle kahvi'
+  follow:
+    title: 'Pidätkö it-toolsista?'
+    p1: 'Anna tähti GitHubissa:'
+    githubRepository: 'IT-Tools GitHub-varasto'
+    p2: 'Tai seuraa meitä X:ssä:'
+    twitterXAccount: 'IT Tools -tili X:ssä'
+    thankYou: 'Kiitos!'
+  nav:
+    github: 'GitHub-varasto'
+    githubRepository: 'IT-Tools GitHub-varasto'
+    twitterX: 'X-tili'
+    twitterXAccount: 'IT Tools -tili X:ssä'
+    about: 'Tietoa IT-Toolsista'
+    aboutLabel: 'Tietoa'
+    darkMode: 'Tumma tila'
+    lightMode: 'Vaalea tila'
+    mode: 'Vaihda tumma/vaalea tila'
+
+about:
+  content: >
+    # Tietoa IT-Toolsista
+
+    Tämä loistava verkkosivu on luotu ❤:llä [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about):n toimesta, joka on kokoelma hyödyllisiä työkaluja kehittäjille ja IT-ammattilaisille. Jos pidät siitä, jaa se ihmisille, joiden mielestä he käyttäisivät sitä ja muista kirjanmerkitä se!
+
+404:
+  notFound: '404 Ei löydetty'
+  sorry: 'Pahoittelut, tätä sivua ei ole olemassa'
+  maybe: 'Voi olla välimuistiongelma, yritä pakottaa päivitys.'

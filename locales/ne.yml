@@ -1,0 +1,43 @@
+# Ne (Nepali) - नेपाली
+
+home:
+  categories:
+    newestTools: 'नवीनतम उपकरणहरू'
+    favoriteTools: 'मनपर्ने उपकरणहरू'
+    allTools: 'सबै उपकरणहरू'
+    favoritesDndToolTip: 'मनपर्नेहरू पुनः क्रमबद्ध गर्न ड्र्याग र छोड्नुहोस्'
+  subtitle: 'डेवलपरहरूका लागि उपकरणहरू'
+  toggleMenu: 'मेनु टगल गर्नुहोस्'
+  home: 'गृह'
+  uiLib: 'यूआई लाइब्रेरी'
+  support: 'IT-Tools समर्थन गर्नुहोस्'
+  buyMeACoffee: 'मलाई कफी खरीद गर्नुहोस्'
+  follow:
+    title: 'it-tools मन पर्छ?'
+    p1: 'गिटहबमा स्टार दिनुहोस्:'
+    githubRepository: 'गिटहबमा IT-Tools रिपोजिटरी'
+    p2: 'वा हामीलाई X मा फलो गर्नुहोस्:'
+    twitterXAccount: 'X मा IT Tools खाता'
+    thankYou: 'धन्यवाद!'
+  nav:
+    github: 'गिटहब रिपोजिटरी'
+    githubRepository: 'गिटहबमा IT-Tools रिपोजिटरी'
+    twitterX: 'X खाता'
+    twitterXAccount: 'X मा IT Tools खाता'
+    about: 'IT-Tools बारे'
+    aboutLabel: 'बारे'
+    darkMode: 'डार्क मोड'
+    lightMode: 'लाइट मोड'
+    mode: 'डार्क/लाइट मोड टगल गर्नुहोस्'
+
+about:
+  content: >
+    # IT-Tools बारे
+
+    यो शानदार वेबसाइट [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) द्वारा ❤ सँग निर्माण गरिएको हो, जुन डेवलपर र IT पेशेवरहरूका लागि उपयोगी उपकरणहरूको संग्रह हो। यदि तपाईं यसलाई उपयोगी पाउनुहुन्छ भने, कृपया यसलाई तपाईंको विचारमा यो प्रयोग गर्ने मानिसहरूसँग साझेदारी गर्नुहोस् र यसलाई बुकमार्क गर्न नभुल्नुहोस्!
+
+404:
+  notFound: '404 फेला परेन'
+  sorry: 'माफ गर्नुहोस्, यो पृष्ठ अवस्थित छैन'
+  maybe: 'यो क्यासिंग समस्या हुन सक्छ, बलपूर्वक ताजा गर्ने प्रयास गर्नुहोस्।'
+

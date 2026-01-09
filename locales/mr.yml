@@ -1,0 +1,43 @@
+# Mr (Marathi) - मराठी
+
+home:
+  categories:
+    newestTools: 'नवीनतम साधने'
+    favoriteTools: 'आवडते साधने'
+    allTools: 'सर्व साधने'
+    favoritesDndToolTip: 'आवडते पुनर्रचित करण्यासाठी ड्रॅग आणि ड्रॉप वापरा'
+  subtitle: 'डेव्हलपर्ससाठी साधने'
+  toggleMenu: 'मेनू टॉगल करा'
+  home: 'होम'
+  uiLib: 'यूआय लायब्रेरी'
+  support: 'IT-Tools ला सपोर्ट करा'
+  buyMeACoffee: 'मला कॉफी खरेदी करा'
+  follow:
+    title: 'it-tools आवडले का?'
+    p1: 'गिटहबवर स्टार द्या:'
+    githubRepository: 'गिटहबवर IT-Tools रेपॉ'
+    p2: 'किंवा आम्हाला X वर फॉलो करा:'
+    twitterXAccount: 'X वर IT Tools खाते'
+    thankYou: 'धन्यवाद!'
+  nav:
+    github: 'गिटहब रेपॉ'
+    githubRepository: 'गिटहबवर IT-Tools रेपॉ'
+    twitterX: 'X खाते'
+    twitterXAccount: 'X वर IT Tools खाते'
+    about: 'IT-Tools बद्दल'
+    aboutLabel: 'बद्दल'
+    darkMode: 'काळा मोड'
+    lightMode: 'पांढरा मोड'
+    mode: 'काळा/पांढरा मोड टॉगल करा'
+
+about:
+  content: >
+    # IT-Tools बद्दल
+
+    ही शानदार वेबसाइट [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) द्वारे ❤ सह बनवली गेली आहे, जी डेव्हलपर्स आणि आयटी प्रोफेशनल्ससाठी उपयुक्त साधनांचा संग्रह आहे. जर तुम्हाला हे उपयुक्त वाटत असेल, तर कृपया तुमच्या मते ते उपयुक्त असेल असे लोक शेअर करा आणि बुकमार्क करणे विसरू नका!
+
+404:
+  notFound: '404 सापडले नाही'
+  sorry: 'क्षमस्व, हे पेज अस्तित्वात नाही'
+  maybe: 'हे कॅशिंग समस्या असू शकते, फोर्स रिफ्रेश करण्याचा प्रयत्न करा.'
+
