@@ -153,7 +153,7 @@ const tools = computed<ToolCategory[]>(() => [
     .title {
       font-size: 25px;
       font-weight: 600;
-      color: #fff;
+      color: #fff !important;
     }
 
     .divider {
