@@ -1,6 +1,5 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
-import { createHead } from '@vueuse/head';
 
 import { registerSW } from 'virtual:pwa-register';
 import shadow from 'vue-shadow-dom';
@@ -9,6 +8,7 @@ import { plausible } from './plugins/plausible.plugin';
 import 'virtual:uno.css';
 
 import { naive } from './plugins/naive.plugin';
+import { headPlugin } from './plugins/head.plugin';
 
 import App from './App.vue';
 import router from './router';
@@ -19,7 +19,7 @@ registerSW();
 const app = createApp(App);
 
 app.use(createPinia());
-app.use(createHead());
+app.use(headPlugin);
 app.use(i18nPlugin);
 app.use(router);
 app.use(naive);
