@@ -4,14 +4,22 @@ import { useStorage } from '@vueuse/core';
 import { formatJson } from './json.models';
 import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
-import TextareaCopyable from '@/components/TextareaCopyable.vue';
-
-const inputElement = ref<HTMLElement>();
+import JsonTreeView from '@/components/JsonTreeView.vue';
 
 const rawJson = useStorage('json-prettify:raw-json', '{"hello": "world", "foo": "bar"}');
 const indentSize = useStorage('json-prettify:indent-size', 3);
 const sortKeys = useStorage('json-prettify:sort-keys', true);
-const cleanJson = computed(() => withDefaultOnError(() => formatJson({ rawJson, indentSize, sortKeys }), ''));
+
+// 解析JSON以供树形视图使用
+const parsedJson = computed(() => {
+  try {
+    if (rawJson.value.trim() === '') return null;
+    const parsed = JSON5.parse(rawJson.value);
+    return sortKeys.value ? sortObjectKeys(parsed) : parsed;
+  } catch {
+    return null;
+  }
+});
 
 const rawJsonValidation = useValidation({
   source: rawJson,
@@ -22,6 +30,24 @@ const rawJsonValidation = useValidation({
     },
   ],
 });
+
+// 从json.models.ts复制的sortObjectKeys函数，以防直接导入有困难
+function sortObjectKeys<T>(obj: T): T {
+  if (typeof obj !== 'object' || obj === null) {
+    return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(sortObjectKeys) as unknown as T;
+  }
+
+  return Object.keys(obj)
+    .sort((a, b) => a.localeCompare(b))
+    .reduce((sortedObj, key) => {
+      sortedObj[key] = sortObjectKeys((obj as Record<string, unknown>)[key]);
+      return sortedObj;
+    }, {} as Record<string, unknown>) as T;
+}
 </script>
 
 <template>
@@ -42,7 +68,6 @@ const rawJsonValidation = useValidation({
     :validation-status="rawJsonValidation.status"
   >
     <c-input-text
-      ref="inputElement"
       v-model:value="rawJson"
       placeholder="Paste your raw JSON here..."
       rows="20"
@@ -54,18 +79,30 @@ const rawJsonValidation = useValidation({
       monospace
     />
   </n-form-item>
-  <n-form-item label="Prettified version of your JSON">
-    <TextareaCopyable :value="cleanJson" language="json" :follow-height-of="inputElement" />
+  <n-form-item label="Interactive prettified version of your JSON">
+    <div class="json-display-container" v-if="parsedJson !== null">
+      <JsonTreeView :value="parsedJson" :level="0" />
+    </div>
+    <div v-else class="invalid-json-message">
+      Invalid JSON format
+    </div>
   </n-form-item>
 </template>
 
 <style lang="less" scoped>
-.result-card {
-  position: relative;
-  .copy-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
+.json-display-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #fafafa;
+  max-height: 500px;
+  overflow-y: auto;
+  font-family: monospace;
+}
+
+.invalid-json-message {
+  color: #ff6b6b;
+  padding: 1rem;
+  text-align: center;
 }
 </style>

@@ -105,6 +105,10 @@ tools:
     title: JSON to CSV
     description: Convert JSON to CSV with automatic header detection.
 
+  nested-json-to-csv:
+    title: Nested JSON to CSV
+    description: Convert nested JSON to CSV with automatic flattening of nested properties.
+
   camera-recorder:
     title: Camera recorder
     description: Take a picture or record a video from your webcam or camera.
