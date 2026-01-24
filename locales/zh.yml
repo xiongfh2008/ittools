@@ -254,6 +254,29 @@ tools:
     title: WiFi 二维码生成器
     description: 生成和下载QR码以快速连接到WiFi网络。
 
+  country-data-generator:
+    title: 国家数据生成器
+    description: 根据选定的国家/地区生成真实可靠的个人和公司数据，用于测试目的。
+    labels:
+      country: 国家
+      dataType: 数据类型
+      recordCount: 记录数
+      format: 格式
+    placeholders:
+      selectCountry: 选择一个国家
+      generatedData: 生成的数据将显示在这里...
+    options:
+      personal: 个人信息
+      company: 公司信息
+    formats:
+      json: JSON
+      csv: CSV
+      table: 表格
+    buttons:
+      generateData: 生成数据
+      copy: 复制
+      download: 下载
+
   xml-formatter:
     title: XML 格式化
     description: 将XML字符串修饰为友好的可读格式。

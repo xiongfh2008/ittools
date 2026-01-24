@@ -1,55 +1,10 @@
-<template>
-  <div class="json-tree-view">
-    <div 
-      v-if="isObject(value) || isArray(value)"
-      class="json-node"
-    >
-      <div 
-        class="node-header"
-        @click="toggleExpanded"
-        :class="{ expandable: isExpandable }"
-      >
-        <span 
-          v-if="isExpandable" 
-          class="expand-icon"
-          :class="{ expanded: expanded }"
-        >
-          {{ expanded ? '▼' : '▶' }}
-        </span>
-        <span class="node-key" v-if="showKey">{{ keyName }}:</span>
-        <span class="node-type">{{ nodeType }}</span>
-        <span v-if="isArray(value)" class="node-length">[{{ value.length }}]</span>
-        <span v-if="isObject(value)" class="node-length">{...}</span>
-      </div>
-      
-      <div v-show="expanded" class="node-children">
-        <template v-for="(val, key) in value" :key="key">
-          <JsonTreeView
-            :value="val"
-            :key-name="key"
-            :level="level + 1"
-          />
-        </template>
-      </div>
-    </div>
-    <div 
-      v-else 
-      class="json-leaf"
-      :style="{ marginLeft: level * 20 + 'px' }"
-    >
-      <span class="node-key" v-if="showKey">{{ keyName }}:</span>
-      <span class="node-value" :class="valueTypeClass">{{ formattedValue }}</span>
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { computed, ref } from 'vue';
 
 interface Props {
-  value: any;
-  keyName?: string;
-  level?: number;
+  value: any
+  keyName?: string
+  level?: number
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -69,10 +24,10 @@ const isNumber = (val: any) => typeof val === 'number';
 const isBoolean = (val: any) => typeof val === 'boolean';
 
 const nodeType = computed(() => {
-  if (isNull(props.value)) return 'null';
-  if (isUndefined(props.value)) return 'undefined';
-  if (isArray(props.value)) return 'array';
-  if (isObject(props.value)) return 'object';
+  if (isNull(props.value)) { return 'null'; }
+  if (isUndefined(props.value)) { return 'undefined'; }
+  if (isArray(props.value)) { return 'array'; }
+  if (isObject(props.value)) { return 'object'; }
   return typeof props.value;
 });
 
@@ -81,28 +36,75 @@ const isExpandable = computed(() => isObject(props.value) || isArray(props.value
 const formattedValue = computed(() => {
   if (isString(props.value)) {
     return `"${props.value}"`;
-  } else if (isBoolean(props.value) || isNull(props.value)) {
+  }
+  else if (isBoolean(props.value) || isNull(props.value)) {
     return String(props.value);
-  } else if (isNumber(props.value)) {
+  }
+  else if (isNumber(props.value)) {
     return props.value;
   }
   return String(props.value);
 });
 
 const valueTypeClass = computed(() => {
-  if (isString(props.value)) return 'string-value';
-  if (isNumber(props.value)) return 'number-value';
-  if (isBoolean(props.value)) return 'boolean-value';
-  if (isNull(props.value)) return 'null-value';
+  if (isString(props.value)) { return 'string-value'; }
+  if (isNumber(props.value)) { return 'number-value'; }
+  if (isBoolean(props.value)) { return 'boolean-value'; }
+  if (isNull(props.value)) { return 'null-value'; }
   return 'other-value';
 });
 
-const toggleExpanded = () => {
+function toggleExpanded() {
   if (isExpandable.value) {
     expanded.value = !expanded.value;
   }
-};
+}
 </script>
+
+<template>
+  <div class="json-tree-view">
+    <div
+      v-if="isObject(value) || isArray(value)"
+      class="json-node"
+    >
+      <div
+        class="node-header"
+        :class="{ expandable: isExpandable }"
+        @click="toggleExpanded"
+      >
+        <span
+          v-if="isExpandable"
+          class="expand-icon"
+          :class="{ expanded }"
+        >
+          {{ expanded ? '▼' : '▶' }}
+        </span>
+        <span v-if="showKey" class="node-key">{{ keyName }}:</span>
+        <span class="node-type">{{ nodeType }}</span>
+        <span v-if="isArray(value)" class="node-length">[{{ value.length }}]</span>
+        <span v-if="isObject(value)" class="node-length">{...}</span>
+      </div>
+
+      <div v-show="expanded" class="node-children">
+        <template v-for="(val, key) in value" :key="key">
+          <JsonTreeView
+            :value="val"
+            :key-name="key"
+            :level="level + 1"
+          />
+        </template>
+      </div>
+    </div>
+    <div
+      v-else
+      class="json-leaf"
+      :style="{ marginLeft: `${level * 20}px` }"
+    >
+      <span v-if="showKey" class="node-key">{{ keyName }}:</span>
+      <span class="node-value" :class="valueTypeClass">{{ formattedValue }}</span>
+    </div>
+  </div>
+</template>
 
 <style scoped>
 .json-tree-view {

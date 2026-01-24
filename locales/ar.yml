@@ -1,394 +1,61 @@
 home:
   categories:
     newestTools: أحدث الأدوات
-    favoriteTools: 'الأدوات المفضلة'
+    favoriteTools: 'أدواتك المفضلة'
     allTools: 'جميع الأدوات'
-    favoritesDndToolTip: 'إعادة ترتيب المفضلة عن طريق السحب والإفلات'
+    favoritesDndToolTip: 'اسحب وأفلت لإعادة الترتيب'
   subtitle: 'أدوات للمطورين'
   toggleMenu: 'تبديل القائمة'
   home: الرئيسية
   uiLib: 'مكتبة واجهة المستخدم'
   support: 'ادعم تطوير IT-Tools'
   buyMeACoffee: 'اشترِ لي قهوة'
-  follow:
-    title: 'هل تعجبك it-tools؟'
-    p1: 'ضع نجمة على GitHub:'
-    githubRepository: 'مستودع IT-Tools على GitHub'
-    p2: 'أو تابعنا على X:'
-    twitterXAccount: 'حساب IT-Tools على X'
-    thankYou: 'شكرًا!'
   nav:
     github: 'مستودع GitHub'
     githubRepository: 'مستودع IT-Tools على GitHub'
     twitterX: 'حساب X'
-    twitterXAccount: 'حساب IT Tools على X'
+    twitterXAccount: 'حساب IT-Tools على X'
     about: 'حول IT-Tools'
     aboutLabel: 'حول'
-    darkMode: 'الوضع الداكن'
-    lightMode: 'الوضع الفاتح'
-    mode: 'تبديل الوضع الداكن/الفاتح'
+    darkMode: 'الوضع الليلي'
+    lightMode: 'الوضع النهاري'
+    mode: 'تبديل الوضع الليلي/النهاري'
+  follow:
+    title: 'هل تعجبك أدوات تيك؟'
+    p1: 'قيّمنا بـ نجمة على'
+    githubRepository: 'مستودع IT-Tools على GitHub'
+    p2: 'أو تابعنا على'
+    twitterXAccount: 'حساب IT-Tools على X'
+    thankYou: 'شكرًا لك!'
 about:
   content: >
     # حول IT-Tools
 
-    تم إنشاء هذا الموقع الرائع بـ ❤ من قبل [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) collection من الأدوات المفيدة للمطورين والأشخاص العاملين في مجال تكنولوجيا المعلومات. إذا وجدت هذا مفيدًا، يرجى مشاركته مع أولئك الذين تعتقد أنهم سيجدونه مفيدًا ولا تنس حفظه في الإشارات المرجعية!
+    هذا الموقع الرائع، صُنع بـ ❤ من قبل [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) ، يجمع بين أدوات مفيدة للمطورين والأشخاص العاملين في مجال تكنولوجيا المعلومات. إذا وجدت أنه مفيد، لا تتردد في مشاركته مع الأشخاص الذين تعتقد أنهم قد يجدونه مفيدًا أيضًا ولا تنسَ تbookmarking في شريط أداتك!
 
-    IT Tools هو مفتوح المصدر (رخصة GPL-3.0) ومجاني، وسيظل مجانيًا إلى الأبد، ولكن تكلفة الاستضافة وتجديد النطاق هي تكلفة عليّ. يرجى التفكير في [الرعاية](https://www.buymeacoffee.com/cthmsst) لدعم عملي وتشجيعي على إضافة المزيد من الأدوات.
+    IT Tools مفتوحة المصدر (تحت رخصة GPL-3.0) ومجانية، وستظل دائمًا، ولكنها تكلّفني أموالًا في الاستضافة وتجديد اسم النطاق. إذا كنت ترغب في دعم عملي وتشجيعي على إضافة المزيد من الأدوات، يرجى التفكير في الدعم عن طريق [الإهداء](https://www.buymeacoffee.com/cthmsst).
 
-    ## التكنولوجيا
+    ## التقنية
 
-    تم إنشاء IT Tools باستخدام Vue.js (Vue 3) ومكتبة مكونات Naive UI وهو مستضاف وتم توزيعه باستمرار من قبل Vercel. تستخدم بعض الأدوات مكتبات مفتوحة المصدر من جهات خارجية، ويمكن العثور على القائمة الكاملة في ملف [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) للمستودع.
+    تم إنشاء IT Tools باستخدام Vue.js (Vue 3) مع مكتبة مكونات Naive UI ومستضافة وتم نشرها بشكل مستمر بواسطة Vercel. تُستخدم مكتبات مفتوحة المصدر من طرف ثالث في بعض الأدوات، يمكنك العثور على القائمة الكاملة في ملف [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) في المستودع.
 
     ## هل وجدت خطأ؟ هل هناك أداة مفقودة؟
 
-    إذا كنت بحاجة إلى أداة غير موجودة حاليًا هنا وتعتقد أنها ستكون مفيدة، يمكنك إرسال طلب ميزة في قسم [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) من مستودع GitHub.
+    إذا كنت بحاجة إلى أداة غير موجودة حاليًا هنا، وتعتقد أنها مفيدة، فمرحبًا بك في تقديم طلب ميزة في [قسم المشكلات](https://github.com/CorentinTh/it-tools/issues/new/choose) في مستودع GitHub.
 
-    بالإضافة إلى ذلك، إذا وجدت خطأ أو شيء لا يعمل كما هو متوقع، يمكنك إرسال تقرير خطأ في قسم [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) من مستودع GitHub.
+    وإذا وجدت خطأ، أو لم يعمل شيء ما كما هو متوقع، يرجى إرسال تقرير خطأ في [قسم المشكلات](https://github.com/CorentinTh/it-tools/issues/new/choose) في مستودع GitHub.
+
 404:
   notFound: '404 غير موجود'
-  sorry: 'عذرًا، يبدو أن هذه الصفحة غير موجودة'
-  maybe: 'قد يكون هذا مشكلة في ذاكرة التخزين المؤقت، حاول تحديث الصفحة بالقوة.'
-  backHome: 'العودة إلى الرئيسية'
-favoriteButton:
-  remove: 'إزالة من المفضلة'
-  add: 'إضافة إلى المفضلة'
-toolCard:
-  new: جديد
-search:
-  label: بحث
+  sorry: 'عذرًا، لا يبدو أن هذه الصفحة موجودة'
+
 tools:
-  categories:
-    favorite-tools: 'الأدوات المفضلة'
-    crypto: التشفير
-    converter: المحولات
-    web: الويب
-    images and videos: 'الصور والفيديوهات'
-    development: التطوير
-    network: الشبكة
-    math: الرياضيات
-    measurement: القياس
-    text: النص
-    data: البيانات
-
-  password-strength-analyser:
-    title: محلل قوة كلمة المرور
-    description: أداة تحليل قوة كلمة المرور من جانب العميل وأداة تقدير وقت الاختراق للتحقق من قوة كلمة المرور الخاصة بك.
-
-  chronometer:
-    title: كرونو متر
-    description: مراقبة مدة شيء ما. كرونو متر بوظائف أساسية.
-
-  token-generator:
-    title: منشئ الرمز
-    description: إنشاء سلاسل عشوائية بالأحرف المفضلة لديك، الأحرف الكبيرة أو الصغيرة، الأرقام و/أو الرموز.
-
-    uppercase: الأحرف الكبيرة (ABC...)
-    lowercase: الأحرف الصغيرة (abc...)
-    numbers: الأرقام (123...)
-    symbols: الرموز (!-;...)
-    length: الطول
-    tokenPlaceholder: 'الرمز...'
-    copied: تم نسخ الرمز إلى الحافظة
-    button:
-      copy: نسخ
-      refresh: تحديث
-
-  percentage-calculator:
-    title: آلة حاسبة النسبة المئوية
-    description: احسب بسهولة النسبة المئوية من قيمة إلى أخرى أو النسبة المئوية من قيمة.
-
-  svg-placeholder-generator:
-    title: منشئ مكان ملء SVG
-    description: إنشاء صور SVG لاستخدامها كأماكن ملء في تطبيقك.
-
-  json-to-csv:
-    title: من JSON إلى CSV
-    description: تحويل JSON إلى CSV مع اكتشاف تلقائي للعنوان.
-
-  camera-recorder:
-    title: مسجل الكاميرا
-    description: التقاط صور أو تسجيل فيديو من كاميرا الويب أو الكاميرا الخاصة بك.
-
-  keycode-info:
-    title: معلومات رمز المفتاح
-    description: ابحث عن معلومات JavaScript keycode و code والموقع ومفاتيح التعديل للمفتاح المضغوط.
-
-  emoji-picker:
-    title: منتقي الإيموجي
-    description: انسخ ولصق الإيموجي بسهولة واحصل على قيمة Unicode ورمز كل إيموجي.
-
-  color-converter:
-    title: محول الألوان
-    description: تحويل الألوان بين تنسيقات مختلفة (hex و rgb و hsl وأسماء CSS)
-
-  bcrypt:
-    title: Bcrypt
-    description: تشفير ومقارنة سلاسل النصوص باستخدام bcrypt. Bcrypt هو دالة تجزئة لكلمات المرور تعتمد على خوارزمية Blowfish.
-
-  crontab-generator:
-    title: منشئ Crontab
-    description: التحقق من صحة وإنشاء Crontab والحصول على شرح مفهوم للجدول الزمني cron.
-
-  http-status-codes:
-    title: رموز حالة HTTP
-    description: قائمة بجميع رموز حالة HTTP وأسمائها ومعانيها.
-
-  sql-prettify:
-    title: تنسيق SQL
-    description: تنسيق واستحسان استعلام SQL الخاص بك عبر الإنترنت (يدعم أنواع SQL المختلفة).
-
-  benchmark-builder:
-    title: منشئ المعايير
-    description: منشئ معايير عبر الإنترنت بسيط جدًا يجعل مقارنة أوقات تنفيذ المهام أمرًا سهلاً.
-
-  git-memo:
-    title: ورقة معلومات Git
-    description: Git هو برنامج تحكم إصدار موزع. استخدم ورقة المعلومات هذه للوصول السريع إلى أوامر git الأكثر شيوعًا.
-
-  slugify-string:
-    title: تحويل السلسلة إلى رابط صديق
-    description: جعل السلسلة آمنة للاستخدام في URLs وأسماء الملفات ومعرفات التعريف.
-
-  encryption:
-    title: تشفير/فك تشفير النص
-    description: تشفير النص العادي وفك تشفير النص المشفر باستخدام خوارزميات التشفير مثل AES أو TripleDES أو Rabbit أو RC4.
-
-  random-port-generator:
-    title: منشئ منفذ عشوائي
-    description: إنشاء رقم منفذ عشوائي خارج نطاق المنافذ "المعلومة" (0-1023).
-
-  yaml-prettify:
-    title: تنسيق YAML
-    description: تنسيق سلسلة YAML إلى تنسيق يمكن قراءته وفهمه بسهولة.
-
-  eta-calculator:
-    title: آلة حاسبة الوقت المقدر للوصول
-    description: آلة حاسبة ETA (الوقت المقدر للوصول) لتحديد الوقت المقدر لانتهاء مهمة مثل انتهاء تحميل ملف والوقت المتبقي.
-
-  roman-numeral-converter:
-    title: محول الأرقام الرومانية
-    description: تحويل الأرقام الرومانية إلى أرقام والعكس.
-
-  hmac-generator:
-    title: منشئ HMAC
-    description: حساب رمز مصادقة الرسائل HMAC باستخدام مفتاح سري ووظيفة تجزئة مفضلة.
-
-  bip39-generator:
-    title: منشئ عبارة مرور BIP39
-    description: إنشاء عبارة مرور BIP39 من تذكرية موجودة أو عشوائية أو الحصول على التذكرية من عبارة المرور.
-
-  base64-file-converter:
-    title: محول ملف Base64
-    description: تحويل السلاسل أو الملفات أو الصور إلى تمثيل Base64 الخاص بها.
-
-  list-converter:
-    title: محول القائمة
-    description: معالجة بيانات تعتمد على الأعمدة وتطبيق تغييرات مختلفة على كل صف (نقل، إضافة بادئات ونهايات، عكس القائمة، فرز القائمة، تحويل إلى أحرف صغيرة، اقتطاع القيم).
-
-  base64-string-converter:
-    title: مشفر/فوكس سلسلة Base64
-    description: ترميز وفك ترميز السلاسل إلى تمثيل Base64 الخاص بها.
-
-  toml-to-yaml:
-    title: من TOML إلى YAML
-    description: تحليل TOML وتحويله إلى YAML.
-
-  math-evaluator:
-    title: مُقيّم الرياضيات
-    description: آلة حاسبة لتقييم التعبيرات الرياضية. يمكنك استخدام وظائف مثل sqrt و cos و sin و abs وغيرها.
-
-  json-to-yaml-converter:
-    title: من JSON إلى YAML
-    description: تحويل JSON إلى YAML بسهولة مع محول مباشر عبر الإنترنت هذا.
-
-  url-parser:
-    title: محلل URL
-    description: تقسيم URL إلى مكوناته الفردية (البروتوكول، الأصل، المعلمات، المنفذ، اسم المستخدم-كلمة المرور، إلخ).
-
-  iban-validator-and-parser:
-    title: مدقق ومحلل IBAN
-    description: التحقق من صحة وتحليل أرقام IBAN. التحقق مما إذا كان IBAN صالحًا والحصول على الدولة و BBAN و ما إذا كان IBAN QR-IBAN والتنسيق الصديق لـ IBAN.
-
-  user-agent-parser:
-    title: محلل وكيل المستخدم
-    description: اكتشاف وتحليل المتصفح والمحرك ونظام التشغيل ووحدة المعالجة المركزية ونوع/نموذج الجهاز من سلسلة وكيل المستخدم.
-
-  numeronym-generator:
-    title: منشئ الأرقام الاسمية
-    description: الرقم الاسمي هو كلمة تخلق اختصارًا باستخدام الأرقام. على سبيل المثال، "i18n" هو الرقم الاسمي لـ "internationalization" حيث يمثل 18 عدد الحروف بين الـ "i" الأولى و"n" الأخيرة.
-
-  case-converter:
-    title: محول الحالة
-    description: تحويل حالة السلاسل واختيار من بين تنسيقات مختلفة
-
-  html-entities:
-    title: هروب كيانات HTML
-    description: هروب أو إلغاء هروب كيانات HTML (استبدال الأحرف مثل < و > و & و " و \' بإصدارات HTML الخاصة بها)
-
-  json-prettify:
-    title: تنسيق JSON
-    description: تنسيق سلسلة JSON إلى تنسيق يمكن قراءته وفهمه بسهولة.
-
-  docker-run-to-docker-compose-converter:
-    title: محول من Docker run إلى Docker Compose
-    description: تحويل أمر "docker run" إلى ملف docker-compose!
-
-  mac-address-lookup:
-    title: بحث عن عنوان MAC
-    description: البحث عن مصنعي الجهاز من عنوان MAC.
-
-  mime-types:
-    title: أنواع MIME
-    description: تحويل أنواع MIME إلى امتدادات الملفات أو العكس.
-
-  toml-to-json:
-    title: من TOML إلى JSON
-    description: تحليل TOML وتحويله إلى JSON.
-
-  lorem-ipsum-generator:
-    title: منشئ Lorem ipsum
-    description: Lorem ipsum هو نص وهمي يستخدم عادة لإظهار شكل المستند أو نوع الخط دون الاعتماد على محتوى ذي معنى
-
-  qrcode-generator:
-    title: منشئ رمز QR
-    description: إنشاء وتنزيل رمز QR لـ URL (أو نص عادي) وتخصيص لون الخلفية ولون المقدمة.
+  favorite-tools: 'الأدوات المفضلة'
 
   wifi-qrcode-generator:
-    title: منشئ رمز QR لشبكة Wi-Fi
-    description: إنشاء وتنزيل رمز QR للاتصال السريع بشبكة Wi-Fi.
+    title: منشئ رمز WiFi QR
+    description: إنشاء وتنزيل رموز QR للاتصالات السريعة بشبكات WiFi.
 
-  xml-formatter:
-    title: منسق XML
-    description: تنسيق سلسلة XML إلى تنسيق يمكن قراءته وفهمه بسهولة.
-
-  temperature-converter:
-    title: محول درجة الحرارة
-    description: تحويلات درجة الحرارة بالكلفن، والمئوية، والفهرنهايت، ورانكين، وديلايل، ونيوتن، وريومور، ورومير.
-
-  chmod-calculator:
-    title: آلة حاسبة Chmod
-    description: حساب أذونات وأوامر chmod مع آلة الحاسبة عبر الإنترنت هذه.
-
-  rsa-key-pair-generator:
-    title: منشئ زوج مفاتيح RSA
-    description: إنشاء زوج مفاتيح عشوائي جديد لـ RSA يحتوي على مفتاح خاص وعام بترخيص pem.
-
-  html-wysiwyg-editor:
-    title: محرر HTML WYSIWYG
-    description: محرر HTML WYSIWYG غني بالميزات عبر الإنترنت يولد رمز المصدر للمحتوى على الفور.
-
-  yaml-to-toml:
-    title: من YAML إلى TOML
-    description: تحليل YAML وتحويله إلى TOML.
-
-  mac-address-generator:
-    title: منشئ عنوان MAC
-    description: أدخل الكمية والبادئة. سيتم إنشاء عناوين MAC في الحالة المحددة (أحرف كبيرة أو صغيرة).
-
-  json-diff:
-    title: فرق JSON
-    description: مقارنة كائنين JSON ورؤية الفرق بينهما.
-
-  jwt-parser:
-    title: محلل JWT
-    description: تحليل وفك تشفير رمز ويب JSON (JWT) وعرض محتواه.
-
-  date-converter:
-    title: محول التاريخ والوقت
-    description: تحويل التواريخ والأوقات إلى تنسيقات مختلفة
-
-  phone-parser-and-formatter:
-    title: محلل ومنسق الهاتف
-    description: تحليل والتحقق من صحة وتنسيق أرقام الهواتف. احصل على معلومات حول أرقام الهواتف (رمز الدولة، النوع، إلخ).
-
-  ipv4-subnet-calculator:
-    title: آلة حاسبة شبكة IPv4
-    description: تحليل كتلة CIDR IPv4 والحصول على جميع المعلومات المطلوبة حول الشبكة الفرعية.
-
-  og-meta-generator:
-    title: منشئ تعليمات Open Graph
-    description: إنشاء تعليمات HTML ل	open graph والوسائط الاجتماعية لموقعك.
-
-  ipv6-ula-generator:
-    title: منشئ IPv6 ULA
-    description: إنشاء عنوان IP محلي وغير قابل للتوجيه مخصص متوافق مع RFC4193 لشبكتك.
-
-  hash-text:
-    title: تجزئة النص
-    description: 'تجزئة سلاسل النصوص باستخدام وظائف مثل MD5 و SHA1 و SHA256 و SHA224 و SHA512 و SHA384 و SHA3 أو RIPEMD160'
-
-  json-to-toml:
-    title: من JSON إلى TOML
-    description: تحليل JSON وتحويله إلى TOML.
-
-  device-information:
-    title: معلومات الجهاز
-    description: احصل على معلومات حول الجهاز الحالي (حجم الشاشة، نسبة البكسل، وكيل المستخدم، إلخ)
-
-  pdf-signature-checker:
-    title: مدقق توقيع PDF
-    description: التحقق من توقيعات ملفات PDF. قد يحتوي ملف PDF الموقع عليه على توقيع أو أكثر يمكن استخدامه لتحديد ما إذا كانت محتويات الملف قد تغيرت بعد التوقيع.
-
-  json-minify:
-    title: تصغير JSON
-    description: تصغير وضغط JSON عن طريق إزالة المسافات البيضاء غير الضرورية.
-
-  ulid-generator:
-    title: منشئ ULID
-    description: إنشاء معرف فريد قابل للفحص عشوائيًا (ULID).
-
-  string-obfuscator:
-    title: تمويه السلسلة
-    description: تمويه سلسلة (أوامر سر، IBAN أو رموز) لجعلها قابلة للمشاركة وقابلة للتعريف دون enthslate محتوياتها.
-
-  base-converter:
-    title: محول الأساس العددي
-    description: تحويل الأرقام بين قواعد مختلفة (عشري، سداسي عشري، ثنائي، ثماني، base64، إلخ).
-
-  yaml-to-json-converter:
-    title: من YAML إلى JSON
-    description: تحويل YAML إلى JSON بسهولة مع محول مباشر عبر الإنترنت هذا.
-
-  uuid-generator:
-    title: منشئ UUID
-    description: معرف فريد عالمي (UUID) هو رقم 128 بت يستخدم لتحديد المعلومات في أنظمة الكمبيوتر. عدد UUIDs الممكن هو 16^32 وهو 2^128 أو حوالي 3.4x10^38 (كثير جدًا!).
-
-  ipv4-address-converter:
-    title: محول عنوان IPv4
-    description: تحويل عناوين IP إلى تنسيقات عشرية، ثنائية، سداسية عشريّة أو تمثيل IPv6.
-
-  text-statistics:
-    title: إحصائيات النص
-    description: احصل على معلومات حول النص مثل عدد الأحرف، عدد الكلمات، الحجم بالبايت، إلخ.
-
-  text-to-nato-alphabet:
-    title: من النص إلى أبجدية الناتو
-    description: تحويل النص إلى أبجدية الناتو الصوتية للتواصل الشفهي.
-
-  basic-auth-generator:
-    title: منشئ مصادقة Basic
-    description: إنشاء رأس مصادقة basic base64 من اسم المستخدم وكلمة المرور.
-
-  text-to-unicode:
-    title: من النص إلى يونيكود
-    description: تحليل وتحويل النص إلى يونيكود أو العكس
-
-  ipv4-range-expander:
-    title: موسّع نطاق IPv4
-    description: مع إعطاء عنوان IPv4 ابتدائي ونهائي، يقوم هذا الأداة بحساب شبكات IPv4 الفرعية الصالحة مع تدوين CIDR.
-
-  text-diff:
-    title: فرق النص
-    description: مقارنة نصين ورؤية الفرق بينهما.
-
-  otp-generator:
-    title: منشئ رمز OTP
-    description: إنشاء وتحقق من OTP (كلمة مرور لمرة واحدة) مبني على الوقت للمصادقة الثنائية العوامل.
-
-  url-encoder:
-    title: ترميز/فك ترميز سلسلة تنسيق URL
-    description: ترميز النص بتنسيق ترميز URL (المعروف أيضًا باسم "ترميز النسبة المئوية") أو فك ترميزه.
-
-  text-to-binary:
-    title: من النص إلى ثنائي ASCII
-    description: تحويل النص إلى تمثيله الثنائي ASCII أو العكس.
+  country-data-generator:
+    title: منشئ بيانات الدولة
+    description: إنشاء بيانات شخصية وشركة واقعية بناءً على الدولة المحددة لأغراض الاختبار.

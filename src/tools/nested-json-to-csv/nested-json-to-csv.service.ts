@@ -10,14 +10,15 @@ export function flattenNestedJson(obj: any, prefix: string = '', result: Record<
     }
     return result;
   }
-  
+
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
       const newKey = prefix ? `${prefix}.${key}` : key;
-      
+
       if (obj[key] !== null && typeof obj[key] === 'object' && !Array.isArray(obj[key]) && typeof obj[key] !== 'string') {
         flattenNestedJson(obj[key], newKey, result);
-      } else {
+      }
+      else {
         result[newKey] = obj[key];
       }
     }
@@ -28,19 +29,19 @@ export function flattenNestedJson(obj: any, prefix: string = '', result: Record<
 /**
  * 从对象中提取顶级数组及其上下文信息
  */
-function extractTopLevelArrayWithContext(obj: any): { array: any[], context: Record<string, any> } | null {
+function extractTopLevelArrayWithContext(obj: any): { array: any[]; context: Record<string, any> } | null {
   if (Array.isArray(obj)) {
     return { array: obj, context: {} };
   }
-  
+
   if (obj !== null && typeof obj === 'object') {
     // 首先检查直接子属性是否为数组
     for (const key in obj) {
-      if (obj.hasOwnProperty(key) && Array.isArray(obj[key])) {
+      if (Object.prototype.hasOwnProperty.call(obj, key) && Array.isArray(obj[key])) {
         // 提取数组，同时保存其他非数组属性作为上下文
         const context: Record<string, any> = {};
         for (const otherKey in obj) {
-          if (obj.hasOwnProperty(otherKey) && otherKey !== key) {
+          if (Object.prototype.hasOwnProperty.call(obj, otherKey) && otherKey !== key) {
             // 对上下文对象进行展平
             const flattenedContext = flattenNestedJson(obj[otherKey], otherKey);
             Object.assign(context, flattenedContext);
@@ -49,39 +50,39 @@ function extractTopLevelArrayWithContext(obj: any): { array: any[], context: Rec
         return { array: obj[key], context };
       }
     }
-    
+
     // 如果直接子属性没有数组，递归查找 - 但也要保留上下文
     for (const key in obj) {
-      if (obj.hasOwnProperty(key)) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
         const subObj = obj[key];
         if (subObj !== null && typeof subObj === 'object') {
           // 检查子对象是否有数组
           for (const subKey in subObj) {
-            if (subObj.hasOwnProperty(subKey) && Array.isArray(subObj[subKey])) {
+            if (Object.prototype.hasOwnProperty.call(subObj, subKey) && Array.isArray(subObj[subKey])) {
               // 找到了嵌套数组，收集父级上下文和其他属性
               const context: Record<string, any> = {};
-              
+
               // 添加原始顶层属性作为上下文
               for (const topLevelKey in obj) {
-                if (obj.hasOwnProperty(topLevelKey) && topLevelKey !== key) {
+                if (Object.prototype.hasOwnProperty.call(obj, topLevelKey) && topLevelKey !== key) {
                   const flattenedContext = flattenNestedJson(obj[topLevelKey], topLevelKey);
                   Object.assign(context, flattenedContext);
                 }
               }
-              
+
               // 添加父对象中的非数组属性作为上下文
               for (const parentKey in subObj) {
-                if (subObj.hasOwnProperty(parentKey) && parentKey !== subKey) {
+                if (Object.prototype.hasOwnProperty.call(subObj, parentKey) && parentKey !== subKey) {
                   const flattenedContext = flattenNestedJson(subObj[parentKey], `${key}.${parentKey}`);
                   Object.assign(context, flattenedContext);
                 }
               }
-              
+
               return { array: subObj[subKey], context };
             }
           }
         }
-        
+
         // 继续递归查找
         const extracted = extractTopLevelArrayWithContext(obj[key]);
         if (extracted) {
@@ -90,7 +91,7 @@ function extractTopLevelArrayWithContext(obj: any): { array: any[], context: Rec
       }
     }
   }
-  
+
   return null;
 }
 
@@ -100,10 +101,11 @@ function extractTopLevelArrayWithContext(obj: any): { array: any[], context: Rec
 export function convertNestedJsonArrayToCsv(input: any): string {
   let array: any[];
   let context: Record<string, any> = {};
-  
+
   if (Array.isArray(input)) {
     array = input;
-  } else {
+  }
+  else {
     // 如果输入不是数组，尝试从中提取数组及其上下文
     const extractedResult = extractTopLevelArrayWithContext(input);
     if (!extractedResult) {
@@ -112,7 +114,7 @@ export function convertNestedJsonArrayToCsv(input: any): string {
     array = extractedResult.array;
     context = extractedResult.context;
   }
-  
+
   if (array.length === 0) {
     return '';
   }
@@ -120,48 +122,49 @@ export function convertNestedJsonArrayToCsv(input: any): string {
   // 展平数组中的所有对象，并添加上下文信息
   // 为数组元素的键添加数组名前缀
   const arrayKeyName = findArrayKeyName(input, array);
-  const flattenedObjects = array.map(obj => {
-    const flattenedObj = flattenNestedJson(obj, arrayKeyName ? `${arrayKeyName}` : '');  // 为数组元素添加前缀
+  const flattenedObjects = array.map((obj) => {
+    const flattenedObj = flattenNestedJson(obj, arrayKeyName ? `${arrayKeyName}` : ''); // 为数组元素添加前缀
     // 将上下文信息合并到每个对象中
     return { ...flattenedObj, ...context };
   });
-  
+
   // 获取所有唯一键并排序
   const allKeys = new Set<string>();
-  flattenedObjects.forEach(obj => {
+  flattenedObjects.forEach((obj) => {
     Object.keys(obj).forEach(key => allKeys.add(key));
   });
   const headers = Array.from(allKeys).sort();
 
   // 序列化值以处理特殊字符
-  function serializeValue(value: any): string {
+  const serializeValue = (value: any): string => {
     if (value === null || value === undefined) {
       return '';
     }
 
     let valueAsString: string;
-    
+
     // 如果是对象或数组，序列化为JSON字符串
     if (typeof value === 'object') {
       valueAsString = JSON.stringify(value);
-    } else {
+    }
+    else {
       valueAsString = String(value);
     }
 
     // 转义换行符和回车符
     valueAsString = valueAsString.replace(/\n/g, '\\n').replace(/\r/g, '\\r');
-    
+
     // 如果值包含逗号、引号或换行符，则用引号包围
     if (valueAsString.includes(',') || valueAsString.includes('"') || valueAsString.includes('\n')) {
       valueAsString = `"${valueAsString.replace(/"/g, '""')}"`;
     }
 
     return valueAsString;
-  }
+  };
 
   // 构建CSV行
-  const rows = flattenedObjects.map(obj => 
-    headers.map(header => serializeValue(obj[header]))
+  const rows = flattenedObjects.map(obj =>
+    headers.map(header => serializeValue(obj[header])),
   );
 
   // 返回CSV格式字符串
@@ -174,7 +177,7 @@ export function convertNestedJsonArrayToCsv(input: any): string {
 function findArrayKeyName(obj: any, targetArray: any[]): string | null {
   if (obj !== null && typeof obj === 'object') {
     for (const key in obj) {
-      if (obj.hasOwnProperty(key)) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
         if (obj[key] === targetArray) {
           return key;
         }
@@ -197,9 +200,10 @@ function findArrayKeyName(obj: any, targetArray: any[]): string | null {
 export function hasNestedStructure(json: any): boolean {
   if (Array.isArray(json)) {
     return json.some(item => hasNestedStructure(item));
-  } else if (typeof json === 'object' && json !== null) {
+  }
+  else if (typeof json === 'object' && json !== null) {
     for (const key in json) {
-      if (json.hasOwnProperty(key)) {
+      if (Object.prototype.hasOwnProperty.call(json, key)) {
         if (typeof json[key] === 'object' && json[key] !== null && !Array.isArray(json[key])) {
           return true;
         }

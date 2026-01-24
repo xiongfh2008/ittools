@@ -80,26 +80,3 @@ tools:
     copied: Le token a été copié
     length: Longueur
     tokenPlaceholder: Le token...
-    
-  country-data-generator:
-    title: Générateur de données par pays
-    description: Génère des données personnelles et professionnelles réalistes selon le pays sélectionné à des fins de test.
-    labels:
-      country: Pays
-      dataType: Type de données
-      recordCount: Nombre d'enregistrements
-      format: Format
-    placeholders:
-      selectCountry: Sélectionnez un pays
-      generatedData: Les données générées apparaîtront ici...
-    options:
-      personal: Informations personnelles
-      company: Informations sur l'entreprise
-    formats:
-      json: JSON
-      csv: CSV
-      table: Tableau
-    buttons:
-      generateData: Générer les données
-      copy: Copier
-      download: Télécharger

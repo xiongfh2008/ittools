@@ -261,6 +261,29 @@ tools:
     title: WiFi QR Code generator
     description: Generate and download QR codes for quick connections to WiFi networks.
 
+  country-data-generator:
+    title: Country Data Generator
+    description: Generate realistic personal and company data based on selected country for testing purposes.
+    labels:
+      country: Country
+      dataType: Data Type
+      recordCount: Record Count
+      format: Format
+    placeholders:
+      selectCountry: Select a country
+      generatedData: Generated data will appear here...
+    options:
+      personal: Personal Info
+      company: Company Info
+    formats:
+      json: JSON
+      csv: CSV
+      table: Table
+    buttons:
+      generateData: Generate Data
+      copy: Copy
+      download: Download
+
   xml-formatter:
     title: XML formatter
     description: Prettify your XML string into a friendly, human-readable format.

@@ -95,7 +95,7 @@ export const headPlugin: Plugin = {
     const setDynamicUrls = () => {
       if (typeof window !== 'undefined') {
         const currentUrl = window.location.href;
-        
+
         // 更新 canonical 链接
         useHead({
           link: [
@@ -118,7 +118,8 @@ export const headPlugin: Plugin = {
     if (typeof window !== 'undefined') {
       if (document.readyState === 'loading') {
         window.addEventListener('DOMContentLoaded', setDynamicUrls);
-      } else {
+      }
+      else {
         setDynamicUrls();
       }
     }

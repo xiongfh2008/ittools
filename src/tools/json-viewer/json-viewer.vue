@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import JSON5 from 'json5';
 import { useStorage } from '@vueuse/core';
-import { formatJson } from './json.models';
-import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
 import JsonTreeView from '@/components/JsonTreeView.vue';
 
@@ -13,10 +11,11 @@ const sortKeys = useStorage('json-prettify:sort-keys', true);
 // 解析JSON以供树形视图使用
 const parsedJson = computed(() => {
   try {
-    if (rawJson.value.trim() === '') return null;
+    if (rawJson.value.trim() === '') { return null; }
     const parsed = JSON5.parse(rawJson.value);
     return sortKeys.value ? sortObjectKeys(parsed) : parsed;
-  } catch {
+  }
+  catch {
     return null;
   }
 });
@@ -80,7 +79,7 @@ function sortObjectKeys<T>(obj: T): T {
     />
   </n-form-item>
   <n-form-item label="Interactive prettified version of your JSON">
-    <div class="json-display-container" v-if="parsedJson !== null">
+    <div v-if="parsedJson !== null" class="json-display-container">
       <JsonTreeView :value="parsedJson" :level="0" />
     </div>
     <div v-else class="invalid-json-message">

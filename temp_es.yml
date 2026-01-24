@@ -70,26 +70,3 @@ tools:
     measurement: Measurement
     text: Text
     data: Data
-
-  country-data-generator:
-    title: Generador de datos por país
-    description: Genera datos personales y empresariales realistas según el país seleccionado para fines de prueba.
-    labels:
-      country: País
-      dataType: Tipo de datos
-      recordCount: Cantidad de registros
-      format: Formato
-    placeholders:
-      selectCountry: Selecciona un país
-      generatedData: Los datos generados aparecerán aquí...
-    options:
-      personal: Información personal
-      company: Información de la empresa
-    formats:
-      json: JSON
-      csv: CSV
-      table: Tabla
-    buttons:
-      generateData: Generar datos
-      copy: Copiar
-      download: Descargar

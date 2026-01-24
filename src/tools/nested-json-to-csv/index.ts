@@ -6,8 +6,8 @@ export const tool = defineTool({
   name: translate('tools.nested-json-to-csv.title'),
   path: '/nested-json-to-csv',
   description: translate('tools.nested-json-to-csv.description'),
-  keywords: ['nested', 'json', 'to', 'csv', 'convert', 'flatten', 'deep', 'structure'],
+  keywords: translate('tools.nested-json-to-csv.keywords').split('|'),
   component: () => import('./nested-json-to-csv.vue'),
   icon: Tree,
-  createdAt: new Date('2026-01-20'),
+  createdAt: new Date('2024-01-20'),
 });

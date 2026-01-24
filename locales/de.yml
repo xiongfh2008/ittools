@@ -301,6 +301,28 @@ tools:
     description: >-
       Generiere und lade QR-Codes für schnelle Verbindungen zu WLAN-Netzwerken
       herunter.
+  country-data-generator:
+    title: Länderdaten-Generator
+    description: Erzeugt realistische persönliche und Unternehmensdaten basierend auf dem ausgewählten Land zu Testzwecken.
+    labels:
+      country: Land
+      dataType: Datentyp
+      recordCount: Anzahl der Datensätze
+      format: Format
+    placeholders:
+      selectCountry: Land auswählen
+      generatedData: Generierte Daten erscheinen hier...
+    options:
+      personal: Persönliche Informationen
+      company: Unternehmensinformationen
+    formats:
+      json: JSON
+      csv: CSV
+      table: Tabelle
+    buttons:
+      generateData: Daten generieren
+      copy: Kopieren
+      download: Herunterladen
   xml-formatter:
     title: XML-Formatter
     description: Verschönere deinen XML-String in ein menschenlesbares Format.

@@ -257,6 +257,29 @@ tools:
     title: Генератор QR-кода для WiFi
     description: Генерируйте и скачивайте QR-коды для быстрого подключения к сетям WiFi.
 
+  country-data-generator:
+    title: Генератор данных по странам
+    description: Генерирует реалистичные личные и корпоративные данные на основе выбранной страны для целей тестирования.
+    labels:
+      country: Страна
+      dataType: Тип данных
+      recordCount: Количество записей
+      format: Формат
+    placeholders:
+      selectCountry: Выберите страну
+      generatedData: Сгенерированные данные появятся здесь...
+    options:
+      personal: Личная информация
+      company: Информация о компании
+    formats:
+      json: JSON
+      csv: CSV
+      table: Таблица
+    buttons:
+      generateData: Генерировать данные
+      copy: Копировать
+      download: Загрузить
+
   xml-formatter:
     title: Форматтер XML
     description: Улучшайте вашу строку XML в дружелюбный, удобочитаемый формат.
