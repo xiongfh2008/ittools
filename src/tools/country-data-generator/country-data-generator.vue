@@ -42,6 +42,7 @@ const countryOptions = [
   { label: 'France', value: 'FR' },
   { label: 'Japan', value: 'JP' },
   { label: 'China', value: 'CN' },
+  { label: 'Hong Kong', value: 'HK' },
   { label: 'India', value: 'IN' },
   { label: 'Brazil', value: 'BR' },
   { label: 'Australia', value: 'AU' },
@@ -159,6 +160,9 @@ function generateMockData(formData: typeof form.value) {
       record.country = country;
       record.birthDate = generateRandomDate();
       record.age = Math.floor(Math.random() * 50) + 18;
+      const document = generateDocument(country, record.birthDate);
+      record.documentType = document.documentType;
+      record.documentNumber = document.documentNumber;
     }
 
     if (formData.dataType === 'company') {
@@ -188,6 +192,7 @@ function getRandomFirstName(country: string) {
     FR: ['Jean', 'Marie', 'Pierre', 'Claire', 'Michel', 'Sophie', 'Paul', 'Isabelle', 'Louis', 'Juliette'],
     JP: ['Taro', 'Hanako', 'Jiro', 'Yuki', 'Saburo', 'Keiko', 'Yoshiro', 'Fumiko', 'Ichiro', 'Reiko'],
     CN: ['Wei', 'Li', 'Zhang', 'Jing', 'Xu', 'Yan', 'Liu', 'Fang', 'Chen', 'Min'],
+    HK: ['Chun', 'Wing', 'Ka', 'Man', 'Hoi', 'Lok', 'Tsz', 'Chi', 'Yuen', 'Yan'],
     IN: ['Raj', 'Priya', 'Amit', 'Sita', 'Vikram', 'Anita', 'Suresh', 'Kavita', 'Arjun', 'Divya'],
     BR: ['João', 'Maria', 'José', 'Ana', 'Francisco', 'Antônia', 'Carlos', 'Francisca', 'Pedro', 'Luiza'],
     AU: ['Michael', 'Emma', 'William', 'Olivia', 'James', 'Sophie', 'Benjamin', 'Chloe', 'Daniel', 'Mia'],
@@ -232,6 +237,7 @@ function getRandomLastName(country: string) {
     FR: ['Martin', 'Bernard', 'Dubois', 'Thomas', 'Robert', 'Richard', 'Petit', 'Durand', 'Leroy', 'Moreau'],
     JP: ['Tanaka', 'Suzuki', 'Sato', 'Yamada', 'Watanabe', 'Ito', 'Nakamura', 'Kobayashi', 'Yamamoto', 'Kato'],
     CN: ['Wang', 'Li', 'Zhang', 'Liu', 'Chen', 'Yang', 'Huang', 'Zhao', 'Wu', 'Zhou'],
+    HK: ['Chan', 'Lee', 'Wong', 'Cheung', 'Lau', 'Cheng', 'Ho', 'Ng', 'Chow', 'Lam'],
     IN: ['Sharma', 'Verma', 'Gupta', 'Singh', 'Kumar', 'Patel', 'Mehta', 'Joshi', 'Nair', 'Iyer'],
     BR: ['Silva', 'Santos', 'Oliveira', 'Souza', 'Rodrigues', 'Ferreira', 'Alves', 'Pereira', 'Lima', 'Gomes'],
     AU: ['Smith', 'Jones', 'Williams', 'Brown', 'Wilson', 'Taylor', 'Morton', 'White', 'Martin', 'Anderson'],
@@ -275,7 +281,8 @@ function getRandomCity(country: string) {
     DE: ['Berlin', 'Hamburg', 'Munich', 'Cologne', 'Frankfurt', 'Stuttgart', 'Düsseldorf', 'Leipzig', 'Dortmund', 'Essen'],
     FR: ['Paris', 'Marseille', 'Lyon', 'Toulouse', 'Nice', 'Nantes', 'Strasbourg', 'Montpellier', 'Bordeaux', 'Lille'],
     JP: ['Tokyo', 'Osaka', 'Yokohama', 'Nagoya', 'Sapporo', 'Fukuoka', 'Kobe', 'Kyoto', 'Kawasaki', 'Saitama'],
-    CN: ['Shanghai', 'Beijing', 'Guangzhou', 'Shenzhen', 'Tianjin', 'Chongqing', 'Hong Kong', 'Shenzhen', 'Hangzhou', 'Nanjing'],
+    CN: ['上海', '北京', '广州', '深圳', '天津', '重庆', '杭州', '南京', '成都', '武汉', '西安', '苏州', '郑州', '长沙', '青岛', '大连', '宁波', '厦门', '福州', '济南'],
+    HK: ['Central', 'Wan Chai', 'Tsim Sha Tsui', 'Mong Kok', 'Sha Tin', 'Tsuen Wan', 'Tuen Mun', 'Yuen Long', 'Kowloon City', 'Causeway Bay'],
     IN: ['Mumbai', 'Delhi', 'Bangalore', 'Hyderabad', 'Chennai', 'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Lucknow'],
     BR: ['São Paulo', 'Rio de Janeiro', 'Brasília', 'Salvador', 'Fortaleza', 'Belo Horizonte', 'Manaus', 'Curitiba', 'Recife', 'Porto Alegre'],
     AU: ['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Gold Coast', 'Newcastle', 'Canberra', 'Sunshine Coast', 'Wollongong'],
@@ -320,6 +327,7 @@ function generatePhoneNumber(country: string) {
     FR: '+33-', // Will be followed by X XX XX XX XX
     JP: '+81-', // Will be followed by XXXX XXXX
     CN: '+86-', // Will be followed by XXX XXXX XXXX
+    HK: '+852-', // Will be followed by XXXX XXXX
     IN: '+91-', // Will be followed by XXX XXX XXXX
     BR: '+55-', // Will be followed by XX XXXXX XXXX
     AU: '+61-', // Will be followed by X XXXX XXXX
@@ -425,8 +433,8 @@ function generatePhoneNumber(country: string) {
     const third = Math.floor(Math.random() * 9000) + 1000;
     return `${format}${first} ${second} ${third}`;
   }
-  else if (['DK', 'SG'].includes(country)) {
-    // Denmark and Singapore: +45 XXXX XXXX
+  else if (['DK', 'SG', 'HK'].includes(country)) {
+    // Denmark, Singapore and Hong Kong: +45/65/852 XXXX XXXX
     const first = Math.floor(Math.random() * 9000) + 1000;
     const second = Math.floor(Math.random() * 9000) + 1000;
     return `${format}${first} ${second}`;
@@ -455,6 +463,17 @@ function generatePhoneNumber(country: string) {
 }
 
 function generateAddress(country: string) {
+  if (country === 'CN') {
+    // 中国地址格式：XX路/街/大道 XX号
+    const roadTypes = ['路', '街', '大道', '巷', '弄', '胡同'];
+    const roadNames = ['中山', '人民', '解放', '建设', '和平', '新华', '胜利', '光明', '文化', '科技', '工业', '商业', '学院', '大学', '公园', '广场', '中心', '环城', '迎宾', '友谊'];
+    const roadType = roadTypes[Math.floor(Math.random() * roadTypes.length)];
+    const roadName = roadNames[Math.floor(Math.random() * roadNames.length)];
+    const number = Math.floor(Math.random() * 999) + 1;
+    
+    return `${roadName}${roadType}${number}号`;
+  }
+  
   const streets = ['Main St', 'High St', 'Elm St', 'Oak Ave', 'Park Rd', 'Maple Dr', 'Cedar Ln', 'Pine St'];
   const street = streets[Math.floor(Math.random() * streets.length)];
   const number = Math.floor(Math.random() * 999) + 1;
@@ -504,6 +523,10 @@ function generatePostalCode(country: string) {
     // China with 6-digit postal codes
     return `${Math.floor(Math.random() * 900000) + 100000}`;
   }
+  else if (country === 'HK') {
+    // Hong Kong does not use postal codes
+    return '';
+  }
   else {
     // Default to 5-digit postal code
     return `${Math.floor(Math.random() * 90000) + 10000}`;
@@ -526,6 +549,94 @@ function generateCompanyName(country: string) {
   const name = `${prefix} ${suffix}`;
 
   return name;
+}
+
+function generateDocument(country: string, birthDate?: string) {
+  const typesByCountry: Record<string, string[]> = {
+    CN: ['Resident Identity Card', 'Passport'],
+    HK: ['Hong Kong Identity Card', 'Passport'],
+    US: ['SSN', 'Passport', 'Driver License'],
+    GB: ['National Insurance Number', 'Passport'],
+  };
+
+  const defaultTypes = ['National ID', 'Passport'];
+  const availableTypes = typesByCountry[country] || defaultTypes;
+  const documentType = availableTypes[Math.floor(Math.random() * availableTypes.length)];
+
+  let documentNumber = '';
+
+  if (country === 'CN' && documentType.includes('Identity Card')) {
+    documentNumber = generateChineseIdNumber(birthDate);
+  }
+  else if (country === 'HK' && documentType.includes('Identity Card')) {
+    // Simple HKID-like pattern: A123456(7)
+    const letter = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+    const digits = Array.from({ length: 6 }, () => Math.floor(Math.random() * 10)).join('');
+    const checkDigit = Math.floor(Math.random() * 10);
+    documentNumber = `${letter}${digits}(${checkDigit})`;
+  }
+  else if (documentType.toLowerCase().includes('passport')) {
+    // Simple passport pattern: 1 letter + 7 digits
+    const letter = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+    const digits = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join('');
+    documentNumber = `${letter}${digits}`;
+  }
+  else {
+    // Generic alphanumeric ID
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    documentNumber = Array.from({ length: 10 }, () => chars.charAt(Math.floor(Math.random() * chars.length))).join('');
+  }
+
+  return {
+    documentType,
+    documentNumber,
+  };
+}
+
+function generateChineseIdNumber(birthDate?: string) {
+  const addressCodes = [
+    '110101', // Beijing Dongcheng
+    '110102', // Beijing Xicheng
+    '310101', // Shanghai Huangpu
+    '440103', // Guangzhou Liwan
+    '440104', // Guangzhou Yuexiu
+    '440111', // Guangzhou Baiyun
+    '440305', // Shenzhen Nanshan
+    '440306', // Shenzhen Baoan
+    '320102', // Nanjing Xuanwu
+    '330106', // Hangzhou Xihu
+  ];
+
+  const addressCode = addressCodes[Math.floor(Math.random() * addressCodes.length)];
+
+  let birth = '';
+  if (birthDate) {
+    // birthDate format: YYYY-MM-DD
+    birth = birthDate.replace(/-/g, '');
+  }
+  else {
+    const startYear = 1950;
+    const endYear = 2005;
+    const year = Math.floor(Math.random() * (endYear - startYear + 1)) + startYear;
+    const month = String(Math.floor(Math.random() * 12) + 1).padStart(2, '0');
+    const day = String(Math.floor(Math.random() * 28) + 1).padStart(2, '0');
+    birth = `${year}${month}${day}`;
+  }
+
+  const sequence = String(Math.floor(Math.random() * 999) + 1).padStart(3, '0');
+  const first17 = `${addressCode}${birth}${sequence}`;
+
+  const weights = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2];
+  const checkMap = ['1', '0', 'X', '9', '8', '7', '6', '5', '4', '3', '2'];
+
+  let sum = 0;
+  for (let i = 0; i < 17; i++) {
+    sum += Number(first17[i]) * weights[i];
+  }
+  const mod = sum % 11;
+  const checkDigit = checkMap[mod];
+
+  return `${first17}${checkDigit}`;
 }
 
 function getRandomIndustry() {

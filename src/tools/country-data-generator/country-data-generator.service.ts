@@ -21,6 +21,8 @@ export interface PersonalData {
   country: string
   birthDate: string
   age: number
+  documentType: string
+  documentNumber: string
 }
 
 export interface CompanyData {
